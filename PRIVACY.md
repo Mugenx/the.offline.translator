@@ -58,7 +58,6 @@ offline.translator relies on AI capabilities built into Chrome, such as the buil
 offline.translator requests only the permissions needed to provide on-device translation features:
 
 - `activeTab`: to act on the page the user has chosen to translate
-- host permissions: to read and translate content on webpages the user visits
 - `storage`: to save settings and local preferences
 - `tabs`: to target and synchronize with the correct tab
 - `webNavigation`: to stay aligned with page and frame navigation changes
