@@ -87,6 +87,6 @@ This Privacy Policy may be updated from time to time to reflect changes in the e
 
 ## Contact
 
-For privacy questions, replace the placeholder below with your real publisher contact email before publication:
+For privacy questions, pls contact:
 
 `the.offline.translator@gmail.com`
