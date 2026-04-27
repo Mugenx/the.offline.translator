@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Privacy Policy – offline.translator</title>
+  <meta name="description" content="Privacy Policy for offline.translator — a Chrome extension for 100% on-device webpage translation. No data ever leaves your browser.">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Privacy Policy – offline.translator">
+  <meta property="og:description" content="offline.translator processes all translation locally on your device. No data ever leaves your browser.">
+  <meta property="og:site_name" content="offline.translator">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/icon.png">
+
+  <style>
+    /* Privacy page specific styles */
+    .privacy-hero {
+      padding-block: clamp(80px, 10vw, 140px) clamp(40px, 6vw, 80px);
+      text-align: center;
+      position: relative;
+    }
+
+    .privacy-hero::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 60% 40% at 50% 0%, rgba(59,130,246,0.08) 0%, transparent 70%);
+      pointer-events: none;
+    }
+
+    .privacy-hero .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 14px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: var(--bg-2);
+      font-family: var(--font-mono);
+      font-size: 12px;
+      color: var(--text-2);
+      margin-bottom: 24px;
+    }
+
+    .privacy-hero h1 {
+      font-size: clamp(2rem, 5vw, 3.25rem);
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      line-height: 1.15;
+      margin-bottom: 16px;
+    }
+
+    .privacy-hero .effective-date {
+      font-family: var(--font-mono);
+      font-size: 13px;
+      color: var(--text-3);
+      margin-top: 12px;
+    }
+
+    .privacy-hero p {
+      font-size: clamp(1rem, 2vw, 1.15rem);
+      color: var(--text-2);
+      max-width: 580px;
+      margin-inline: auto;
+      line-height: 1.7;
+    }
+
+    /* Summary card */
+    .privacy-summary {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: clamp(24px, 4vw, 40px);
+      margin-bottom: clamp(40px, 6vw, 72px);
+    }
+
+    .privacy-summary h2 {
+      font-size: 1rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-family: var(--font-mono);
+      color: var(--blue-bright);
+      margin-bottom: 20px;
+    }
+
+    .privacy-summary ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .privacy-summary ul li {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      color: var(--text-2);
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+
+    .privacy-summary ul li::before {
+      content: '';
+      flex-shrink: 0;
+      width: 18px;
+      height: 18px;
+      margin-top: 2px;
+      background: var(--green);
+      mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2.5'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E");
+      -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2.5'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E");
+      mask-repeat: no-repeat;
+      mask-size: contain;
+      -webkit-mask-repeat: no-repeat;
+      -webkit-mask-size: contain;
+    }
+
+    /* Content body */
+    .privacy-content {
+      max-width: 760px;
+      margin-inline: auto;
+    }
+
+    .privacy-section {
+      margin-bottom: clamp(40px, 6vw, 64px);
+    }
+
+    .privacy-section h2 {
+      font-size: clamp(1.1rem, 2.5vw, 1.35rem);
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      margin-bottom: 16px;
+      color: var(--text);
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .privacy-section p {
+      color: var(--text-2);
+      line-height: 1.75;
+      margin-bottom: 14px;
+      font-size: 0.975rem;
+    }
+
+    .privacy-section p:last-child {
+      margin-bottom: 0;
+    }
+
+    .privacy-section ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin-top: 8px;
+    }
+
+    .privacy-section ul li {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      color: var(--text-2);
+      font-size: 0.95rem;
+      line-height: 1.65;
+    }
+
+    .privacy-section ul li::before {
+      content: '–';
+      flex-shrink: 0;
+      color: var(--text-3);
+      margin-top: 1px;
+    }
+
+    /* Permissions list */
+    .permissions-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 8px;
+    }
+
+    .permission-item {
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+      padding: 12px 16px;
+      background: var(--bg-2);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+    }
+
+    .permission-key {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      color: var(--blue-bright);
+      background: rgba(59,130,246,0.1);
+      border: 1px solid rgba(59,130,246,0.2);
+      border-radius: 4px;
+      padding: 2px 8px;
+      flex-shrink: 0;
+      white-space: nowrap;
+      align-self: flex-start;
+      margin-top: 1px;
+    }
+
+    .permission-desc {
+      font-size: 0.9rem;
+      color: var(--text-2);
+      line-height: 1.6;
+    }
+
+    /* Contact */
+    .contact-email {
+      display: inline-block;
+      font-family: var(--font-mono);
+      font-size: 0.9rem;
+      color: var(--blue-bright);
+      background: rgba(59,130,246,0.08);
+      border: 1px solid rgba(59,130,246,0.2);
+      border-radius: var(--radius-sm);
+      padding: 10px 18px;
+      margin-top: 8px;
+      text-decoration: none;
+      transition: background 0.2s, border-color 0.2s;
+    }
+
+    .contact-email:hover {
+      background: rgba(59,130,246,0.14);
+      border-color: rgba(59,130,246,0.35);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ============================================================
+       NAV
+  ============================================================ -->
+  <nav class="nav" aria-label="Main navigation">
+    <div class="nav-inner container">
+      <a href="index.html" class="nav-logo" aria-label="offline.translator home">
+        <img src="assets/icon.png" width="28" height="28" alt="offline.translator icon">
+        <span>offline<span class="accent">.</span>translator</span>
+      </a>
+      <ul class="nav-links" role="list">
+        <li><a href="index.html#features">Features</a></li>
+        <li><a href="index.html#how-it-works">How It Works</a></li>
+        <li><a href="index.html#demo">Demo</a></li>
+        <li><a href="index.html#faq">FAQ</a></li>
+      </ul>
+      <a href="index.html#install" class="btn btn-sm">Install Free</a>
+    </div>
+  </nav>
+
+  <!-- ============================================================
+       HERO
+  ============================================================ -->
+  <section class="privacy-hero" aria-label="Privacy Policy header">
+    <div class="container">
+      <div class="badge">
+        <span class="badge-dot"></span>
+        Legal &nbsp;·&nbsp; Effective April 24, 2026
+      </div>
+      <h1>Privacy <span class="gradient-text">Policy</span></h1>
+      <p>offline.translator is designed to keep your data on your device. Here's exactly what that means.</p>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CONTENT
+  ============================================================ -->
+  <div class="section" style="padding-top: 0;">
+    <div class="container privacy-content">
+
+      <!-- Summary -->
+      <div class="privacy-summary" role="note" aria-label="Privacy summary">
+        <h2>At a glance</h2>
+        <ul>
+          <li>offline.translator processes webpage text locally on your device.</li>
+          <li>The extension does not use an external translation server for its core translation flow.</li>
+          <li>The extension does not sell your data.</li>
+          <li>The extension does not transmit webpage text or translated text to the developer's servers.</li>
+          <li>User settings and translation cache are stored locally in the browser on your device.</li>
+        </ul>
+      </div>
+
+      <!-- What the Extension Does -->
+      <div class="privacy-section">
+        <h2>What the Extension Does</h2>
+        <p>offline.translator reads text from webpages you choose to translate, processes that text locally, and updates the page with translated text. It can also optionally refine translations using Chrome's built-in on-device AI capabilities, including Gemini Nano when available in Chrome.</p>
+        <p>The extension is built around local processing. Its core translation workflow uses Google's built-in Translator API in Chrome and Chrome's built-in AI capabilities on the device, rather than sending page content to an external service operated by the developer.</p>
+      </div>
+
+      <!-- Information Processed -->
+      <div class="privacy-section">
+        <h2>Information Processed by the Extension</h2>
+        <p>The extension may process the following data locally on your device:</p>
+        <ul>
+          <li>webpage text that appears on pages you choose to translate</li>
+          <li>page metadata such as visible placeholders, page titles, and image alt text when these are translated as part of the page</li>
+          <li>user-selected settings such as source language, target language, translation scope, UI preferences, and optional feature settings</li>
+          <li>locally cached translation records used to speed up repeat translations on your device</li>
+        </ul>
+      </div>
+
+      <!-- What We Store -->
+      <div class="privacy-section">
+        <h2>What We Store</h2>
+        <p>offline.translator stores data locally in the browser, including:</p>
+        <ul>
+          <li>user preferences in Chrome storage</li>
+          <li>translation cache records in local browser storage such as IndexedDB</li>
+          <li>optional UI and workflow settings needed to preserve your preferred experience across sessions</li>
+        </ul>
+        <p style="margin-top: 14px;">This local storage is used only to make the extension work, improve repeat translation speed, and preserve your settings.</p>
+      </div>
+
+      <!-- What We Do Not Collect -->
+      <div class="privacy-section">
+        <h2>What We Do Not Collect or Send to Our Servers</h2>
+        <p>offline.translator does not operate a developer-hosted translation backend for the core translation flow. The developer does not collect, receive, sell, or share your webpage text, translated text, or local cache contents through a separate remote service.</p>
+        <p>In particular, the extension does not intentionally send the following to developer-controlled servers:</p>
+        <ul>
+          <li>webpage text</li>
+          <li>translated output</li>
+          <li>browsing content for translation</li>
+          <li>local cache contents</li>
+          <li>user language preferences for analytics or advertising purposes</li>
+        </ul>
+      </div>
+
+      <!-- Built-in Browser AI -->
+      <div class="privacy-section">
+        <h2>Built-in Browser AI and Model Downloads</h2>
+        <p>offline.translator relies on AI capabilities built into Chrome, such as the built-in Translator API and built-in on-device AI features including Gemini Nano where available. If Chrome needs to download, update, or manage built-in language or AI models, that process is controlled by Chrome or the platform, not by this extension. Any such browser-managed downloads are outside the extension's own server infrastructure.</p>
+      </div>
+
+      <!-- Permissions -->
+      <div class="privacy-section">
+        <h2>Permissions and Why They Are Used</h2>
+        <p>offline.translator requests only the permissions needed to provide on-device translation features:</p>
+        <div class="permissions-list" role="list">
+          <div class="permission-item" role="listitem">
+            <span class="permission-key">activeTab</span>
+            <span class="permission-desc">to act on the page the user has chosen to translate</span>
+          </div>
+          <div class="permission-item" role="listitem">
+            <span class="permission-key">storage</span>
+            <span class="permission-desc">to save settings and local preferences</span>
+          </div>
+          <div class="permission-item" role="listitem">
+            <span class="permission-key">tabs</span>
+            <span class="permission-desc">to target and synchronize with the correct tab</span>
+          </div>
+          <div class="permission-item" role="listitem">
+            <span class="permission-key">webNavigation</span>
+            <span class="permission-desc">to stay aligned with page and frame navigation changes</span>
+          </div>
+          <div class="permission-item" role="listitem">
+            <span class="permission-key">sidePanel</span>
+            <span class="permission-desc">to provide the main translation interface without covering page content</span>
+          </div>
+          <div class="permission-item" role="listitem">
+            <span class="permission-key">offscreen</span>
+            <span class="permission-desc">to run built-in AI tasks in an offscreen extension context when needed</span>
+          </div>
+          <div class="permission-item" role="listitem">
+            <span class="permission-key">notifications</span>
+            <span class="permission-desc">to show user-facing status updates such as optimization progress or completion</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Data Sharing -->
+      <div class="privacy-section">
+        <h2>Data Sharing</h2>
+        <p>offline.translator does not sell personal information and does not share webpage text or translation content with the developer's own external services as part of its core operation.</p>
+      </div>
+
+      <!-- Data Retention -->
+      <div class="privacy-section">
+        <h2>Data Retention and User Control</h2>
+        <p>Because data is stored locally on your device, you control it through your browser and extension settings. You can remove the extension, clear browser storage, or clear local extension data to remove locally stored settings and cached translations.</p>
+      </div>
+
+      <!-- Security -->
+      <div class="privacy-section">
+        <h2>Security</h2>
+        <p>offline.translator is designed to keep processing on the device whenever possible. The extension packages its executable code with the extension and does not intentionally run developer-hosted remote code for its core workflow.</p>
+      </div>
+
+      <!-- Children's Privacy -->
+      <div class="privacy-section">
+        <h2>Children's Privacy</h2>
+        <p>offline.translator is not specifically directed to children. If you are responsible for a child using the browser, you should supervise extension use in the same way you supervise browsing activity generally.</p>
+      </div>
+
+      <!-- Changes -->
+      <div class="privacy-section">
+        <h2>Changes to This Privacy Policy</h2>
+        <p>This Privacy Policy may be updated from time to time to reflect changes in the extension or in applicable requirements. The latest version should be published with the extension materials.</p>
+      </div>
+
+      <!-- Contact -->
+      <div class="privacy-section">
+        <h2>Contact</h2>
+        <p>For privacy questions, please contact:</p>
+        <a class="contact-email" href="mailto:the.offline.translator@gmail.com">the.offline.translator@gmail.com</a>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="index.html" class="nav-logo" aria-label="offline.translator home">
+          <img src="assets/icon.png" width="24" height="24" alt="offline.translator icon">
+          <span>offline<span class="accent">.</span>translator</span>
+        </a>
+        <p class="footer-tagline">What Happens on Your Screen, Stays on Your Device.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="index.html#features">Features</a>
+        <a href="index.html#how-it-works">How It Works</a>
+        <a href="index.html#demo">Demo</a>
+        <a href="index.html#faq">FAQ</a>
+        <a href="https://github.com/YOUR-USERNAME/offline-translator" rel="noopener" target="_blank">GitHub</a>
+        <a href="privacy.html" aria-current="page">Privacy Policy</a>
+      </nav>
+      <div class="footer-meta">
+        <span>Chrome 138+</span>
+        <span>·</span>
+        <a href="privacy.html" aria-current="page">Privacy Policy</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
