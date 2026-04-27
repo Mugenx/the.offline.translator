@@ -3,7 +3,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
   "zh-Hans": {
     "meta": {
       "title": "offline.translator – 适用于任意网页的免费离线 Chrome 翻译扩展",
-      "description": "offline.translator 使用 Chrome 内置 AI 翻译整个网页，全程 100% 本地运行。没有任何数据离开浏览器。支持 40+ 种语言、AI 优化和智能缓存。免费。"
+      "description": "offline.translator 使用 Chrome 内置 AI 在浏览器中翻译整个网页。翻译过程在 Chrome 中完成，支持 40+ 种语言、AI 优化和智能缓存。"
     },
     "localeLabel": "语言",
     "nav": {
@@ -16,16 +16,16 @@ window.OFFLINE_TRANSLATOR_I18N = {
     "hero": {
       "badge": "免费 · Chrome 138+",
       "title": "翻译任意网页<br><span class=\"gradient-text\">无需离开你的设备</span>",
-      "sub": "唯一一款完全由本地 AI 驱动的免费 Chrome 翻译扩展。<br>无服务器，无追踪。<strong>屏幕上发生的一切，只留在你的设备上。</strong>",
+      "sub": "一款基于本地 AI 的免费 Chrome 翻译扩展。<br>翻译过程在浏览器中完成。<strong>页面文本会在 Chrome 内完成翻译。</strong>",
       "primaryCta": "安装扩展程序，完全免费",
       "secondaryCta": "查看演示",
-      "trust": "无需账号 · 不收集数据 · 支持 40+ 种语言",
+      "trust": "无需账号 · 浏览器内翻译 · 支持 40+ 种语言",
       "statTranslated": "已翻译",
       "statDataSent": "发送数据"
     },
     "trust": {
-      "private": "100% 私密 · 零数据传输",
-      "free": "永久免费，无需账号",
+      "private": "本地设备翻译 · 无需外部翻译服务器",
+      "free": "免费，无需账号",
       "languages": "支持 40+ 种语言"
     },
     "features": {
@@ -34,8 +34,8 @@ window.OFFLINE_TRANSLATOR_I18N = {
       "sub": "为开发者、研究者，以及任何需要用第二语言阅读网页的人而打造。",
       "cards": [
         {
-          "title": "100% 本地翻译",
-          "body": "每一句内容都由 Chrome 内置的 Translator API 在你的设备上本地翻译。你的内容不会触及任何远程服务器，因此它是真正私密的 Chrome 翻译扩展。"
+          "title": "本地设备翻译",
+          "body": "每一句内容都由 Chrome 内置的 Translator API 在你的设备上本地翻译。翻译过程在浏览器中完成，有助于避免把页面文本交给外部翻译服务。"
         },
         {
           "title": "实时进度追踪",
@@ -82,7 +82,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
       "title": "看看 offline.translator 如何工作",
       "sub": "真实截图。真实网页。真实翻译。全部在本地完成。",
       "captions": [
-        "<strong>100% 整页翻译</strong> —— roadmap.sh 开发者路线图已翻译为中文",
+        "<strong>整页翻译</strong> —— roadmap.sh 开发者路线图已翻译为中文",
         "<strong>实时进度追踪</strong> —— GitHub 博客翻译中，侧边栏显示分段统计",
         "<strong>富媒体页面</strong> —— Gates Notes 文章内容已完成端到端翻译",
         "<strong>40+ 种语言</strong> —— From 与 To 语言列表可完全自定义"
@@ -112,7 +112,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
     },
     "comparison": {
       "label": "为什么选择 offline.translator",
-      "title": "唯一一款绝不向外发送内容的浏览器翻译器",
+      "title": "为设备端隐私而设计的浏览器翻译器",
       "headers": [
         "功能",
         "offline.translator",
@@ -121,7 +121,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
       ],
       "rows": [
         [
-          "100% 本地运行",
+          "本地设备翻译",
           null,
           null,
           null
@@ -151,7 +151,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
           "仅整页"
         ],
         [
-          "永久免费",
+          "免费",
           null,
           "免费增值 / API key",
           null
@@ -172,11 +172,11 @@ window.OFFLINE_TRANSLATOR_I18N = {
       "items": [
         {
           "q": "offline.translator 能做什么？",
-          "a": "offline.translator 直接在你的 Chrome 浏览器中使用 Chrome 内置的 Translator API 翻译整个网页。它 100% 在你的设备上运行，页面内容绝不会发送到外部服务器。打开侧边栏，选择目标语言，扩展就会在你滚动页面时逐步翻译可见文本。"
+          "a": "offline.translator 直接在你的 Chrome 浏览器中使用 Chrome 内置的 Translator API 翻译整个网页。翻译会在 Chrome 中以本地方式处理，而不是通过外部翻译服务。打开侧边栏，选择目标语言，扩展就会在你滚动页面时逐步翻译可见文本。"
         },
         {
           "q": "offline.translator 免费吗？",
-          "a": "是的。offline.translator 完全免费。没有付费档位、没有订阅，也不需要 API key。"
+          "a": "是的。offline.translator 当前可免费使用。现在没有付费档位、订阅，也不需要 API key。"
         },
         {
           "q": "支持哪些浏览器？",
@@ -184,11 +184,11 @@ window.OFFLINE_TRANSLATOR_I18N = {
         },
         {
           "q": "它和 Google Translate 或其他云端翻译器有什么不同？",
-          "a": "其他常见的浏览器翻译工具，包括 Google Translate 扩展和 Chrome 内置网页翻译，都会把页面内容发送到远程服务器处理。offline.translator 不同：它使用 Chrome 的本地 AI 模型，因此你的文本不会被传输到任何地方。此外，它还提供智能缓存、AI 优化（Professional / Casual / Concise 风格）、自定义词汇表层，以及云端翻译器没有的按页视口控制。"
+          "a": "许多浏览器翻译工具都会把页面内容发送到远程服务处理。offline.translator 则在 Chrome 中使用本地 AI 处理翻译，同时提供智能缓存、AI 优化（Professional / Casual / Concise 风格）、自定义词汇表层，以及按页视口控制。"
         },
         {
           "q": "它适合翻译机密或私密页面吗？",
-          "a": "是的。因为翻译完全在你的本地设备上运行，页面内容绝不会离开浏览器。它可安全用于公司内部 wiki、机密文档、个人邮件和隐私浏览会话。"
+          "a": "offline.translator 的设计是让翻译在你的设备上的 Chrome 中完成，而不是通过外部翻译服务。对于公司内部 wiki、机密文档、个人邮件和隐私浏览会话，这种工作方式通常更合适。"
         },
         {
           "q": "支持哪些语言？",
@@ -201,14 +201,14 @@ window.OFFLINE_TRANSLATOR_I18N = {
       ]
     },
     "footer": {
-      "tagline": "屏幕上发生的一切，只留在你的设备上。",
+      "tagline": "翻译会在你的设备上的 Chrome 中完成。",
       "privacy": "隐私政策"
     }
   },
   "zh-Hant": {
     "meta": {
       "title": "offline.translator – 適用於任何網頁的免費離線 Chrome 翻譯擴充功能",
-      "description": "offline.translator 使用 Chrome 內建 AI 翻譯整個網頁，全程 100% 在裝置上執行。沒有任何資料離開你的瀏覽器。支援 40+ 種語言、AI 優化與智慧快取。免費。"
+      "description": "offline.translator 使用 Chrome 內建 AI 在瀏覽器中翻譯整個網頁。翻譯過程在 Chrome 中完成，支援 40+ 種語言、AI 優化與智慧快取。"
     },
     "localeLabel": "語言",
     "nav": {
@@ -221,16 +221,16 @@ window.OFFLINE_TRANSLATOR_I18N = {
     "hero": {
       "badge": "免費 · Chrome 138+",
       "title": "翻譯任何網頁<br><span class=\"gradient-text\">無需讓資料離開你的裝置</span>",
-      "sub": "唯一完全由裝置端 AI 驅動的免費 Chrome 翻譯擴充功能。<br>無伺服器、無追蹤。<strong>螢幕上發生的一切，都留在你的裝置上。</strong>",
+      "sub": "一款以裝置端 AI 為核心的免費 Chrome 翻譯擴充功能。<br>翻譯過程在瀏覽器中完成。<strong>頁面文字會在 Chrome 內完成翻譯。</strong>",
       "primaryCta": "安裝擴充功能，免費使用",
       "secondaryCta": "查看示範",
-      "trust": "不需帳號 · 不蒐集資料 · 支援 40+ 種語言",
+      "trust": "不需帳號 · 瀏覽器內翻譯 · 支援 40+ 種語言",
       "statTranslated": "已翻譯",
       "statDataSent": "傳送資料"
     },
     "trust": {
-      "private": "100% 私密 · 零資料傳輸",
-      "free": "永久免費，不需帳號",
+      "private": "裝置端翻譯 · 無需外部翻譯伺服器",
+      "free": "免費，不需帳號",
       "languages": "支援 40+ 種語言"
     },
     "features": {
@@ -239,8 +239,8 @@ window.OFFLINE_TRANSLATOR_I18N = {
       "sub": "為開發者、研究者，以及任何用第二語言閱讀網路內容的人打造。",
       "cards": [
         {
-          "title": "100% 裝置端翻譯",
-          "body": "每一句內容都由 Chrome 內建的 Translator API 在你的裝置上本地翻譯。你的內容不會接觸任何遠端伺服器，因此它是真正私密的 Chrome 翻譯擴充功能。"
+          "title": "裝置端翻譯",
+          "body": "每一句內容都由 Chrome 內建的 Translator API 在你的裝置上本地翻譯。翻譯過程在瀏覽器中完成，有助於避免把頁面文字交給外部翻譯服務。"
         },
         {
           "title": "即時進度追蹤",
@@ -287,7 +287,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
       "title": "看看 offline.translator 的實際效果",
       "sub": "真實截圖。真實頁面。真實翻譯。全部都在裝置上完成。",
       "captions": [
-        "<strong>100% 整頁翻譯</strong> —— roadmap.sh 開發者路線圖已翻譯成中文",
+        "<strong>整頁翻譯</strong> —— roadmap.sh 開發者路線圖已翻譯成中文",
         "<strong>即時進度追蹤</strong> —— GitHub 部落格翻譯中，側邊欄顯示段落統計",
         "<strong>富媒體頁面</strong> —— Gates Notes 文章內容已完整翻譯",
         "<strong>40+ 種語言</strong> —— From 與 To 語言清單可完全自訂"
@@ -317,7 +317,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
     },
     "comparison": {
       "label": "為什麼選擇 offline.translator",
-      "title": "唯一一款絕不把內容傳回外部的瀏覽器翻譯工具",
+      "title": "為裝置端隱私而設計的瀏覽器翻譯工具",
       "headers": [
         "功能",
         "offline.translator",
@@ -326,7 +326,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
       ],
       "rows": [
         [
-          "100% 裝置端執行",
+          "裝置端翻譯",
           null,
           null,
           null
@@ -356,7 +356,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
           "僅整頁"
         ],
         [
-          "永久免費",
+          "免費",
           null,
           "Freemium / API key",
           null
@@ -377,11 +377,11 @@ window.OFFLINE_TRANSLATOR_I18N = {
       "items": [
         {
           "q": "offline.translator 能做什麼？",
-          "a": "offline.translator 直接在你的 Chrome 瀏覽器中使用 Chrome 內建的 Translator API 翻譯整個網頁。它 100% 在你的裝置上執行，頁面內容絕不會送到外部伺服器。開啟側邊欄、選擇目標語言後，擴充功能就會在你捲動頁面時逐步翻譯可見文字。"
+          "a": "offline.translator 直接在你的 Chrome 瀏覽器中使用 Chrome 內建的 Translator API 翻譯整個網頁。翻譯會在 Chrome 中以本地方式處理，而不是透過外部翻譯服務。打開側邊欄、選擇目標語言後，擴充功能就會在你捲動頁面時逐步翻譯可見文字。"
         },
         {
           "q": "offline.translator 是免費的嗎？",
-          "a": "是。offline.translator 完全免費。沒有付費層級、沒有訂閱，也不需要 API key。"
+          "a": "是的。offline.translator 目前可免費使用。現在沒有付費方案、訂閱，也不需要 API key。"
         },
         {
           "q": "支援哪些瀏覽器？",
@@ -389,11 +389,11 @@ window.OFFLINE_TRANSLATOR_I18N = {
         },
         {
           "q": "它和 Google Translate 或其他雲端翻譯工具有什麼不同？",
-          "a": "其他常見的瀏覽器翻譯工具，包括 Google Translate 擴充功能與 Chrome 內建的頁面翻譯，都會把頁面內容送往遠端伺服器處理。offline.translator 不同：它使用 Chrome 的裝置端 AI 模型，因此你的文字不會傳送到任何地方。此外，它還提供智慧快取、AI 優化（Professional / Casual / Concise 風格）、自訂詞彙表層，以及雲端翻譯工具沒有的單頁視窗控制。"
+          "a": "許多瀏覽器翻譯工具會把頁面內容送到遠端服務處理。offline.translator 則在 Chrome 中以裝置端 AI 處理翻譯，並提供智慧快取、AI 優化（Professional / Casual / Concise 風格）、自訂詞彙表層，以及逐頁視窗控制。"
         },
         {
           "q": "可安全用於機密或私人頁面嗎？",
-          "a": "可以。因為翻譯完全在你的本機裝置上執行，頁面內容絕不會離開你的瀏覽器。它可安全用於公司內部 wiki、機密文件、私人電子郵件與私密瀏覽工作階段。"
+          "a": "offline.translator 的設計是讓翻譯在你裝置上的 Chrome 中完成，而不是透過外部翻譯服務。對於公司內部 wiki、機密文件、個人郵件和隱私瀏覽工作階段，這種工作方式通常更合適。"
         },
         {
           "q": "支援哪些語言？",
@@ -406,14 +406,14 @@ window.OFFLINE_TRANSLATOR_I18N = {
       ]
     },
     "footer": {
-      "tagline": "螢幕上發生的一切，都留在你的裝置上。",
+      "tagline": "翻譯會在你裝置上的 Chrome 中完成。",
       "privacy": "隱私權政策"
     }
   },
   "zh-Hant-HK": {
     "meta": {
       "title": "offline.translator – 適用於任何網頁的免費離線 Chrome 翻譯擴充功能",
-      "description": "offline.translator 使用 Chrome 內置 AI 翻譯整個網頁，全程 100% 在裝置上完成。沒有任何資料離開你的瀏覽器。支援 40+ 種語言、AI 優化及智能快取。免費。"
+      "description": "offline.translator 使用 Chrome 內建 AI 在瀏覽器中翻譯整個網頁。翻譯過程在 Chrome 中完成，支援 40+ 種語言、AI 優化與智慧快取。"
     },
     "localeLabel": "語言",
     "nav": {
@@ -426,16 +426,16 @@ window.OFFLINE_TRANSLATOR_I18N = {
     "hero": {
       "badge": "免費 · Chrome 138+",
       "title": "翻譯任何網頁<br><span class=\"gradient-text\">毋須讓資料離開你的裝置</span>",
-      "sub": "唯一完全由裝置端 AI 驅動的免費 Chrome 翻譯擴充功能。<br>無伺服器、無追蹤。<strong>螢幕上發生的一切，都留在你的裝置上。</strong>",
+      "sub": "一款以裝置端 AI 為核心的免費 Chrome 翻譯擴充功能。<br>翻譯過程在瀏覽器中完成。<strong>頁面文字會在 Chrome 內完成翻譯。</strong>",
       "primaryCta": "安裝擴充功能，完全免費",
       "secondaryCta": "查看示範",
-      "trust": "毋須帳號 · 不收集資料 · 支援 40+ 種語言",
+      "trust": "毋須帳號 · 瀏覽器內翻譯 · 支援 40+ 種語言",
       "statTranslated": "已翻譯",
       "statDataSent": "傳送資料"
     },
     "trust": {
-      "private": "100% 私密 · 零資料傳輸",
-      "free": "永久免費，毋須帳號",
+      "private": "裝置端翻譯 · 無需外部翻譯伺服器",
+      "free": "免費，毋須帳號",
       "languages": "支援 40+ 種語言"
     },
     "features": {
@@ -444,8 +444,8 @@ window.OFFLINE_TRANSLATOR_I18N = {
       "sub": "為開發者、研究人員，以及任何需要用第二語言閱讀網頁的人而設。",
       "cards": [
         {
-          "title": "100% 裝置端翻譯",
-          "body": "每一句內容都由 Chrome 內置的 Translator API 在你的裝置上本地翻譯。你的內容不會接觸任何遠端伺服器，因此它是真正私密的 Chrome 翻譯擴充功能。"
+          "title": "裝置端翻譯",
+          "body": "每一句內容都由 Chrome 內置的 Translator API 在你的裝置上本地翻譯。翻譯過程在瀏覽器中完成，有助於避免把頁面文字交給外部翻譯服務。"
         },
         {
           "title": "即時進度追蹤",
@@ -492,7 +492,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
       "title": "看看 offline.translator 的實際效果",
       "sub": "真實截圖。真實頁面。真實翻譯。全部都在裝置上完成。",
       "captions": [
-        "<strong>100% 整頁翻譯</strong> —— roadmap.sh 開發者路線圖已翻譯成中文",
+        "<strong>整頁翻譯</strong> —— roadmap.sh 開發者路線圖已翻譯成中文",
         "<strong>即時進度追蹤</strong> —— GitHub 網誌翻譯中，側邊欄顯示段落統計",
         "<strong>多媒體頁面</strong> —— Gates Notes 文章內容已完整翻譯",
         "<strong>40+ 種語言</strong> —— From 及 To 語言清單可完全自訂"
@@ -522,7 +522,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
     },
     "comparison": {
       "label": "為什麼選擇 offline.translator",
-      "title": "唯一一款絕不把內容傳回外部的瀏覽器翻譯工具",
+      "title": "為裝置端隱私而設計的瀏覽器翻譯工具",
       "headers": [
         "功能",
         "offline.translator",
@@ -531,7 +531,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
       ],
       "rows": [
         [
-          "100% 裝置端運行",
+          "裝置端翻譯",
           null,
           null,
           null
@@ -561,7 +561,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
           "僅整頁"
         ],
         [
-          "永久免費",
+          "免費",
           null,
           "Freemium / API key",
           null
@@ -582,11 +582,11 @@ window.OFFLINE_TRANSLATOR_I18N = {
       "items": [
         {
           "q": "offline.translator 可以做什麼？",
-          "a": "offline.translator 直接在你的 Chrome 瀏覽器中使用 Chrome 內置的 Translator API 翻譯整個網頁。它 100% 在你的裝置上運行，頁面內容絕不會送到外部伺服器。開啟側邊欄、選擇目標語言後，擴充功能便會在你捲動頁面時逐步翻譯可見文字。"
+          "a": "offline.translator 直接在你的 Chrome 瀏覽器中使用 Chrome 內置的 Translator API 翻譯整個網頁。翻譯會在 Chrome 中以本地方式處理，而不是透過外部翻譯服務。打開側邊欄、選擇目標語言後，擴充功能就會在你捲動頁面時逐步翻譯可見文字。"
         },
         {
           "q": "offline.translator 係咪免費？",
-          "a": "係。offline.translator 完全免費。沒有付費層級、沒有訂閱，亦不需要 API key。"
+          "a": "是的。offline.translator 目前可免費使用。現時沒有付費方案、訂閱，也不需要 API key。"
         },
         {
           "q": "支援哪些瀏覽器？",
@@ -594,11 +594,11 @@ window.OFFLINE_TRANSLATOR_I18N = {
         },
         {
           "q": "它和 Google Translate 或其他雲端翻譯工具有什麼不同？",
-          "a": "其他常用的瀏覽器翻譯工具，包括 Google Translate 擴充功能與 Chrome 內置頁面翻譯，都會把頁面內容送往遠端伺服器處理。offline.translator 不同：它使用 Chrome 的裝置端 AI 模型，因此你的文字不會傳送到任何地方。另外，它還提供智能快取、AI 優化（Professional / Casual / Concise 風格）、自訂詞彙表層，以及雲端翻譯工具所沒有的單頁視窗控制。"
+          "a": "許多瀏覽器翻譯工具會把頁面內容送到遠端服務處理。offline.translator 則在 Chrome 中以裝置端 AI 處理翻譯，並提供智慧快取、AI 優化（Professional / Casual / Concise 風格）、自訂詞彙表層，以及逐頁視窗控制。"
         },
         {
           "q": "可安全用於機密或私人頁面嗎？",
-          "a": "可以。因為翻譯完全在你的本機裝置上執行，頁面內容絕不會離開你的瀏覽器。它可安全用於公司內部 wiki、機密文件、私人電郵及私密瀏覽工作階段。"
+          "a": "offline.translator 的設計是讓翻譯在你裝置上的 Chrome 中完成，而不是透過外部翻譯服務。對於公司內部 wiki、機密文件、個人郵件和私密瀏覽工作階段，這種工作方式通常更合適。"
         },
         {
           "q": "支援哪些語言？",
@@ -611,14 +611,14 @@ window.OFFLINE_TRANSLATOR_I18N = {
       ]
     },
     "footer": {
-      "tagline": "螢幕上發生的一切，都留在你的裝置上。",
+      "tagline": "翻譯會在你裝置上的 Chrome 中完成。",
       "privacy": "私隱政策"
     }
   },
   "ja": {
     "meta": {
       "title": "offline.translator – あらゆるWebページ向けの無料オフラインChrome翻訳拡張機能",
-      "description": "offline.translator は Chrome 内蔵 AI でWebページ全体を翻訳します。100% オンデバイスで動作し、データはブラウザ外に出ません。40以上の言語、AI最適化、スマートキャッシュに対応。無料です。"
+      "description": "offline.translator は Chrome のオンデバイス AI を使ってウェブページ全体を翻訳します。翻訳はブラウザ内で行われ、40以上の言語、AI最適化、スマートキャッシュに対応しています。"
     },
     "localeLabel": "言語",
     "nav": {
@@ -631,16 +631,16 @@ window.OFFLINE_TRANSLATOR_I18N = {
     "hero": {
       "badge": "無料・Chrome 138+",
       "title": "あらゆるWebページを翻訳<br><span class=\"gradient-text\">データを端末の外へ出さずに</span>",
-      "sub": "完全にオンデバイスAIで動く、唯一の無料Chrome翻訳拡張機能。<br>サーバーなし。追跡なし。<strong>画面上で起こることは、あなたの端末内にとどまります。</strong>",
+      "sub": "オンデバイスAIを活用した無料のChrome翻訳拡張機能です。<br>翻訳はブラウザ内で処理されます。<strong>ページのテキストはChrome内で翻訳されます。</strong>",
       "primaryCta": "拡張機能をインストール、しかも無料",
       "secondaryCta": "実際の動作を見る",
-      "trust": "アカウント不要 · データ収集なし · 40以上の言語",
+      "trust": "アカウント不要 · ブラウザ内翻訳 · 40以上の言語",
       "statTranslated": "翻訳済み",
       "statDataSent": "送信データ"
     },
     "trust": {
-      "private": "100%プライベート・データ送信ゼロ",
-      "free": "ずっと無料、アカウント不要",
+      "private": "オンデバイス翻訳 ・ 外部翻訳サーバー不要",
+      "free": "無料、アカウント不要",
       "languages": "40以上の言語に対応"
     },
     "features": {
@@ -649,8 +649,8 @@ window.OFFLINE_TRANSLATOR_I18N = {
       "sub": "開発者、研究者、そして第二言語でWebを読むすべての人のために作られています。",
       "cards": [
         {
-          "title": "100% オンデバイス翻訳",
-          "body": "すべての文は、端末上で動作する Chrome 内蔵の Translator API によって翻訳されます。コンテンツが外部サーバーに触れることはなく、本当にプライベートな Chrome 翻訳拡張機能です。"
+          "title": "オンデバイス翻訳",
+          "body": "各文章は Chrome 内蔵の Translator API により端末上で翻訳されます。翻訳はブラウザ内で処理され、ページのテキストを外部の翻訳サービスに渡しにくい設計です。"
         },
         {
           "title": "リアルタイム進捗トラッキング",
@@ -697,7 +697,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
       "title": "offline.translator の動作を見る",
       "sub": "実際のスクリーンショット。実際のページ。実際の翻訳。すべてオンデバイスです。",
       "captions": [
-        "<strong>100% 全ページ翻訳</strong> — roadmap.sh の開発者ロードマップを中国語に翻訳",
+        "<strong>ページ全体の翻訳</strong> — roadmap.sh の開発者ロードマップを中国語に翻訳",
         "<strong>ライブ進捗トラッキング</strong> — GitHub ブログを翻訳中、セグメント数を表示",
         "<strong>リッチメディアページ</strong> — Gates Notes の記事コンテンツを最初から最後まで翻訳",
         "<strong>40以上の言語</strong> — From と To の言語リストを完全にカスタマイズ可能"
@@ -727,7 +727,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
     },
     "comparison": {
       "label": "offline.translator を選ぶ理由",
-      "title": "外部に一切送信しない唯一のブラウザ翻訳ツール",
+      "title": "オンデバイスのプライバシーを重視したブラウザ翻訳",
       "headers": [
         "機能",
         "offline.translator",
@@ -736,7 +736,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
       ],
       "rows": [
         [
-          "100% オンデバイス",
+          "オンデバイス翻訳",
           null,
           null,
           null
@@ -766,7 +766,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
           "全ページのみ"
         ],
         [
-          "永久無料",
+          "無料",
           null,
           "フリーミアム / API key",
           null
@@ -787,11 +787,11 @@ window.OFFLINE_TRANSLATOR_I18N = {
       "items": [
         {
           "q": "offline.translator は何をするものですか？",
-          "a": "offline.translator は、Chrome 内蔵の Translator API を使って Chrome ブラウザ内でWebページ全体を直接翻訳します。100% 端末上で動作するため、ページ内容が外部サーバーに送信されることはありません。サイドパネルを開いて翻訳先言語を選ぶと、スクロールに合わせて表示中のテキストを段階的に翻訳します。"
+          "a": "offline.translator は Chrome 内蔵の Translator API を使って、ブラウザ内で Web ページ全体を翻訳します。翻訳は外部の翻訳サービスを経由せず、Chrome 内でオンデバイス処理されます。サイドパネルを開いて対象言語を選ぶと、スクロールに合わせて表示テキストが順次翻訳されます。"
         },
         {
           "q": "offline.translator は無料ですか？",
-          "a": "はい。offline.translator は完全無料です。有料プランもサブスクリプションもなく、API key も不要です。"
+          "a": "はい。offline.translator は現在無料で利用できます。現時点では有料プラン、サブスクリプション、API key は必要ありません。"
         },
         {
           "q": "対応ブラウザは？",
@@ -799,11 +799,11 @@ window.OFFLINE_TRANSLATOR_I18N = {
         },
         {
           "q": "Google 翻訳や他のクラウド翻訳と何が違いますか？",
-          "a": "Google 翻訳拡張機能や Chrome のページ翻訳を含む一般的なブラウザ翻訳ツールは、ページ内容を処理のために外部サーバーへ送信します。offline.translator は異なり、Chrome のオンデバイス AI モデルを使うため、テキストが外部へ送られることはありません。さらに、スマートキャッシュ、AI最適化（Professional / Casual / Concise スタイル）、カスタム用語集レイヤー、ページ単位のビューポート制御など、クラウド翻訳にはない機能も備えています。"
+          "a": "多くのブラウザ翻訳ツールは、ページ内容をリモートサービスに送って処理します。offline.translator は Chrome 上のオンデバイス AI で翻訳を処理し、スマートキャッシュ、AI 最適化（Professional / Casual / Concise）、カスタム用語集レイヤー、ページごとのビューポート制御も備えています。"
         },
         {
           "q": "機密ページやプライベートなページでも安全ですか？",
-          "a": "はい。翻訳はすべてローカル端末上で実行されるため、ページ内容がブラウザの外へ出ることはありません。社内 wiki、機密文書、個人メール、プライベートブラウジングでも安全に使えます。"
+          "a": "offline.translator は、外部の翻訳サービスを経由せず、端末上の Chrome で翻訳を処理するよう設計されています。このワークフローは、社内 wiki、機密文書、個人メール、プライベートブラウジングにも向いています。"
         },
         {
           "q": "対応言語は？",
@@ -816,14 +816,14 @@ window.OFFLINE_TRANSLATOR_I18N = {
       ]
     },
     "footer": {
-      "tagline": "画面上で起こることは、あなたの端末内にとどまります。",
+      "tagline": "翻訳は端末上の Chrome で処理されます。",
       "privacy": "プライバシーポリシー"
     }
   },
   "ar": {
     "meta": {
       "title": "offline.translator – إضافة ترجمة Chrome مجانية تعمل دون اتصال لأي صفحة ويب",
-      "description": "يترجم offline.translator صفحات الويب كاملة باستخدام الذكاء الاصطناعي المدمج في Chrome، وبشكل يعمل 100% على الجهاز. لا تغادر أي بيانات متصفحك. يدعم أكثر من 40 لغة مع تحسين بالذكاء الاصطناعي وذاكرة تخزين ذكية. مجاني."
+      "description": "يترجم offline.translator صفحات الويب كاملة في Chrome باستخدام الذكاء الاصطناعي على الجهاز. تتم الترجمة داخل المتصفح، مع دعم أكثر من 40 لغة وتحسينات AI وذاكرة تخزين ذكية."
     },
     "localeLabel": "اللغة",
     "nav": {
@@ -836,15 +836,15 @@ window.OFFLINE_TRANSLATOR_I18N = {
     "hero": {
       "badge": "مجاني · Chrome 138+",
       "title": "ترجم أي صفحة ويب<br><span class=\"gradient-text\">من دون أن تغادر بياناتك جهازك</span>",
-      "sub": "إضافة الترجمة المجانية الوحيدة لـ Chrome التي تعمل بالكامل بذكاء اصطناعي على الجهاز.<br>لا خوادم. لا تتبع. <strong>ما يحدث على شاشتك يبقى على جهازك.</strong>",
+      "sub": "إضافة ترجمة مجانية لمتصفح Chrome مبنية حول الذكاء الاصطناعي على الجهاز.<br>تتم الترجمة داخل المتصفح. <strong>يبقى نص الصفحة داخل Chrome أثناء الترجمة.</strong>",
       "primaryCta": "ثبّت الإضافة، فهي مجانية",
       "secondaryCta": "شاهدها أثناء العمل",
-      "trust": "لا حاجة إلى حساب · لا جمع للبيانات · أكثر من 40 لغة",
+      "trust": "من دون حساب · ترجمة داخل المتصفح · أكثر من 40 لغة",
       "statTranslated": "مترجَم",
       "statDataSent": "بيانات مُرسلة"
     },
     "trust": {
-      "private": "خصوصية 100% — دون أي نقل للبيانات",
+      "private": "ترجمة على الجهاز · بدون حاجة إلى خادم ترجمة خارجي",
       "free": "مجاني دائمًا، بلا حساب",
       "languages": "يدعم أكثر من 40 لغة"
     },
@@ -854,8 +854,8 @@ window.OFFLINE_TRANSLATOR_I18N = {
       "sub": "مصمم للمطورين والباحثين وكل من يقرأ الويب بلغة ثانية.",
       "cards": [
         {
-          "title": "ترجمة 100% على الجهاز",
-          "body": "تُترجم كل جملة عبر Translator API المدمج في Chrome ويعمل محليًا على جهازك. لا يلمس محتواك أي خادم بعيد، ما يجعله إضافة الترجمة الوحيدة في Chrome التي تحافظ على الخصوصية فعلًا."
+          "title": "ترجمة على الجهاز",
+          "body": "تُترجم كل جملة عبر Translator API المدمجة في Chrome على جهازك. تتم الترجمة داخل المتصفح، ما يساعد على تجنب تمرير نص الصفحة إلى خدمة ترجمة خارجية."
         },
         {
           "title": "متابعة التقدم لحظة بلحظة",
@@ -902,7 +902,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
       "title": "شاهد offline.translator أثناء العمل",
       "sub": "لقطات حقيقية. صفحات حقيقية. ترجمات حقيقية. وكل ذلك على الجهاز.",
       "captions": [
-        "<strong>ترجمة كاملة 100%</strong> — ترجمة خارطة مطور roadmap.sh إلى الصينية",
+        "<strong>ترجمة الصفحة كاملة</strong> — خريطة مطور roadmap.sh مترجمة إلى الصينية",
         "<strong>تتبّع مباشر للتقدم</strong> — مدونة GitHub أثناء الترجمة مع عدّاد المقاطع",
         "<strong>صفحات غنية بالوسائط</strong> — ترجمة مقال من Gates Notes من البداية إلى النهاية",
         "<strong>أكثر من 40 لغة</strong> — قوائم From و To قابلة للتخصيص بالكامل"
@@ -932,7 +932,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
     },
     "comparison": {
       "label": "لماذا offline.translator",
-      "title": "مترجم المتصفح الوحيد الذي لا يرسل شيئًا إلى أي خادم",
+      "title": "ترجمة متصفح مصممة مع مراعاة الخصوصية على الجهاز",
       "headers": [
         "الميزة",
         "offline.translator",
@@ -941,7 +941,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
       ],
       "rows": [
         [
-          "100% على الجهاز",
+          "ترجمة على الجهاز",
           null,
           null,
           null
@@ -992,11 +992,11 @@ window.OFFLINE_TRANSLATOR_I18N = {
       "items": [
         {
           "q": "ماذا يفعل offline.translator؟",
-          "a": "يترجم offline.translator صفحات الويب كاملة مباشرة داخل متصفح Chrome باستخدام Translator API المدمج في Chrome. يعمل 100% على جهازك، لذلك لا يُرسَل أي محتوى من الصفحة إلى خادم خارجي. افتح اللوحة الجانبية، واختر اللغة الهدف، وستبدأ الإضافة بترجمة النص الظاهر تدريجيًا أثناء التمرير."
+          "a": "يترجم offline.translator صفحات الويب كاملة مباشرة داخل متصفح Chrome باستخدام Translator API المدمجة في Chrome. تتم الترجمة داخل Chrome على الجهاز بدلاً من الاعتماد على خدمة ترجمة خارجية. افتح اللوحة الجانبية، واختر اللغة المستهدفة، وسيبدأ الامتداد في ترجمة النص الظاهر تدريجيًا أثناء التمرير."
         },
         {
           "q": "هل offline.translator مجاني؟",
-          "a": "نعم. offline.translator مجاني بالكامل. لا توجد فئات مدفوعة، ولا اشتراك، ولا حاجة إلى API key."
+          "a": "نعم. يمكن استخدام offline.translator مجانًا حاليًا. لا توجد في الوقت الحالي خطط مدفوعة أو اشتراكات أو متطلبات API key."
         },
         {
           "q": "ما المتصفحات المدعومة؟",
@@ -1004,11 +1004,11 @@ window.OFFLINE_TRANSLATOR_I18N = {
         },
         {
           "q": "بماذا يختلف عن Google Translate أو أدوات الترجمة السحابية الأخرى؟",
-          "a": "كل أدوات ترجمة المتصفح الشائعة الأخرى، بما فيها إضافة Google Translate وترجمة الصفحات المدمجة في Chrome، ترسل محتوى الصفحة إلى خادم بعيد للمعالجة. يختلف offline.translator لأنه يستخدم نموذج الذكاء الاصطناعي على الجهاز في Chrome، لذلك لا يُنقل نصك إلى أي جهة. إضافة إلى ذلك، يوفّر ذاكرة تخزين ذكية، وتحسينًا بالذكاء الاصطناعي (أنماط Professional / Casual / Concise)، وطبقة قاموس مخصّصة، وتحكمًا في الجزء الظاهر من الصفحة لا توفره أدوات الترجمة السحابية."
+          "a": "تقوم كثير من أدوات الترجمة في المتصفح بتمرير محتوى الصفحة إلى خدمة بعيدة للمعالجة. أما offline.translator فيعالج الترجمة داخل Chrome باستخدام الذكاء الاصطناعي على الجهاز، مع التخزين المؤقت الذكي وتحسينات AI وطبقة مصطلحات مخصصة وتحكم على مستوى الجزء الظاهر من الصفحة."
         },
         {
           "q": "هل استخدامه آمن في الصفحات السرية أو الخاصة؟",
-          "a": "نعم. بما أن الترجمة تتم بالكامل على جهازك المحلي، فإن محتوى الصفحة لا يغادر متصفحك مطلقًا. وهو آمن للاستخدام في صفحات الويكي الداخلية للشركات، والمستندات السرية، والبريد الشخصي، وجلسات التصفح الخاصة."
+          "a": "صُمم offline.translator لمعالجة الترجمة داخل Chrome على جهازك بدلًا من الاعتماد على خدمة ترجمة خارجية. ويمكن أن يكون هذا الأسلوب مناسبًا للويكي الداخلية، والمستندات الحساسة، والبريد الشخصي، وجلسات التصفح الخاصة."
         },
         {
           "q": "ما اللغات المدعومة؟",
@@ -1021,14 +1021,14 @@ window.OFFLINE_TRANSLATOR_I18N = {
       ]
     },
     "footer": {
-      "tagline": "ما يحدث على شاشتك يبقى على جهازك.",
+      "tagline": "تتم الترجمة داخل Chrome على جهازك.",
       "privacy": "سياسة الخصوصية"
     }
   },
   "de": {
     "meta": {
       "title": "offline.translator – Kostenlose Offline-Chrome-Übersetzungserweiterung für jede Webseite",
-      "description": "offline.translator übersetzt ganze Webseiten mit der integrierten KI von Chrome – zu 100% auf dem Gerät. Keine Daten verlassen deinen Browser. Unterstützt 40+ Sprachen, KI-Optimierung und smartes Caching. Kostenlos."
+      "description": "offline.translator übersetzt komplette Webseiten in Chrome mit geräteinterner KI. Die Übersetzung bleibt im Browser und bietet 40+ Sprachen, KI-Optimierung und intelligentes Caching."
     },
     "localeLabel": "Sprache",
     "nav": {
@@ -1041,16 +1041,16 @@ window.OFFLINE_TRANSLATOR_I18N = {
     "hero": {
       "badge": "Kostenlos · Chrome 138+",
       "title": "Beliebige Webseiten übersetzen<br><span class=\"gradient-text\">ohne dass Daten dein Gerät verlassen</span>",
-      "sub": "Die einzige kostenlose Chrome-Übersetzungserweiterung, die vollständig mit On-Device-KI arbeitet.<br>Keine Server. Kein Tracking. <strong>Was auf deinem Bildschirm passiert, bleibt auf deinem Gerät.</strong>",
+      "sub": "Eine kostenlose Chrome-Übersetzungserweiterung rund um geräteinterne KI.<br>Die Übersetzung läuft direkt im Browser. <strong>Seitentext bleibt während der Übersetzung in Chrome.</strong>",
       "primaryCta": "Erweiterung installieren – kostenlos",
       "secondaryCta": "In Aktion sehen",
-      "trust": "Kein Konto nötig · Keine Datenerfassung · 40+ Sprachen",
+      "trust": "Kein Konto nötig · Übersetzung im Browser · 40+ Sprachen",
       "statTranslated": "Übersetzt",
       "statDataSent": "Gesendete Daten"
     },
     "trust": {
-      "private": "100% privat – keine Datenübertragung",
-      "free": "Für immer kostenlos, kein Konto nötig",
+      "private": "On-Device-Übersetzung · Kein externer Übersetzungsserver nötig",
+      "free": "Kostenlos, kein Konto nötig",
       "languages": "40+ Sprachen unterstützt"
     },
     "features": {
@@ -1059,8 +1059,8 @@ window.OFFLINE_TRANSLATOR_I18N = {
       "sub": "Entwickelt für Entwickler, Forschende und alle, die das Web in einer zweiten Sprache lesen.",
       "cards": [
         {
-          "title": "100% On-Device-Übersetzung",
-          "body": "Jeder Satz wird von Chromes integrierter Translator API direkt auf deinem Gerät übersetzt. Deine Inhalte berühren nie einen externen Server – damit ist es die einzige Chrome-Übersetzungserweiterung, die wirklich privat ist."
+          "title": "On-Device-Übersetzung",
+          "body": "Jeder Satz wird von Chromes integrierter Translator API direkt auf deinem Gerät übersetzt. Die Übersetzung läuft im Browser und hilft dabei, Seitentext nicht an externe Übersetzungsdienste weiterzureichen."
         },
         {
           "title": "Live-Fortschrittsanzeige",
@@ -1107,7 +1107,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
       "title": "offline.translator in Aktion",
       "sub": "Echte Screenshots. Echte Seiten. Echte Übersetzungen – alles auf dem Gerät.",
       "captions": [
-        "<strong>100% Ganzseitenübersetzung</strong> – roadmap.sh-Entwicklerroadmap ins Chinesische übersetzt",
+        "<strong>Ganzseitenübersetzung</strong> – roadmap.sh-Entwicklerroadmap ins Chinesische übersetzt",
         "<strong>Live-Fortschritt</strong> – GitHub-Blog mitten in der Übersetzung mit Segmentzählern",
         "<strong>Seiten mit vielen Medien</strong> – Gates-Notes-Artikel von Anfang bis Ende übersetzt",
         "<strong>40+ Sprachen</strong> – From- und To-Sprachlisten vollständig anpassbar"
@@ -1137,7 +1137,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
     },
     "comparison": {
       "label": "Warum offline.translator",
-      "title": "Der einzige Browser-Übersetzer, der nie nach Hause telefoniert",
+      "title": "Browserübersetzung mit Fokus auf Privatsphäre auf dem Gerät",
       "headers": [
         "Funktion",
         "offline.translator",
@@ -1146,7 +1146,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
       ],
       "rows": [
         [
-          "100% auf dem Gerät",
+          "On-Device-Übersetzung",
           null,
           null,
           null
@@ -1176,7 +1176,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
           "Nur ganze Seite"
         ],
         [
-          "Für immer kostenlos",
+          "Kostenlos",
           null,
           "Freemium / API key",
           null
@@ -1197,11 +1197,11 @@ window.OFFLINE_TRANSLATOR_I18N = {
       "items": [
         {
           "q": "Was macht offline.translator?",
-          "a": "offline.translator übersetzt ganze Webseiten direkt in deinem Chrome-Browser mit Chromes integrierter Translator API. Es läuft zu 100% auf deinem Gerät – kein Seiteninhalt wird jemals an einen externen Server gesendet. Öffne die Seitenleiste, wähle eine Zielsprache, und die Erweiterung übersetzt sichtbaren Text beim Scrollen schrittweise."
+          "a": "offline.translator übersetzt komplette Webseiten direkt in deinem Chrome-Browser mit Chromes integrierter Translator API. Die Übersetzung wird in Chrome auf deinem Gerät verarbeitet, statt einen externen Übersetzungsdienst zu nutzen. Öffne die Seitenleiste, wähle eine Zielsprache, und die Erweiterung übersetzt sichtbaren Text beim Scrollen schrittweise."
         },
         {
           "q": "Ist offline.translator kostenlos?",
-          "a": "Ja. offline.translator ist komplett kostenlos. Es gibt keine Bezahlstufen, kein Abo und keinen API key."
+          "a": "Ja. offline.translator kann derzeit kostenlos genutzt werden. Aktuell gibt es keine bezahlten Tarife, Abos oder API-key-Anforderungen."
         },
         {
           "q": "Welche Browser werden unterstützt?",
@@ -1209,11 +1209,11 @@ window.OFFLINE_TRANSLATOR_I18N = {
         },
         {
           "q": "Wie unterscheidet es sich von Google Translate oder anderen Cloud-Übersetzern?",
-          "a": "Alle anderen weit verbreiteten Browser-Übersetzungstools – darunter die Google-Translate-Erweiterung und Chromes integrierte Seitenübersetzung – senden deine Seiteninhalte zur Verarbeitung an einen externen Server. offline.translator ist anders: Es nutzt Chromes On-Device-KI, sodass dein Text nirgendwohin übertragen wird. Zusätzlich bietet es smartes Caching, KI-Optimierung (Professional / Casual / Concise), eine benutzerdefinierte Glossarebene und seitenbezogene Viewport-Steuerung, die Cloud-Übersetzer nicht bieten."
+          "a": "Viele Browser-Übersetzungstools leiten Seiteninhalte zur Verarbeitung an einen entfernten Dienst weiter. offline.translator verarbeitet Übersetzungen dagegen in Chrome mit On-Device-KI und bietet zusätzlich smartes Caching, KI-Optimierung, eine benutzerdefinierte Glossarebene und Viewport-Steuerung pro Seite."
         },
         {
           "q": "Ist die Nutzung auf vertraulichen oder privaten Seiten sicher?",
-          "a": "Ja. Weil die Übersetzung vollständig lokal auf deinem Gerät läuft, verlässt dein Seiteninhalt nie den Browser. Es ist sicher für interne Firmen-Wikis, vertrauliche Dokumente, persönliche E-Mails und private Browsing-Sitzungen."
+          "a": "offline.translator ist darauf ausgelegt, Übersetzungen in Chrome auf deinem Gerät zu verarbeiten, statt einen externen Übersetzungsdienst einzubinden. Dieser Ablauf kann gut zu internen Wikis, vertraulichen Dokumenten, persönlichen E-Mails und privatem Surfen passen."
         },
         {
           "q": "Welche Sprachen werden unterstützt?",
@@ -1226,14 +1226,14 @@ window.OFFLINE_TRANSLATOR_I18N = {
       ]
     },
     "footer": {
-      "tagline": "Was auf deinem Bildschirm passiert, bleibt auf deinem Gerät.",
+      "tagline": "Die Übersetzung läuft in Chrome auf deinem Gerät.",
       "privacy": "Datenschutzerklärung"
     }
   },
   "es": {
     "meta": {
       "title": "offline.translator – Extensión gratuita de traducción offline para Chrome en cualquier página web",
-      "description": "offline.translator traduce páginas web completas con la IA integrada de Chrome, 100% en el dispositivo. Ningún dato sale de tu navegador. Compatible con más de 40 idiomas, optimización con IA y caché inteligente. Gratis."
+      "description": "offline.translator traduce páginas web completas en Chrome con IA integrada en el dispositivo. La traducción se realiza en el navegador, con más de 40 idiomas, optimización con IA y caché inteligente."
     },
     "localeLabel": "Idioma",
     "nav": {
@@ -1246,15 +1246,15 @@ window.OFFLINE_TRANSLATOR_I18N = {
     "hero": {
       "badge": "Gratis · Chrome 138+",
       "title": "Traduce cualquier página web<br><span class=\"gradient-text\">sin que tus datos salgan del dispositivo</span>",
-      "sub": "La única extensión gratuita de traducción para Chrome impulsada por IA totalmente en el dispositivo.<br>Sin servidores. Sin rastreo. <strong>Lo que ocurre en tu pantalla se queda en tu dispositivo.</strong>",
+      "sub": "Una extensión gratuita de traducción para Chrome basada en IA en el dispositivo.<br>La traducción se realiza en el navegador. <strong>El texto de la página se traduce dentro de Chrome.</strong>",
       "primaryCta": "Instalar la extensión — es gratis",
       "secondaryCta": "Verla en acción",
-      "trust": "Sin cuenta · Sin recopilación de datos · 40+ idiomas",
+      "trust": "Sin cuenta · Traducción en el navegador · Más de 40 idiomas",
       "statTranslated": "Traducido",
       "statDataSent": "Datos enviados"
     },
     "trust": {
-      "private": "100% privado — cero transmisión de datos",
+      "private": "Traducción en el dispositivo · Sin servidor de traducción externo",
       "free": "Gratis para siempre, sin cuenta",
       "languages": "Más de 40 idiomas"
     },
@@ -1264,8 +1264,8 @@ window.OFFLINE_TRANSLATOR_I18N = {
       "sub": "Diseñado para desarrolladores, investigadores y cualquiera que lea la web en un segundo idioma.",
       "cards": [
         {
-          "title": "Traducción 100% en el dispositivo",
-          "body": "Cada frase se traduce con la Translator API integrada de Chrome y se ejecuta localmente en tu equipo. Tu contenido nunca toca un servidor remoto, así que es la única extensión de traducción para Chrome realmente privada."
+          "title": "Traducción en el dispositivo",
+          "body": "Cada frase se traduce con la Translator API integrada de Chrome en tu dispositivo. La traducción se realiza dentro del navegador, lo que ayuda a evitar enviar el texto de la página a un servicio de traducción externo."
         },
         {
           "title": "Seguimiento en tiempo real",
@@ -1312,7 +1312,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
       "title": "Mira offline.translator en acción",
       "sub": "Capturas reales. Páginas reales. Traducciones reales. Todo en el dispositivo.",
       "captions": [
-        "<strong>Traducción completa al 100%</strong> — hoja de ruta para desarrolladores de roadmap.sh traducida al chino",
+        "<strong>Traducción de página completa</strong> — hoja de ruta de roadmap.sh traducida al chino",
         "<strong>Seguimiento en vivo</strong> — blog de GitHub a mitad de traducción con conteo por segmentos",
         "<strong>Páginas con mucho contenido visual</strong> — artículo de Gates Notes traducido de principio a fin",
         "<strong>40+ idiomas</strong> — listas de idiomas From y To totalmente personalizables"
@@ -1342,7 +1342,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
     },
     "comparison": {
       "label": "Por qué offline.translator",
-      "title": "El único traductor de navegador que nunca envía nada fuera",
+      "title": "Traducción en el navegador pensada para la privacidad en el dispositivo",
       "headers": [
         "Función",
         "offline.translator",
@@ -1351,7 +1351,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
       ],
       "rows": [
         [
-          "100% en el dispositivo",
+          "Traducción en el dispositivo",
           null,
           null,
           null
@@ -1402,11 +1402,11 @@ window.OFFLINE_TRANSLATOR_I18N = {
       "items": [
         {
           "q": "¿Qué hace offline.translator?",
-          "a": "offline.translator traduce páginas web completas directamente en tu navegador Chrome usando la Translator API integrada de Chrome. Funciona 100% en tu dispositivo: ningún contenido de la página se envía jamás a un servidor externo. Abre el panel lateral, elige un idioma de destino y la extensión traducirá progresivamente el texto visible mientras te desplazas."
+          "a": "offline.translator traduce páginas web completas directamente en tu navegador Chrome usando la Translator API integrada de Chrome. La traducción se procesa dentro de Chrome en tu dispositivo en lugar de pasar por un servicio de traducción externo. Abre el panel lateral, elige un idioma de destino y la extensión irá traduciendo el texto visible mientras te desplazas."
         },
         {
           "q": "¿offline.translator es gratis?",
-          "a": "Sí. offline.translator es completamente gratis. No hay niveles de pago, ni suscripción, ni API key."
+          "a": "Sí. offline.translator se puede usar gratis en este momento. Actualmente no hay planes de pago, suscripciones ni requisitos de API key."
         },
         {
           "q": "¿Qué navegadores son compatibles?",
@@ -1414,11 +1414,11 @@ window.OFFLINE_TRANSLATOR_I18N = {
         },
         {
           "q": "¿En qué se diferencia de Google Translate u otros traductores en la nube?",
-          "a": "Todas las demás herramientas populares de traducción en el navegador, incluida la extensión de Google Translate y la traducción de páginas integrada de Chrome, envían el contenido de tu página a un servidor remoto para procesarlo. offline.translator es distinto: usa el modelo de IA en el dispositivo de Chrome, así que tu texto no se transmite a ningún sitio. Además, ofrece caché inteligente, optimización con IA (estilos Professional / Casual / Concise), una capa de glosario personalizada y controles de viewport por página que los traductores en la nube no ofrecen."
+          "a": "Muchas herramientas de traducción del navegador envían el contenido de la página a un servicio remoto para procesarlo. offline.translator procesa la traducción dentro de Chrome con IA en el dispositivo y además ofrece caché inteligente, optimización con IA, una capa de glosario personalizada y controles por viewport en cada página."
         },
         {
           "q": "¿Es seguro usarlo en páginas confidenciales o privadas?",
-          "a": "Sí. Como la traducción se ejecuta por completo en tu máquina local, el contenido de la página nunca sale de tu navegador. Es seguro usarlo en wikis internos de empresa, documentos confidenciales, correos personales y sesiones de navegación privada."
+          "a": "offline.translator está diseñado para procesar la traducción dentro de Chrome en tu dispositivo, en lugar de depender de un servicio de traducción externo. Ese flujo puede encajar bien con wikis internos, documentos confidenciales, correos personales y sesiones de navegación privada."
         },
         {
           "q": "¿Qué idiomas son compatibles?",
@@ -1431,14 +1431,14 @@ window.OFFLINE_TRANSLATOR_I18N = {
       ]
     },
     "footer": {
-      "tagline": "Lo que ocurre en tu pantalla se queda en tu dispositivo.",
+      "tagline": "La traducción se procesa en Chrome en tu dispositivo.",
       "privacy": "Política de privacidad"
     }
   },
   "fr": {
     "meta": {
       "title": "offline.translator – Extension Chrome gratuite de traduction hors ligne pour n'importe quelle page web",
-      "description": "offline.translator traduit des pages web entières avec l'IA intégrée de Chrome, 100% sur l'appareil. Aucune donnée ne quitte votre navigateur. Plus de 40 langues, optimisation IA et cache intelligent. Gratuit."
+      "description": "offline.translator traduit des pages web entières dans Chrome avec l'IA embarquée sur l'appareil. La traduction reste dans le navigateur, avec plus de 40 langues, une optimisation IA et un cache intelligent."
     },
     "localeLabel": "Langue",
     "nav": {
@@ -1451,16 +1451,16 @@ window.OFFLINE_TRANSLATOR_I18N = {
     "hero": {
       "badge": "Gratuit · Chrome 138+",
       "title": "Traduisez n'importe quelle page web<br><span class=\"gradient-text\">sans que vos données quittent votre appareil</span>",
-      "sub": "La seule extension de traduction Chrome gratuite alimentée entièrement par une IA embarquée.<br>Aucun serveur. Aucun suivi. <strong>Ce qui se passe sur votre écran reste sur votre appareil.</strong>",
+      "sub": "Une extension Chrome gratuite de traduction conçue autour de l'IA sur l'appareil.<br>La traduction se fait dans le navigateur. <strong>Le texte de la page est traduit dans Chrome.</strong>",
       "primaryCta": "Installer l'extension — gratuit",
       "secondaryCta": "Voir en action",
-      "trust": "Aucun compte requis · Aucune collecte de données · Plus de 40 langues",
+      "trust": "Aucun compte requis · Traduction dans le navigateur · Plus de 40 langues",
       "statTranslated": "Traduit",
       "statDataSent": "Données envoyées"
     },
     "trust": {
-      "private": "100% privé — zéro transmission de données",
-      "free": "Gratuit à vie, sans compte",
+      "private": "Traduction sur l'appareil · Aucun serveur de traduction externe requis",
+      "free": "Gratuit, sans compte",
       "languages": "Plus de 40 langues prises en charge"
     },
     "features": {
@@ -1469,8 +1469,8 @@ window.OFFLINE_TRANSLATOR_I18N = {
       "sub": "Conçu pour les développeurs, les chercheurs et tous ceux qui lisent le web dans une seconde langue.",
       "cards": [
         {
-          "title": "Traduction 100% sur l'appareil",
-          "body": "Chaque phrase est traduite par la Translator API intégrée à Chrome, exécutée localement sur votre machine. Votre contenu ne touche jamais un serveur distant, ce qui en fait la seule extension de traduction Chrome réellement privée."
+          "title": "Traduction sur l'appareil",
+          "body": "Chaque phrase est traduite par la Translator API intégrée à Chrome, exécutée sur votre appareil. La traduction se fait dans le navigateur, ce qui aide à éviter d'envoyer le texte de la page vers un service de traduction externe."
         },
         {
           "title": "Suivi en temps réel",
@@ -1517,7 +1517,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
       "title": "Voyez offline.translator en action",
       "sub": "De vraies captures. De vraies pages. De vraies traductions — tout se fait sur l'appareil.",
       "captions": [
-        "<strong>Traduction complète à 100%</strong> — feuille de route développeur roadmap.sh traduite en chinois",
+        "<strong>Traduction de page complète</strong> — feuille de route développeur roadmap.sh traduite en chinois",
         "<strong>Suivi de progression en direct</strong> — blog GitHub en cours de traduction avec compteurs de segments",
         "<strong>Pages riches en médias</strong> — article de Gates Notes traduit de bout en bout",
         "<strong>Plus de 40 langues</strong> — listes de langues From et To entièrement personnalisables"
@@ -1547,7 +1547,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
     },
     "comparison": {
       "label": "Pourquoi offline.translator",
-      "title": "Le seul traducteur de navigateur qui n'envoie jamais rien à l'extérieur",
+      "title": "Une traduction dans le navigateur pensée pour la confidentialité sur l'appareil",
       "headers": [
         "Fonction",
         "offline.translator",
@@ -1556,7 +1556,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
       ],
       "rows": [
         [
-          "100% sur l'appareil",
+          "Traduction sur l'appareil",
           null,
           null,
           null
@@ -1586,7 +1586,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
           "Page complète seulement"
         ],
         [
-          "Gratuit à vie",
+          "Gratuit",
           null,
           "Freemium / API key",
           null
@@ -1607,11 +1607,11 @@ window.OFFLINE_TRANSLATOR_I18N = {
       "items": [
         {
           "q": "Que fait offline.translator ?",
-          "a": "offline.translator traduit des pages web entières directement dans votre navigateur Chrome à l'aide de la Translator API intégrée à Chrome. Il fonctionne à 100% sur votre appareil : aucun contenu de page n'est envoyé à un serveur externe. Ouvrez le panneau latéral, choisissez une langue cible et l'extension traduit progressivement le texte visible à mesure que vous faites défiler la page."
+          "a": "offline.translator traduit des pages web entières directement dans votre navigateur Chrome avec la Translator API intégrée à Chrome. La traduction est traitée dans Chrome sur votre appareil, au lieu de passer par un service de traduction externe. Ouvrez le panneau latéral, choisissez une langue cible, et l'extension traduit progressivement le texte visible pendant le défilement."
         },
         {
           "q": "offline.translator est-il gratuit ?",
-          "a": "Oui. offline.translator est entièrement gratuit. Il n'y a ni offre payante, ni abonnement, ni API key nécessaire."
+          "a": "Oui. offline.translator est actuellement gratuit à l'usage. À ce jour, il n'y a ni offre payante, ni abonnement, ni exigence d'API key."
         },
         {
           "q": "Quels navigateurs sont pris en charge ?",
@@ -1619,11 +1619,11 @@ window.OFFLINE_TRANSLATOR_I18N = {
         },
         {
           "q": "En quoi est-il différent de Google Translate ou d'autres traducteurs cloud ?",
-          "a": "Tous les autres outils de traduction de navigateur largement utilisés, y compris l'extension Google Translate et la traduction de page intégrée à Chrome, envoient le contenu de votre page à un serveur distant pour traitement. offline.translator est différent : il utilise le modèle d'IA embarqué de Chrome, donc votre texte n'est transmis nulle part. Il offre aussi un cache intelligent, une optimisation IA (styles Professional / Casual / Concise), une couche de glossaire personnalisée et des contrôles de viewport par page que les traducteurs cloud ne proposent pas."
+          "a": "De nombreux outils de traduction dans le navigateur envoient le contenu de la page à un service distant pour traitement. offline.translator traite la traduction dans Chrome avec l'IA sur l'appareil, tout en proposant un cache intelligent, une optimisation IA, une couche de glossaire personnalisée et des contrôles de viewport page par page."
         },
         {
           "q": "Est-il sûr pour les pages confidentielles ou privées ?",
-          "a": "Oui. Comme la traduction s'exécute entièrement sur votre machine locale, le contenu de votre page ne quitte jamais votre navigateur. Il peut être utilisé en toute sécurité sur des wikis internes, des documents confidentiels, des e-mails personnels et des sessions de navigation privée."
+          "a": "offline.translator est conçu pour traiter la traduction dans Chrome sur votre appareil plutôt que via un service de traduction externe. Cette approche peut bien convenir aux wikis internes, aux documents confidentiels, aux e-mails personnels et aux sessions de navigation privée."
         },
         {
           "q": "Quelles langues sont prises en charge ?",
@@ -1636,14 +1636,14 @@ window.OFFLINE_TRANSLATOR_I18N = {
       ]
     },
     "footer": {
-      "tagline": "Ce qui se passe sur votre écran reste sur votre appareil.",
+      "tagline": "La traduction se fait dans Chrome sur votre appareil.",
       "privacy": "Politique de confidentialité"
     }
   },
   "hi": {
     "meta": {
       "title": "offline.translator – किसी भी वेबपेज के लिए मुफ्त ऑफलाइन Chrome अनुवाद एक्सटेंशन",
-      "description": "offline.translator Chrome के बिल्ट-इन AI से पूरे वेबपेज का अनुवाद करता है, वह भी 100% डिवाइस पर। कोई भी डेटा आपके ब्राउज़र से बाहर नहीं जाता। 40+ भाषाएँ, AI ऑप्टिमाइज़ेशन और स्मार्ट कैशिंग के साथ। मुफ्त।"
+      "description": "offline.translator Chrome के on-device AI की मदद से पूरे वेबपेज का अनुवाद करता है। अनुवाद ब्राउज़र के भीतर होता है, और इसमें 40+ भाषाएँ, AI optimization और smart caching शामिल हैं।"
     },
     "localeLabel": "भाषा",
     "nav": {
@@ -1656,15 +1656,15 @@ window.OFFLINE_TRANSLATOR_I18N = {
     "hero": {
       "badge": "मुफ्त · Chrome 138+",
       "title": "किसी भी वेबपेज का अनुवाद करें<br><span class=\"gradient-text\">बिना डेटा को डिवाइस से बाहर भेजे</span>",
-      "sub": "पूरी तरह ऑन-डिवाइस AI पर चलने वाला एकमात्र मुफ्त Chrome अनुवाद एक्सटेंशन।<br>न सर्वर। न ट्रैकिंग। <strong>आपकी स्क्रीन पर जो होता है, वह आपके डिवाइस पर ही रहता है।</strong>",
+      "sub": "on-device AI पर आधारित एक मुफ्त Chrome translation extension।<br>अनुवाद ब्राउज़र के भीतर होता है। <strong>पेज का टेक्स्ट Chrome के भीतर ही अनुवादित होता है।</strong>",
       "primaryCta": "एक्सटेंशन इंस्टॉल करें — बिल्कुल मुफ्त",
       "secondaryCta": "इसे काम करते देखें",
-      "trust": "कोई खाता नहीं · कोई डेटा संग्रह नहीं · 40+ भाषाएँ",
+      "trust": "कोई अकाउंट नहीं · ब्राउज़र के भीतर अनुवाद · 40+ भाषाएँ",
       "statTranslated": "अनुवादित",
       "statDataSent": "भेजा गया डेटा"
     },
     "trust": {
-      "private": "100% निजी — शून्य डेटा ट्रांसमिशन",
+      "private": "On-device translation · बाहरी translation server की जरूरत नहीं",
       "free": "हमेशा मुफ्त, बिना खाते के",
       "languages": "40+ भाषाओं का समर्थन"
     },
@@ -1674,8 +1674,8 @@ window.OFFLINE_TRANSLATOR_I18N = {
       "sub": "डेवलपर्स, शोधकर्ताओं और उन सभी के लिए बनाया गया है जो वेब को दूसरी भाषा में पढ़ते हैं।",
       "cards": [
         {
-          "title": "100% ऑन-डिवाइस अनुवाद",
-          "body": "हर वाक्य का अनुवाद Chrome के बिल्ट-इन Translator API से आपके सिस्टम पर लोकली होता है। आपका कंटेंट कभी किसी रिमोट सर्वर तक नहीं पहुँचता, इसलिए यह सचमुच निजी Chrome अनुवाद एक्सटेंशन है।"
+          "title": "डिवाइस पर अनुवाद",
+          "body": "हर वाक्य Chrome की built-in Translator API से आपके डिवाइस पर अनुवादित होता है। अनुवाद ब्राउज़र के भीतर होता है, जिससे पेज का टेक्स्ट किसी बाहरी translation service तक भेजने की जरूरत कम होती है।"
         },
         {
           "title": "रियल-टाइम प्रोग्रेस ट्रैकिंग",
@@ -1722,7 +1722,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
       "title": "offline.translator को काम करते देखें",
       "sub": "असली स्क्रीनशॉट। असली पेज। असला अनुवाद। सब कुछ डिवाइस पर।",
       "captions": [
-        "<strong>100% फुल-पेज अनुवाद</strong> — roadmap.sh डेवलपर रोडमैप चीनी में अनुवादित",
+        "<strong>पूरे पेज का अनुवाद</strong> — roadmap.sh developer roadmap का चीनी में अनुवाद",
         "<strong>लाइव प्रोग्रेस ट्रैकिंग</strong> — GitHub ब्लॉग अनुवाद के बीच में, सेगमेंट काउंट के साथ",
         "<strong>रिच-मीडिया पेज</strong> — Gates Notes लेख का पूरा अनुवाद",
         "<strong>40+ भाषाएँ</strong> — From और To भाषा सूचियाँ पूरी तरह अनुकूलन योग्य"
@@ -1752,7 +1752,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
     },
     "comparison": {
       "label": "offline.translator क्यों",
-      "title": "एकमात्र ब्राउज़र अनुवादक जो कभी कुछ बाहर नहीं भेजता",
+      "title": "on-device privacy को ध्यान में रखकर बनाया गया browser translator",
       "headers": [
         "फ़ीचर",
         "offline.translator",
@@ -1761,7 +1761,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
       ],
       "rows": [
         [
-          "100% ऑन-डिवाइस",
+          "डिवाइस पर अनुवाद",
           null,
           null,
           null
@@ -1812,11 +1812,11 @@ window.OFFLINE_TRANSLATOR_I18N = {
       "items": [
         {
           "q": "offline.translator क्या करता है?",
-          "a": "offline.translator आपके Chrome ब्राउज़र में Chrome के बिल्ट-इन Translator API का उपयोग करके पूरे वेबपेज का सीधे अनुवाद करता है। यह 100% आपके डिवाइस पर चलता है — पेज की कोई भी सामग्री किसी बाहरी सर्वर पर नहीं भेजी जाती। साइड पैनल खोलें, लक्ष्य भाषा चुनें, और एक्सटेंशन स्क्रॉल करते समय दिख रहे टेक्स्ट का धीरे-धीरे अनुवाद करता जाएगा।"
+          "a": "offline.translator आपके Chrome ब्राउज़र में Chrome की built-in Translator API का उपयोग करके पूरे वेबपेज का अनुवाद करता है। अनुवाद आपके डिवाइस पर Chrome के भीतर प्रोसेस होता है, किसी बाहरी translation service के ज़रिए नहीं। साइड पैनल खोलें, target language चुनें, और एक्सटेंशन स्क्रॉल करते समय दिखने वाले टेक्स्ट का क्रमिक अनुवाद करता रहेगा।"
         },
         {
           "q": "क्या offline.translator मुफ्त है?",
-          "a": "हाँ। offline.translator पूरी तरह मुफ्त है। इसमें कोई पेड टियर, सब्सक्रिप्शन या API key की ज़रूरत नहीं है।"
+          "a": "हाँ। offline.translator अभी free to use है। फिलहाल इसमें कोई paid tier, subscription या API key requirement नहीं है।"
         },
         {
           "q": "कौन-से ब्राउज़र समर्थित हैं?",
@@ -1824,11 +1824,11 @@ window.OFFLINE_TRANSLATOR_I18N = {
         },
         {
           "q": "यह Google Translate या दूसरे क्लाउड अनुवादकों से कैसे अलग है?",
-          "a": "दूसरे लोकप्रिय ब्राउज़र अनुवाद टूल, जिनमें Google Translate एक्सटेंशन और Chrome का बिल्ट-इन पेज अनुवाद शामिल है, आपकी पेज सामग्री को प्रोसेसिंग के लिए किसी रिमोट सर्वर पर भेजते हैं। offline.translator अलग है: यह Chrome के ऑन-डिवाइस AI मॉडल का उपयोग करता है, इसलिए आपका टेक्स्ट कहीं नहीं भेजा जाता। साथ ही, इसमें स्मार्ट कैशिंग, AI ऑप्टिमाइज़ेशन (Professional / Casual / Concise स्टाइल), कस्टम ग्लॉसरी लेयर और per-page viewport controls भी हैं, जो क्लाउड अनुवादक नहीं देते।"
+          "a": "कई browser translation tools पेज कंटेंट को प्रोसेसिंग के लिए किसी remote service तक भेजते हैं। offline.translator Chrome के भीतर on-device AI से translation करता है, और साथ में smart cache, AI optimization, custom glossary layer और per-page viewport controls भी देता है।"
         },
         {
           "q": "क्या इसे गोपनीय या निजी पेजों पर सुरक्षित रूप से उपयोग किया जा सकता है?",
-          "a": "हाँ। क्योंकि अनुवाद पूरी तरह आपकी लोकल मशीन पर चलता है, आपकी पेज सामग्री कभी भी ब्राउज़र से बाहर नहीं जाती। इसे कंपनी के आंतरिक wiki, गोपनीय दस्तावेज़, निजी ईमेल और private browsing sessions में सुरक्षित रूप से इस्तेमाल किया जा सकता है।"
+          "a": "offline.translator को इस तरह बनाया गया है कि translation आपके डिवाइस पर Chrome के भीतर हो, न कि किसी बाहरी translation service के ज़रिए। यह तरीका internal wiki, confidential documents, personal email और private browsing sessions के लिए बेहतर fit हो सकता है।"
         },
         {
           "q": "कौन-सी भाषाएँ समर्थित हैं?",
@@ -1841,14 +1841,14 @@ window.OFFLINE_TRANSLATOR_I18N = {
       ]
     },
     "footer": {
-      "tagline": "आपकी स्क्रीन पर जो होता है, वह आपके डिवाइस पर ही रहता है।",
+      "tagline": "अनुवाद आपके डिवाइस पर Chrome के भीतर होता है।",
       "privacy": "गोपनीयता नीति"
     }
   },
   "it": {
     "meta": {
       "title": "offline.translator – Estensione Chrome gratuita di traduzione offline per qualsiasi pagina web",
-      "description": "offline.translator traduce intere pagine web con l'IA integrata di Chrome, al 100% sul dispositivo. Nessun dato lascia il browser. Supporta oltre 40 lingue, ottimizzazione IA e cache intelligente. Gratis."
+      "description": "offline.translator traduce intere pagine web in Chrome usando l'IA sul dispositivo. La traduzione resta nel browser, con oltre 40 lingue, ottimizzazione AI e cache intelligente."
     },
     "localeLabel": "Lingua",
     "nav": {
@@ -1861,15 +1861,15 @@ window.OFFLINE_TRANSLATOR_I18N = {
     "hero": {
       "badge": "Gratis · Chrome 138+",
       "title": "Traduci qualsiasi pagina web<br><span class=\"gradient-text\">senza far uscire i dati dal tuo dispositivo</span>",
-      "sub": "L'unica estensione di traduzione gratuita per Chrome alimentata interamente da IA on-device.<br>Nessun server. Nessun tracciamento. <strong>Ciò che succede sul tuo schermo resta sul tuo dispositivo.</strong>",
+      "sub": "Un'estensione gratuita di traduzione per Chrome basata sull'IA sul dispositivo.<br>La traduzione avviene nel browser. <strong>Il testo della pagina viene tradotto all'interno di Chrome.</strong>",
       "primaryCta": "Installa l'estensione — gratis",
       "secondaryCta": "Vedila in azione",
-      "trust": "Nessun account · Nessuna raccolta dati · Oltre 40 lingue",
+      "trust": "Nessun account · Traduzione nel browser · Oltre 40 lingue",
       "statTranslated": "Tradotto",
       "statDataSent": "Dati inviati"
     },
     "trust": {
-      "private": "100% privato — zero trasmissione dati",
+      "private": "Traduzione sul dispositivo · Nessun server di traduzione esterno richiesto",
       "free": "Gratis per sempre, senza account",
       "languages": "Supporta oltre 40 lingue"
     },
@@ -1879,8 +1879,8 @@ window.OFFLINE_TRANSLATOR_I18N = {
       "sub": "Pensato per sviluppatori, ricercatori e per chiunque legga il web in una seconda lingua.",
       "cards": [
         {
-          "title": "Traduzione 100% on-device",
-          "body": "Ogni frase viene tradotta dalla Translator API integrata di Chrome, in esecuzione locale sul tuo computer. I tuoi contenuti non toccano mai un server remoto: per questo è l'unica estensione di traduzione per Chrome davvero privata."
+          "title": "Traduzione sul dispositivo",
+          "body": "Ogni frase viene tradotta tramite la Translator API integrata di Chrome sul tuo dispositivo. La traduzione avviene nel browser e aiuta a evitare di inoltrare il testo della pagina a un servizio di traduzione esterno."
         },
         {
           "title": "Monitoraggio in tempo reale",
@@ -1927,7 +1927,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
       "title": "Guarda offline.translator in azione",
       "sub": "Screenshot reali. Pagine reali. Traduzioni reali. Tutto sul dispositivo.",
       "captions": [
-        "<strong>Traduzione completa al 100%</strong> — roadmap per sviluppatori di roadmap.sh tradotta in cinese",
+        "<strong>Traduzione dell'intera pagina</strong> — roadmap sviluppatore di roadmap.sh tradotta in cinese",
         "<strong>Avanzamento in tempo reale</strong> — blog GitHub a metà traduzione con conteggio dei segmenti",
         "<strong>Pagine ricche di contenuti multimediali</strong> — articolo di Gates Notes tradotto da cima a fondo",
         "<strong>Oltre 40 lingue</strong> — liste delle lingue From e To completamente personalizzabili"
@@ -1957,7 +1957,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
     },
     "comparison": {
       "label": "Perché offline.translator",
-      "title": "L'unico traduttore per browser che non manda mai nulla all'esterno",
+      "title": "Traduzione nel browser pensata per la privacy sul dispositivo",
       "headers": [
         "Funzione",
         "offline.translator",
@@ -1966,7 +1966,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
       ],
       "rows": [
         [
-          "100% sul dispositivo",
+          "Traduzione sul dispositivo",
           null,
           null,
           null
@@ -2017,11 +2017,11 @@ window.OFFLINE_TRANSLATOR_I18N = {
       "items": [
         {
           "q": "Cosa fa offline.translator?",
-          "a": "offline.translator traduce intere pagine web direttamente nel tuo browser Chrome usando la Translator API integrata di Chrome. Funziona al 100% sul tuo dispositivo: nessun contenuto della pagina viene mai inviato a un server esterno. Apri il pannello laterale, scegli una lingua di destinazione e l'estensione tradurrà progressivamente il testo visibile mentre scorri."
+          "a": "offline.translator traduce intere pagine web direttamente nel tuo browser Chrome usando la Translator API integrata di Chrome. La traduzione viene elaborata in Chrome sul tuo dispositivo, invece di passare da un servizio di traduzione esterno. Apri il pannello laterale, scegli una lingua di destinazione e l'estensione tradurrà progressivamente il testo visibile mentre scorri."
         },
         {
           "q": "offline.translator è gratis?",
-          "a": "Sì. offline.translator è completamente gratuito. Non ci sono piani a pagamento, né abbonamenti, né API key richieste."
+          "a": "Sì. offline.translator è attualmente gratuito da usare. Al momento non ci sono piani a pagamento, abbonamenti o requisiti di API key."
         },
         {
           "q": "Quali browser sono supportati?",
@@ -2029,11 +2029,11 @@ window.OFFLINE_TRANSLATOR_I18N = {
         },
         {
           "q": "In cosa è diverso da Google Translate o da altri traduttori cloud?",
-          "a": "Tutti gli altri strumenti di traduzione del browser più usati, inclusa l'estensione Google Translate e la traduzione integrata delle pagine di Chrome, inviano il contenuto della pagina a un server remoto per l'elaborazione. offline.translator è diverso: usa il modello IA on-device di Chrome, quindi il tuo testo non viene trasmesso da nessuna parte. Inoltre offre cache intelligente, ottimizzazione IA (stili Professional / Casual / Concise), un livello glossario personalizzato e controlli di viewport per pagina che i traduttori cloud non offrono."
+          "a": "Molti strumenti di traduzione nel browser inviano il contenuto della pagina a un servizio remoto per l'elaborazione. offline.translator invece gestisce la traduzione in Chrome con IA sul dispositivo e include anche cache intelligente, ottimizzazione AI, un livello di glossario personalizzato e controlli viewport per pagina."
         },
         {
           "q": "È sicuro usarlo su pagine riservate o private?",
-          "a": "Sì. Poiché la traduzione viene eseguita interamente sulla tua macchina locale, il contenuto della pagina non lascia mai il browser. È sicuro da usare su wiki aziendali interni, documenti riservati, email personali e sessioni di navigazione privata."
+          "a": "offline.translator è progettato per elaborare la traduzione in Chrome sul tuo dispositivo, invece di appoggiarsi a un servizio di traduzione esterno. Questo flusso può adattarsi bene a wiki interne, documenti riservati, email personali e sessioni di navigazione privata."
         },
         {
           "q": "Quali lingue sono supportate?",
@@ -2046,14 +2046,14 @@ window.OFFLINE_TRANSLATOR_I18N = {
       ]
     },
     "footer": {
-      "tagline": "Ciò che succede sul tuo schermo resta sul tuo dispositivo.",
+      "tagline": "La traduzione avviene in Chrome sul tuo dispositivo.",
       "privacy": "Informativa sulla privacy"
     }
   },
   "ko": {
     "meta": {
       "title": "offline.translator – 모든 웹페이지를 위한 무료 오프라인 Chrome 번역 확장 프로그램",
-      "description": "offline.translator는 Chrome 내장 AI로 전체 웹페이지를 번역하며, 100% 기기에서만 실행됩니다. 어떤 데이터도 브라우저 밖으로 나가지 않습니다. 40개 이상 언어, AI 최적화, 스마트 캐시를 지원합니다. 무료입니다."
+      "description": "offline.translator는 Chrome의 온디바이스 AI로 전체 웹페이지를 번역합니다. 번역은 브라우저 안에서 처리되며, 40개 이상의 언어와 AI 최적화, 스마트 캐시를 지원합니다."
     },
     "localeLabel": "언어",
     "nav": {
@@ -2066,15 +2066,15 @@ window.OFFLINE_TRANSLATOR_I18N = {
     "hero": {
       "badge": "무료 · Chrome 138+",
       "title": "모든 웹페이지를 번역하세요<br><span class=\"gradient-text\">데이터를 기기 밖으로 보내지 않고</span>",
-      "sub": "완전히 온디바이스 AI로 구동되는 유일한 무료 Chrome 번역 확장 프로그램입니다.<br>서버 없음. 추적 없음. <strong>화면에서 일어나는 일은 기기 안에만 남습니다.</strong>",
+      "sub": "온디바이스 AI를 기반으로 한 무료 Chrome 번역 확장 프로그램입니다.<br>번역은 브라우저 안에서 처리됩니다. <strong>페이지 텍스트는 Chrome 안에서 번역됩니다.</strong>",
       "primaryCta": "확장 프로그램 설치 — 무료",
       "secondaryCta": "실제 동작 보기",
-      "trust": "계정 불필요 · 데이터 수집 없음 · 40개 이상 언어",
+      "trust": "계정 불필요 · 브라우저 내 번역 · 40개 이상의 언어",
       "statTranslated": "번역됨",
       "statDataSent": "전송된 데이터"
     },
     "trust": {
-      "private": "100% 비공개 — 데이터 전송 0",
+      "private": "온디바이스 번역 · 외부 번역 서버 불필요",
       "free": "영원히 무료, 계정 불필요",
       "languages": "40개 이상 언어 지원"
     },
@@ -2084,8 +2084,8 @@ window.OFFLINE_TRANSLATOR_I18N = {
       "sub": "개발자, 연구자, 그리고 웹을 다른 언어로 읽는 모든 사람을 위해 만들었습니다.",
       "cards": [
         {
-          "title": "100% 온디바이스 번역",
-          "body": "모든 문장은 Chrome 내장 Translator API가 기기에서 로컬로 번역합니다. 콘텐츠는 어떤 원격 서버에도 닿지 않으므로, 진정으로 프라이빗한 유일한 Chrome 번역 확장 프로그램입니다."
+          "title": "온디바이스 번역",
+          "body": "모든 문장은 Chrome 내장 Translator API로 기기에서 번역됩니다. 번역은 브라우저 안에서 처리되며, 페이지 텍스트를 외부 번역 서비스로 넘기지 않도록 돕는 방식입니다."
         },
         {
           "title": "실시간 진행률 추적",
@@ -2132,7 +2132,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
       "title": "offline.translator의 실제 동작 보기",
       "sub": "실제 스크린샷. 실제 페이지. 실제 번역. 모두 기기에서 처리됩니다.",
       "captions": [
-        "<strong>100% 전체 페이지 번역</strong> — roadmap.sh 개발자 로드맵을 중국어로 번역",
+        "<strong>전체 페이지 번역</strong> — roadmap.sh 개발자 로드맵을 중국어로 번역",
         "<strong>실시간 진행률 추적</strong> — 세그먼트 수와 함께 번역 중인 GitHub 블로그",
         "<strong>리치 미디어 페이지</strong> — Gates Notes 기사 콘텐츠를 끝까지 번역",
         "<strong>40개 이상 언어</strong> — From 및 To 언어 목록을 완전히 사용자 지정 가능"
@@ -2162,7 +2162,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
     },
     "comparison": {
       "label": "왜 offline.translator인가",
-      "title": "절대 외부로 보내지 않는 유일한 브라우저 번역기",
+      "title": "온디바이스 프라이버시를 고려한 브라우저 번역",
       "headers": [
         "기능",
         "offline.translator",
@@ -2171,7 +2171,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
       ],
       "rows": [
         [
-          "100% 온디바이스",
+          "온디바이스 번역",
           null,
           null,
           null
@@ -2222,11 +2222,11 @@ window.OFFLINE_TRANSLATOR_I18N = {
       "items": [
         {
           "q": "offline.translator는 무엇을 하나요?",
-          "a": "offline.translator는 Chrome 내장 Translator API를 사용해 Chrome 브라우저 안에서 전체 웹페이지를 직접 번역합니다. 100% 기기에서 실행되므로 페이지 콘텐츠가 외부 서버로 전송되지 않습니다. 사이드 패널을 열고 대상 언어를 고르면, 확장 프로그램이 스크롤에 맞춰 보이는 텍스트를 점진적으로 번역합니다."
+          "a": "offline.translator는 Chrome 내장 Translator API를 사용해 Chrome 브라우저 안에서 전체 웹페이지를 번역합니다. 번역은 외부 번역 서비스를 거치지 않고 기기 내 Chrome에서 처리됩니다. 사이드 패널을 열고 대상 언어를 고르면, 스크롤할 때 보이는 텍스트가 점진적으로 번역됩니다."
         },
         {
           "q": "offline.translator는 무료인가요?",
-          "a": "네. offline.translator는 완전히 무료입니다. 유료 플랜도, 구독도, API key도 필요하지 않습니다."
+          "a": "예. offline.translator는 현재 무료로 사용할 수 있습니다. 지금은 유료 요금제, 구독, API key 요구사항이 없습니다."
         },
         {
           "q": "어떤 브라우저를 지원하나요?",
@@ -2234,11 +2234,11 @@ window.OFFLINE_TRANSLATOR_I18N = {
         },
         {
           "q": "Google Translate나 다른 클라우드 번역기와 무엇이 다른가요?",
-          "a": "Google Translate 확장 프로그램과 Chrome 기본 페이지 번역을 포함한 다른 널리 쓰이는 브라우저 번역 도구는 페이지 콘텐츠를 처리하기 위해 원격 서버로 전송합니다. offline.translator는 다릅니다. Chrome의 온디바이스 AI 모델을 사용하므로 텍스트가 어디에도 전송되지 않습니다. 또한 스마트 캐시, AI 최적화(Professional / Casual / Concise 스타일), 사용자 정의 용어집 레이어, 페이지별 viewport 제어 기능까지 제공하며, 이는 클라우드 번역기가 제공하지 않는 기능입니다."
+          "a": "많은 브라우저 번역 도구는 페이지 내용을 원격 서비스로 보내 처리합니다. offline.translator는 Chrome 안에서 온디바이스 AI로 번역을 처리하며, 스마트 캐시, AI 최적화, 사용자 정의 용어집 레이어, 페이지별 뷰포트 제어도 함께 제공합니다."
         },
         {
           "q": "기밀 페이지나 개인 페이지에서도 안전한가요?",
-          "a": "네. 번역이 전적으로 로컬 기기에서 실행되므로 페이지 콘텐츠는 브라우저를 절대 벗어나지 않습니다. 사내 위키, 기밀 문서, 개인 이메일, 시크릿 브라우징 세션에서도 안전하게 사용할 수 있습니다."
+          "a": "offline.translator는 외부 번역 서비스 대신 기기 내 Chrome에서 번역을 처리하도록 설계되어 있습니다. 이런 방식은 사내 위키, 기밀 문서, 개인 이메일, 시크릿 브라우징 세션에 더 잘 맞을 수 있습니다."
         },
         {
           "q": "어떤 언어를 지원하나요?",
@@ -2251,14 +2251,14 @@ window.OFFLINE_TRANSLATOR_I18N = {
       ]
     },
     "footer": {
-      "tagline": "화면에서 일어나는 일은 기기 안에만 남습니다.",
+      "tagline": "번역은 기기 안의 Chrome에서 처리됩니다.",
       "privacy": "개인정보 처리방침"
     }
   },
   "pt": {
     "meta": {
       "title": "offline.translator – Extensão gratuita de tradução offline para Chrome em qualquer página web",
-      "description": "offline.translator traduz páginas web inteiras com a IA integrada do Chrome, 100% no dispositivo. Nenhum dado sai do seu navegador. Suporta 40+ idiomas, otimização por IA e cache inteligente. Grátis."
+      "description": "offline.translator traduz páginas web inteiras no Chrome com IA no dispositivo. A tradução acontece no navegador, com 40+ idiomas, otimização por IA e cache inteligente."
     },
     "localeLabel": "Idioma",
     "nav": {
@@ -2271,16 +2271,16 @@ window.OFFLINE_TRANSLATOR_I18N = {
     "hero": {
       "badge": "Grátis · Chrome 138+",
       "title": "Traduza qualquer página web<br><span class=\"gradient-text\">sem que os dados saiam do seu dispositivo</span>",
-      "sub": "A única extensão gratuita de tradução para Chrome totalmente alimentada por IA no dispositivo.<br>Sem servidores. Sem rastreamento. <strong>O que acontece no seu ecrã fica no seu dispositivo.</strong>",
+      "sub": "Uma extensão gratuita de tradução para Chrome baseada em IA no dispositivo.<br>A tradução acontece no navegador. <strong>O texto da página é traduzido dentro do Chrome.</strong>",
       "primaryCta": "Instalar extensão — grátis",
       "secondaryCta": "Ver em ação",
-      "trust": "Sem conta · Sem recolha de dados · 40+ idiomas",
+      "trust": "Sem conta · Tradução no navegador · 40+ idiomas",
       "statTranslated": "Traduzido",
       "statDataSent": "Dados enviados"
     },
     "trust": {
-      "private": "100% privado — zero transmissão de dados",
-      "free": "Grátis para sempre, sem conta",
+      "private": "Tradução no dispositivo · Sem servidor de tradução externo",
+      "free": "Grátis, sem conta",
       "languages": "40+ idiomas suportados"
     },
     "features": {
@@ -2289,8 +2289,8 @@ window.OFFLINE_TRANSLATOR_I18N = {
       "sub": "Feito para programadores, investigadores e qualquer pessoa que leia a web numa segunda língua.",
       "cards": [
         {
-          "title": "Tradução 100% no dispositivo",
-          "body": "Cada frase é traduzida pela Translator API integrada do Chrome, a correr localmente na sua máquina. O seu conteúdo nunca toca num servidor remoto, tornando-a a única extensão de tradução do Chrome verdadeiramente privada."
+          "title": "Tradução no dispositivo",
+          "body": "Cada frase é traduzida pela Translator API integrada do Chrome no seu dispositivo. A tradução acontece no navegador, ajudando a evitar que o texto da página seja encaminhado para um serviço de tradução externo."
         },
         {
           "title": "Acompanhamento em tempo real",
@@ -2337,7 +2337,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
       "title": "Veja o offline.translator em ação",
       "sub": "Capturas reais. Páginas reais. Traduções reais — tudo no dispositivo.",
       "captions": [
-        "<strong>Tradução completa a 100%</strong> — roteiro de programador do roadmap.sh traduzido para chinês",
+        "<strong>Tradução de página completa</strong> — roteiro de programador do roadmap.sh traduzido para chinês",
         "<strong>Progresso em direto</strong> — blog do GitHub a meio da tradução com contagem por segmentos",
         "<strong>Páginas com multimédia</strong> — artigo do Gates Notes traduzido de ponta a ponta",
         "<strong>40+ idiomas</strong> — listas de idiomas From e To totalmente personalizáveis"
@@ -2367,7 +2367,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
     },
     "comparison": {
       "label": "Porque offline.translator",
-      "title": "O único tradutor de navegador que nunca envia nada para fora",
+      "title": "Tradução no navegador pensada para a privacidade no dispositivo",
       "headers": [
         "Funcionalidade",
         "offline.translator",
@@ -2376,7 +2376,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
       ],
       "rows": [
         [
-          "100% no dispositivo",
+          "Tradução no dispositivo",
           null,
           null,
           null
@@ -2406,7 +2406,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
           "Apenas página completa"
         ],
         [
-          "Grátis para sempre",
+          "Grátis",
           null,
           "Freemium / API key",
           null
@@ -2427,11 +2427,11 @@ window.OFFLINE_TRANSLATOR_I18N = {
       "items": [
         {
           "q": "O que faz o offline.translator?",
-          "a": "O offline.translator traduz páginas web inteiras diretamente no seu navegador Chrome usando a Translator API integrada do Chrome. Funciona 100% no seu dispositivo — nenhum conteúdo da página é enviado para um servidor externo. Abra o painel lateral, escolha um idioma de destino e a extensão traduz progressivamente o texto visível à medida que faz scroll."
+          "a": "O offline.translator traduz páginas web inteiras diretamente no seu navegador Chrome usando a Translator API integrada do Chrome. A tradução é processada no Chrome no seu dispositivo, em vez de passar por um serviço de tradução externo. Abra o painel lateral, escolha um idioma de destino e a extensão traduz progressivamente o texto visível à medida que faz scroll."
         },
         {
           "q": "O offline.translator é grátis?",
-          "a": "Sim. O offline.translator é totalmente grátis. Não existem níveis pagos, subscrição nem API key necessária."
+          "a": "Sim. O offline.translator pode ser usado gratuitamente neste momento. Atualmente não existem planos pagos, subscrições nem requisitos de API key."
         },
         {
           "q": "Que navegadores são suportados?",
@@ -2439,11 +2439,11 @@ window.OFFLINE_TRANSLATOR_I18N = {
         },
         {
           "q": "Em que difere do Google Translate ou de outros tradutores na cloud?",
-          "a": "Todas as outras ferramentas populares de tradução no navegador — incluindo a extensão Google Translate e a tradução de páginas integrada do Chrome — enviam o conteúdo da página para um servidor remoto para processamento. O offline.translator é diferente: usa o modelo de IA no dispositivo do Chrome, por isso o seu texto não é transmitido para lado nenhum. Além disso, oferece cache inteligente, otimização por IA (estilos Professional / Casual / Concise), uma camada de glossário personalizada e controlos de viewport por página que os tradutores na cloud não oferecem."
+          "a": "Muitas ferramentas de tradução no navegador enviam o conteúdo da página para um serviço remoto para processamento. O offline.translator processa a tradução no Chrome com IA no dispositivo e inclui cache inteligente, otimização por IA, uma camada de glossário personalizada e controlos de viewport por página."
         },
         {
           "q": "É seguro usar em páginas confidenciais ou privadas?",
-          "a": "Sim. Como a tradução corre inteiramente na sua máquina local, o conteúdo da página nunca sai do navegador. É seguro para wikis internos da empresa, documentos confidenciais, emails pessoais e sessões de navegação privada."
+          "a": "O offline.translator foi concebido para processar a tradução no Chrome no seu dispositivo, em vez de depender de um serviço de tradução externo. Este fluxo pode adequar-se bem a wikis internas, documentos confidenciais, e-mails pessoais e sessões de navegação privada."
         },
         {
           "q": "Que idiomas são suportados?",
@@ -2456,14 +2456,14 @@ window.OFFLINE_TRANSLATOR_I18N = {
       ]
     },
     "footer": {
-      "tagline": "O que acontece no seu ecrã fica no seu dispositivo.",
+      "tagline": "A tradução acontece no Chrome no seu dispositivo.",
       "privacy": "Política de Privacidade"
     }
   },
   "pt-BR": {
     "meta": {
       "title": "offline.translator – Extensão gratuita de tradução offline para Chrome em qualquer página da web",
-      "description": "offline.translator traduz páginas da web inteiras com a IA integrada do Chrome, 100% no dispositivo. Nenhum dado sai do seu navegador. Suporta 40+ idiomas, otimização por IA e cache inteligente. Grátis."
+      "description": "offline.translator traduz páginas web inteiras no Chrome com IA no dispositivo. A tradução acontece no navegador, com 40+ idiomas, otimização por IA e cache inteligente."
     },
     "localeLabel": "Idioma",
     "nav": {
@@ -2476,16 +2476,16 @@ window.OFFLINE_TRANSLATOR_I18N = {
     "hero": {
       "badge": "Grátis · Chrome 138+",
       "title": "Traduza qualquer página da web<br><span class=\"gradient-text\">sem que seus dados saiam do dispositivo</span>",
-      "sub": "A única extensão gratuita de tradução para Chrome movida totalmente por IA no dispositivo.<br>Sem servidores. Sem rastreamento. <strong>O que acontece na sua tela fica no seu dispositivo.</strong>",
+      "sub": "Uma extensão gratuita de tradução para Chrome baseada em IA no dispositivo.<br>A tradução acontece no navegador. <strong>O texto da página é traduzido dentro do Chrome.</strong>",
       "primaryCta": "Instalar extensão — é grátis",
       "secondaryCta": "Ver em ação",
-      "trust": "Sem conta · Sem coleta de dados · 40+ idiomas",
+      "trust": "Sem conta · Tradução no navegador · 40+ idiomas",
       "statTranslated": "Traduzido",
       "statDataSent": "Dados enviados"
     },
     "trust": {
-      "private": "100% privado — zero transmissão de dados",
-      "free": "Grátis para sempre, sem conta",
+      "private": "Tradução no dispositivo · Sem servidor de tradução externo",
+      "free": "Grátis, sem conta",
       "languages": "40+ idiomas suportados"
     },
     "features": {
@@ -2494,8 +2494,8 @@ window.OFFLINE_TRANSLATOR_I18N = {
       "sub": "Feito para desenvolvedores, pesquisadores e qualquer pessoa que leia a web em um segundo idioma.",
       "cards": [
         {
-          "title": "Tradução 100% no dispositivo",
-          "body": "Cada frase é traduzida pela Translator API integrada do Chrome, rodando localmente na sua máquina. Seu conteúdo nunca toca um servidor remoto, o que faz dela a única extensão de tradução do Chrome realmente privada."
+          "title": "Tradução no dispositivo",
+          "body": "Cada frase é traduzida pela Translator API integrada do Chrome no seu dispositivo. A tradução acontece no navegador, ajudando a evitar que o texto da página seja enviado para um serviço de tradução externo."
         },
         {
           "title": "Acompanhamento em tempo real",
@@ -2542,7 +2542,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
       "title": "Veja o offline.translator em ação",
       "sub": "Capturas reais. Páginas reais. Traduções reais — tudo no dispositivo.",
       "captions": [
-        "<strong>Tradução completa de página</strong> — roadmap de desenvolvedor do roadmap.sh traduzido para chinês",
+        "<strong>Tradução de página inteira</strong> — roadmap de desenvolvedor do roadmap.sh traduzido para chinês",
         "<strong>Progresso ao vivo</strong> — blog do GitHub no meio da tradução com contagem por segmentos",
         "<strong>Páginas ricas em mídia</strong> — artigo do Gates Notes traduzido de ponta a ponta",
         "<strong>40+ idiomas</strong> — listas de idiomas From e To totalmente personalizáveis"
@@ -2572,7 +2572,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
     },
     "comparison": {
       "label": "Por que offline.translator",
-      "title": "O único tradutor de navegador que nunca envia nada para fora",
+      "title": "Tradução no navegador pensada para a privacidade no dispositivo",
       "headers": [
         "Recurso",
         "offline.translator",
@@ -2581,7 +2581,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
       ],
       "rows": [
         [
-          "100% no dispositivo",
+          "Tradução no dispositivo",
           null,
           null,
           null
@@ -2611,7 +2611,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
           "Só página inteira"
         ],
         [
-          "Grátis para sempre",
+          "Grátis",
           null,
           "Freemium / API key",
           null
@@ -2632,11 +2632,11 @@ window.OFFLINE_TRANSLATOR_I18N = {
       "items": [
         {
           "q": "O que o offline.translator faz?",
-          "a": "O offline.translator traduz páginas da web inteiras diretamente no seu navegador Chrome usando a Translator API integrada do Chrome. Ele roda 100% no seu dispositivo — nenhum conteúdo da página é enviado para um servidor externo. Abra o painel lateral, escolha um idioma de destino e a extensão traduzirá progressivamente o texto visível conforme você rola a página."
+          "a": "O offline.translator traduz páginas da web inteiras diretamente no navegador Chrome usando a Translator API integrada do Chrome. A tradução é processada no Chrome no seu dispositivo, em vez de passar por um serviço de tradução externo. Abra o painel lateral, escolha um idioma de destino e a extensão traduz gradualmente o texto visível enquanto você rola a página."
         },
         {
           "q": "O offline.translator é grátis?",
-          "a": "Sim. O offline.translator é totalmente grátis. Não há níveis pagos, assinatura nem API key necessária."
+          "a": "Sim. O offline.translator pode ser usado gratuitamente neste momento. Atualmente não existem planos pagos, assinaturas nem requisitos de API key."
         },
         {
           "q": "Quais navegadores são compatíveis?",
@@ -2644,11 +2644,11 @@ window.OFFLINE_TRANSLATOR_I18N = {
         },
         {
           "q": "Como ele se diferencia do Google Translate ou de outros tradutores em nuvem?",
-          "a": "Todas as outras ferramentas populares de tradução no navegador — incluindo a extensão Google Translate e a tradução de páginas integrada do Chrome — enviam o conteúdo da página para um servidor remoto para processamento. O offline.translator é diferente: ele usa o modelo de IA no dispositivo do Chrome, então seu texto não é transmitido para lugar nenhum. Além disso, oferece cache inteligente, otimização por IA (estilos Professional / Casual / Concise), uma camada de glossário personalizada e controles de viewport por página que os tradutores em nuvem não oferecem."
+          "a": "Muitas ferramentas de tradução no navegador enviam o conteúdo da página para um serviço remoto para processamento. O offline.translator processa a tradução no Chrome com IA no dispositivo e também oferece cache inteligente, otimização por IA, uma camada de glossário personalizada e controles de viewport por página."
         },
         {
           "q": "É seguro usar em páginas confidenciais ou privadas?",
-          "a": "Sim. Como a tradução roda inteiramente na sua máquina local, o conteúdo da página nunca sai do navegador. É seguro para uso em wikis internos da empresa, documentos confidenciais, emails pessoais e sessões de navegação privada."
+          "a": "O offline.translator foi projetado para processar a tradução no Chrome no seu dispositivo, em vez de depender de um serviço de tradução externo. Esse fluxo pode se encaixar bem em wikis internas, documentos confidenciais, e-mails pessoais e sessões de navegação privada."
         },
         {
           "q": "Quais idiomas são suportados?",
@@ -2661,14 +2661,14 @@ window.OFFLINE_TRANSLATOR_I18N = {
       ]
     },
     "footer": {
-      "tagline": "O que acontece na sua tela fica no seu dispositivo.",
+      "tagline": "A tradução acontece no Chrome no seu dispositivo.",
       "privacy": "Política de Privacidade"
     }
   },
   "ru": {
     "meta": {
       "title": "offline.translator — бесплатное офлайн-расширение Chrome для перевода любых веб-страниц",
-      "description": "offline.translator переводит целые веб-страницы с помощью встроенного ИИ Chrome — на 100% на устройстве. Никакие данные не покидают ваш браузер. Поддерживаются 40+ языков, ИИ-оптимизация и умный кэш. Бесплатно."
+      "description": "offline.translator переводит веб-страницы целиком в Chrome с помощью ИИ на устройстве. Перевод выполняется в браузере, с поддержкой 40+ языков, AI-оптимизацией и умным кешем."
     },
     "localeLabel": "Язык",
     "nav": {
@@ -2681,15 +2681,15 @@ window.OFFLINE_TRANSLATOR_I18N = {
     "hero": {
       "badge": "Бесплатно · Chrome 138+",
       "title": "Переводите любые веб-страницы<br><span class=\"gradient-text\">не отправляя данные с устройства</span>",
-      "sub": "Единственное бесплатное расширение для перевода в Chrome, полностью работающее на ИИ прямо на устройстве.<br>Без серверов. Без слежки. <strong>То, что происходит на вашем экране, остается на вашем устройстве.</strong>",
+      "sub": "Бесплатное расширение Chrome для перевода на базе ИИ, работающего на устройстве.<br>Перевод выполняется прямо в браузере. <strong>Текст страницы переводится внутри Chrome.</strong>",
       "primaryCta": "Установить расширение — бесплатно",
       "secondaryCta": "Посмотреть в действии",
-      "trust": "Без аккаунта · Без сбора данных · 40+ языков",
+      "trust": "Без аккаунта · Перевод в браузере · 40+ языков",
       "statTranslated": "Переведено",
       "statDataSent": "Отправлено данных"
     },
     "trust": {
-      "private": "100% приватно — нулевая передача данных",
+      "private": "Перевод на устройстве · Без внешнего сервера перевода",
       "free": "Навсегда бесплатно, без аккаунта",
       "languages": "Поддержка 40+ языков"
     },
@@ -2699,8 +2699,8 @@ window.OFFLINE_TRANSLATOR_I18N = {
       "sub": "Создано для разработчиков, исследователей и всех, кто читает веб на втором языке.",
       "cards": [
         {
-          "title": "100% перевод на устройстве",
-          "body": "Каждое предложение переводится встроенным Translator API Chrome, который работает локально на вашем компьютере. Ваш контент никогда не попадает на удаленный сервер, поэтому это действительно приватное расширение перевода для Chrome."
+          "title": "Перевод на устройстве",
+          "body": "Каждое предложение переводится с помощью встроенного Translator API Chrome на вашем устройстве. Перевод выполняется в браузере и помогает не передавать текст страницы внешнему сервису перевода."
         },
         {
           "title": "Отслеживание прогресса в реальном времени",
@@ -2747,7 +2747,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
       "title": "Посмотрите offline.translator в действии",
       "sub": "Реальные скриншоты. Реальные страницы. Реальные переводы — все прямо на устройстве.",
       "captions": [
-        "<strong>100% перевод всей страницы</strong> — карта разработчика roadmap.sh переведена на китайский",
+        "<strong>Перевод всей страницы</strong> — дорожная карта разработчика roadmap.sh переведена на китайский",
         "<strong>Прогресс в реальном времени</strong> — блог GitHub в процессе перевода с подсчетом сегментов",
         "<strong>Страницы с насыщенным медиаконтентом</strong> — статья Gates Notes переведена полностью",
         "<strong>40+ языков</strong> — списки языков From и To полностью настраиваются"
@@ -2777,7 +2777,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
     },
     "comparison": {
       "label": "Почему offline.translator",
-      "title": "Единственный браузерный переводчик, который ничего не отправляет наружу",
+      "title": "Перевод в браузере с акцентом на приватность на устройстве",
       "headers": [
         "Функция",
         "offline.translator",
@@ -2786,7 +2786,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
       ],
       "rows": [
         [
-          "100% на устройстве",
+          "Перевод на устройстве",
           null,
           null,
           null
@@ -2837,11 +2837,11 @@ window.OFFLINE_TRANSLATOR_I18N = {
       "items": [
         {
           "q": "Что делает offline.translator?",
-          "a": "offline.translator переводит целые веб-страницы прямо в вашем браузере Chrome с помощью встроенного Translator API Chrome. Он работает на 100% на вашем устройстве — содержимое страницы никогда не отправляется на внешний сервер. Откройте боковую панель, выберите целевой язык, и расширение будет постепенно переводить видимый текст по мере прокрутки."
+          "a": "offline.translator переводит веб-страницы целиком прямо в браузере Chrome с помощью встроенного Translator API Chrome. Перевод обрабатывается в Chrome на вашем устройстве, а не через внешний сервис перевода. Откройте боковую панель, выберите целевой язык, и расширение будет постепенно переводить видимый текст по мере прокрутки."
         },
         {
           "q": "offline.translator бесплатный?",
-          "a": "Да. offline.translator полностью бесплатен. Нет платных тарифов, подписки и не нужен API key."
+          "a": "Да. Сейчас offline.translator можно использовать бесплатно. На данный момент нет платных тарифов, подписок или требований к API key."
         },
         {
           "q": "Какие браузеры поддерживаются?",
@@ -2849,11 +2849,11 @@ window.OFFLINE_TRANSLATOR_I18N = {
         },
         {
           "q": "Чем он отличается от Google Translate и других облачных переводчиков?",
-          "a": "Все остальные популярные инструменты браузерного перевода, включая расширение Google Translate и встроенный перевод страниц в Chrome, отправляют содержимое страницы на удаленный сервер для обработки. offline.translator отличается тем, что использует локальную ИИ-модель Chrome, поэтому ваш текст никуда не передается. Кроме того, он предлагает умный кэш, ИИ-оптимизацию (стили Professional / Casual / Concise), пользовательский слой глоссария и постраничное управление viewport, которого нет у облачных переводчиков."
+          "a": "Многие инструменты браузерного перевода отправляют содержимое страницы в удаленный сервис для обработки. offline.translator обрабатывает перевод в Chrome с помощью ИИ на устройстве и также включает умный кеш, AI-оптимизацию, пользовательский слой глоссария и управление областью просмотра для каждой страницы."
         },
         {
           "q": "Безопасно ли использовать его на конфиденциальных или приватных страницах?",
-          "a": "Да. Поскольку перевод выполняется полностью на вашем локальном устройстве, содержимое страницы никогда не покидает браузер. Его безопасно использовать на внутренних корпоративных wiki, конфиденциальных документах, личных письмах и в приватных сессиях браузера."
+          "a": "offline.translator спроектирован так, чтобы обрабатывать перевод в Chrome на вашем устройстве, а не через внешний сервис перевода. Такой подход может хорошо подойти для внутренних wiki, конфиденциальных документов, личной почты и приватных сессий браузера."
         },
         {
           "q": "Какие языки поддерживаются?",
@@ -2866,7 +2866,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
       ]
     },
     "footer": {
-      "tagline": "То, что происходит на вашем экране, остается на вашем устройстве.",
+      "tagline": "Перевод выполняется в Chrome на вашем устройстве.",
       "privacy": "Политика конфиденциальности"
     }
   }
