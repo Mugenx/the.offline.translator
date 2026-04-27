@@ -6,21 +6,21 @@
   'use strict';
 
   var SUPPORTED_LOCALES = [
-    { code: 'zh-Hans', label: '简体中文' },
-    { code: 'zh-Hant', label: '繁體中文' },
-    { code: 'zh-Hant-HK', label: '繁體中文（香港）' },
-    { code: 'en', label: 'English' },
-    { code: 'ja', label: '日本語' },
-    { code: 'ar', label: 'العربية' },
-    { code: 'de', label: 'Deutsch' },
-    { code: 'es', label: 'Español' },
-    { code: 'fr', label: 'Français' },
-    { code: 'hi', label: 'हिन्दी' },
-    { code: 'it', label: 'Italiano' },
-    { code: 'ko', label: '한국어' },
-    { code: 'pt', label: 'Português' },
-    { code: 'pt-BR', label: 'Português (Brasil)' },
-    { code: 'ru', label: 'Русский' }
+    { code: 'zh-Hans', label: '简体中文', hreflang: 'zh-Hans', ogLocale: 'zh_CN' },
+    { code: 'zh-Hant', label: '繁體中文', hreflang: 'zh-Hant', ogLocale: 'zh_TW' },
+    { code: 'zh-Hant-HK', label: '繁體中文（香港）', hreflang: 'zh-Hant-HK', ogLocale: 'zh_HK' },
+    { code: 'en', label: 'English', hreflang: 'en', ogLocale: 'en_US' },
+    { code: 'ja', label: '日本語', hreflang: 'ja', ogLocale: 'ja_JP' },
+    { code: 'ar', label: 'العربية', hreflang: 'ar', ogLocale: 'ar_SA' },
+    { code: 'de', label: 'Deutsch', hreflang: 'de', ogLocale: 'de_DE' },
+    { code: 'es', label: 'Español', hreflang: 'es', ogLocale: 'es_ES' },
+    { code: 'fr', label: 'Français', hreflang: 'fr', ogLocale: 'fr_FR' },
+    { code: 'hi', label: 'हिन्दी', hreflang: 'hi', ogLocale: 'hi_IN' },
+    { code: 'it', label: 'Italiano', hreflang: 'it', ogLocale: 'it_IT' },
+    { code: 'ko', label: '한국어', hreflang: 'ko', ogLocale: 'ko_KR' },
+    { code: 'pt', label: 'Português', hreflang: 'pt', ogLocale: 'pt_PT' },
+    { code: 'pt-BR', label: 'Português (Brasil)', hreflang: 'pt-BR', ogLocale: 'pt_BR' },
+    { code: 'ru', label: 'Русский', hreflang: 'ru', ogLocale: 'ru_RU' }
   ];
 
   var I18N = window.OFFLINE_TRANSLATOR_I18N || {};
@@ -177,8 +177,99 @@
       comparisonLastRow: ['Без регистрации', null, 'Зависит от сервиса', null]
     }
   };
+  var DEFAULT_OG_IMAGE = 'https://theofflinetranslator.com/assets/ScreenShot_2026-04-24_185508_569.png';
+  var DEFAULT_OG_IMAGE_ALT = 'offline.translator side panel translating a webpage locally in Chrome';
 
   document.documentElement.dataset.theme = getPreferredTheme();
+
+  function getLocaleConfig(locale) {
+    return SUPPORTED_LOCALES.find(function (item) {
+      return item.code === locale;
+    }) || SUPPORTED_LOCALES.find(function (item) {
+      return item.code === 'en';
+    });
+  }
+
+  function stripHtml(value) {
+    var temp = document.createElement('div');
+
+    temp.innerHTML = value || '';
+    return (temp.textContent || temp.innerText || '').replace(/\s+/g, ' ').trim();
+  }
+
+  function setJsonLdScript(id, payload) {
+    var script = document.getElementById(id);
+
+    if (script) script.textContent = JSON.stringify(payload);
+  }
+
+  function getStructuredDataSource(messages) {
+    if (messages) return messages;
+
+    return {
+      meta: {
+        description: (document.querySelector('meta[name="description"]') || {}).content || ''
+      },
+      hero: {
+        sub: (document.querySelector('.hero-sub') || {}).innerHTML || ''
+      },
+      features: {
+        cards: Array.from(document.querySelectorAll('.features-grid .feature-card h3')).map(function (node) {
+          return { title: node.textContent.trim() };
+        })
+      },
+      faq: {
+        items: Array.from(document.querySelectorAll('.faq-item')).map(function (item) {
+          return {
+            q: ((item.querySelector('.faq-q-text') || {}).textContent || '').trim(),
+            a: (item.querySelector('.faq-a') || {}).innerHTML || ''
+          };
+        })
+      }
+    };
+  }
+
+  function updateStructuredData(locale, messages, currentUrl) {
+    var localeConfig = getLocaleConfig(locale);
+    var source = getStructuredDataSource(messages);
+
+    setJsonLdScript('software-application-schema', {
+      '@context': 'https://schema.org',
+      '@type': 'SoftwareApplication',
+      name: 'offline.translator',
+      description: source.meta && source.meta.description ? source.meta.description : stripHtml(source.hero && source.hero.sub),
+      applicationCategory: 'BrowserApplication',
+      operatingSystem: 'Chrome 138+',
+      offers: {
+        '@type': 'Offer',
+        price: '0',
+        priceCurrency: 'USD'
+      },
+      softwareVersion: '0.1.0',
+      inLanguage: localeConfig.hreflang,
+      featureList: (source.features && source.features.cards ? source.features.cards : []).map(function (card) {
+        return stripHtml(card.title);
+      }),
+      screenshot: DEFAULT_OG_IMAGE,
+      url: currentUrl
+    });
+
+    setJsonLdScript('faq-schema', {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      inLanguage: localeConfig.hreflang,
+      mainEntity: (source.faq && source.faq.items ? source.faq.items : []).map(function (item) {
+        return {
+          '@type': 'Question',
+          name: stripHtml(item.q),
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: stripHtml(item.a)
+          }
+        };
+      })
+    });
+  }
 
   function getUiMessages(locale) {
     return UI_MESSAGES[locale] || UI_MESSAGES.en;
@@ -318,15 +409,19 @@
   function applyHomeTranslations(locale) {
     var messages = I18N.home && I18N.home[locale];
     var currentUrl = getCurrentUrlWithoutHash();
+    var localeConfig = getLocaleConfig(locale);
 
-    document.documentElement.lang = locale;
+    document.documentElement.lang = localeConfig.hreflang;
     document.documentElement.dir = locale === 'ar' ? 'rtl' : 'ltr';
     setCanonical(currentUrl);
     setMeta('meta[property="og:url"]', currentUrl);
+    setMeta('meta[property="og:locale"]', localeConfig.ogLocale);
+    setMeta('meta[property="og:image"]', DEFAULT_OG_IMAGE);
+    setMeta('meta[property="og:image:alt"]', DEFAULT_OG_IMAGE_ALT);
+    setMeta('meta[name="twitter:image"]', DEFAULT_OG_IMAGE);
+    setMeta('meta[name="twitter:image:alt"]', DEFAULT_OG_IMAGE_ALT);
 
-    if (!messages) return;
-
-    if (messages.meta) {
+    if (messages && messages.meta) {
       if (messages.meta.title) document.title = messages.meta.title;
       setMeta('meta[name="description"]', messages.meta.description);
       setMeta('meta[property="og:title"]', messages.meta.ogTitle || messages.meta.title);
@@ -334,6 +429,10 @@
       setMeta('meta[name="twitter:title"]', messages.meta.ogTitle || messages.meta.title);
       setMeta('meta[name="twitter:description"]', messages.meta.ogDescription || messages.meta.description);
     }
+
+    updateStructuredData(locale, messages, currentUrl);
+
+    if (!messages) return;
 
     setText('.locale-label-text', messages.localeLabel);
     setText('.nav-links a[href="#features"]', messages.nav.features);
@@ -348,8 +447,7 @@
     setText('#hero-cta .btn-label', messages.hero.primaryCta);
     setText('.hero-actions .btn-ghost', messages.hero.secondaryCta);
     setText('.hero-trust', messages.hero.trust);
-    setText('.hero-stat-1 .stat-label', messages.hero.statTranslated);
-    setText('.hero-stat-2 .stat-label', messages.hero.statDataSent);
+    setText('.hero-visual-note', messages.trust.private);
 
     setTextAt('.trust-item span', 0, messages.trust.private);
     setTextAt('.trust-item span', 1, getUiMessages(locale).trustAccount || messages.trust.free);
@@ -478,12 +576,13 @@
 
   function initHeroCarousel(locale) {
     var image = document.getElementById('hero-carousel-image');
+    var stage = document.getElementById('hero-browser-stage');
     var dots = document.getElementById('hero-carousel-dots');
     var currentIndex = 0;
     var intervalId = null;
     var uiMessages = getUiMessages(locale);
 
-    if (!image || !dots || !HERO_SLIDES.length) return;
+    if (!image || !dots || !stage || !HERO_SLIDES.length) return;
 
     dots.innerHTML = '';
     dots.setAttribute('aria-label', uiMessages.slideshow);
@@ -508,6 +607,12 @@
       preloadImage.src = HERO_SLIDES[nextIndex].src;
     }
 
+    function syncStageRatio() {
+      if (!image.naturalWidth || !image.naturalHeight) return;
+
+      stage.style.setProperty('--hero-media-ratio', image.naturalWidth + ' / ' + image.naturalHeight);
+    }
+
     function syncButtons() {
       var buttons = dots.querySelectorAll('.hero-carousel-dot');
 
@@ -523,14 +628,18 @@
 
       currentIndex = nextIndex;
       image.classList.add('is-fading');
+      syncButtons();
+      preload((currentIndex + 1) % HERO_SLIDES.length);
 
-      window.setTimeout(function () {
-        image.src = slide.src;
+      if (image.getAttribute('src') === slide.src) {
         image.alt = slide.alt;
+        syncStageRatio();
         image.classList.remove('is-fading');
-        syncButtons();
-        preload((currentIndex + 1) % HERO_SLIDES.length);
-      }, 140);
+        return;
+      }
+
+      image.alt = slide.alt;
+      image.src = slide.src;
     }
 
     function start() {
@@ -544,10 +653,17 @@
       start();
     }
 
+    image.addEventListener('load', function () {
+      syncStageRatio();
+      image.classList.remove('is-fading');
+    });
+
     image.src = HERO_SLIDES[0].src;
     image.alt = HERO_SLIDES[0].alt;
     syncButtons();
     preload(1);
+
+    if (image.complete) syncStageRatio();
     start();
   }
 
