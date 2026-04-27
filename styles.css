@@ -212,6 +212,64 @@ ul, ol { list-style: none; }
 
 .nav-links a:hover { color: var(--text); }
 
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-left: auto;
+}
+
+.locale-picker {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 7px 12px;
+  min-width: 198px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.02);
+  transition: border-color 0.15s, background 0.15s, box-shadow 0.15s;
+}
+
+.locale-picker:hover {
+  border-color: var(--border-hover);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.locale-picker:focus-within {
+  border-color: rgba(59, 130, 246, 0.35);
+  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.1);
+}
+
+.locale-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-3);
+  flex-shrink: 0;
+}
+
+.locale-picker select {
+  min-width: 0;
+  width: 100%;
+  border: none;
+  background: transparent;
+  color: var(--text);
+  font: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  color-scheme: dark;
+}
+
+.locale-picker select:focus {
+  outline: none;
+}
+
 /* ============================================================
    Hero
 ============================================================ */
@@ -943,6 +1001,20 @@ ul, ol { list-style: none; }
   }
 
   .nav-links { display: none; }
+
+  .nav-inner {
+    gap: 12px;
+  }
+
+  .nav-cta { display: none; }
+
+  .locale-picker {
+    min-width: 0;
+    max-width: 180px;
+    padding: 7px 10px;
+  }
+
+  .locale-label-text { display: none; }
 
   .hero-title { font-size: clamp(30px, 8vw, 42px); }
 
