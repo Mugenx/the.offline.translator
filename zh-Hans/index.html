@@ -135,6 +135,13 @@
         <li><a href="#faq">FAQ</a></li>
       </ul>
       <div class="nav-actions">
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch theme" aria-pressed="false" title="Switch theme">
+          <span class="theme-toggle-track" aria-hidden="true">
+            <svg class="theme-icon theme-icon-sun" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+            <svg class="theme-icon theme-icon-moon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3c0 5.4 4.39 9.79 9.79 9.79z"/></svg>
+            <span class="theme-toggle-thumb"></span>
+          </span>
+        </button>
         <label class="locale-picker" for="locale-select">
           <span class="locale-label">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
@@ -175,15 +182,20 @@
         <p class="hero-trust">No account required &nbsp;·&nbsp; No data collection &nbsp;·&nbsp; 40+ languages</p>
       </div>
       <div class="hero-visual">
-        <div class="hero-img-wrap">
+        <div class="hero-img-wrap hero-carousel">
           <img
-            src="/assets/Paste.jpg"
-            alt="offline.translator side panel showing 100% translation complete on Gates Notes"
-            width="760"
-            height="480"
+            src="/assets/ScreenShot_2026-04-24_191406_506.png"
+            alt="offline.translator screenshot preview"
+            width="1390"
+            height="868"
             loading="eager"
             fetchpriority="high"
+            class="hero-carousel-image"
+            id="hero-carousel-image"
           >
+          <div class="hero-carousel-ui">
+            <div class="hero-carousel-dots" id="hero-carousel-dots" role="tablist" aria-label="Product screenshots"></div>
+          </div>
           <div class="hero-stat hero-stat-1" aria-hidden="true">
             <span class="stat-num">100%</span>
             <span class="stat-label">Translated</span>
@@ -210,7 +222,7 @@
       <div class="trust-sep" aria-hidden="true"></div>
       <div class="trust-item">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
-        <span>Free forever, no account needed</span>
+        <span>No account needed</span>
       </div>
       <div class="trust-sep" aria-hidden="true"></div>
       <div class="trust-item">
@@ -233,13 +245,12 @@
 
       <div class="features-grid">
 
-        <article class="feature-card feature-card--large">
+        <article class="feature-card">
           <div class="feature-icon feature-icon--blue">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
           </div>
           <h3>100% On-Device Translation</h3>
           <p>Every sentence is translated by Chrome's built-in Translator API running locally on your machine. Your content never touches a remote server — making it the only Chrome translation extension that is truly private.</p>
-          <img src="/assets/setting.jpg" alt="offline.translator Language Settings showing 40+ available languages" width="560" height="340" loading="lazy" class="feature-img">
         </article>
 
         <article class="feature-card">
@@ -332,7 +343,7 @@
         <p class="section-sub">Real screenshots. Real pages. Real translations — all on-device.</p>
       </div>
       <div class="demo-grid">
-        <figure class="demo-item demo-item--main">
+        <figure class="demo-item">
           <img
             src="/assets/ScreenShot_2026-04-24_191406_506.png"
             alt="roadmap.sh frontend developer page fully translated to Chinese — 100% complete, 496/496 segments"
@@ -477,9 +488,9 @@
               <td>Full page only</td>
             </tr>
             <tr>
-              <td>Free forever</td>
+              <td>No sign-up required</td>
               <td class="col-highlight"><span class="check" aria-label="Yes">✓</span></td>
-              <td>Freemium / API key</td>
+              <td>Varies</td>
               <td><span class="check" aria-label="Yes">✓</span></td>
             </tr>
           </tbody>
