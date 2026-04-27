@@ -1109,6 +1109,23 @@ html[data-theme="dark"] .hero-carousel-dot.is-active {
   font-family: var(--font-mono);
 }
 
+.footer-legal {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+  max-width: min(420px, 100%);
+}
+
+.footer-disclaimer {
+  margin: 0;
+  font-size: 11px;
+  line-height: 1.5;
+  color: var(--text-4);
+  max-width: 420px;
+  text-align: right;
+}
+
 .footer-meta a { color: var(--text-3); transition: color 0.15s; }
 .footer-meta a:hover { color: var(--text-2); }
 
@@ -1228,6 +1245,14 @@ html[data-theme="dark"] .hero-carousel-dot.is-active {
     flex-direction: column;
     align-items: flex-start;
     gap: 28px;
+  }
+
+  .footer-legal {
+    align-items: flex-start;
+  }
+
+  .footer-disclaimer {
+    text-align: left;
   }
 
   .trust-bar-inner {
