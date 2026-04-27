@@ -398,9 +398,10 @@ html[data-theme="light"] .locale-picker select {
 
 .hero-inner {
   display: grid;
-  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
-  gap: clamp(40px, 6vw, 80px);
-  align-items: center;
+  grid-template-columns: minmax(0, 1fr);
+  gap: clamp(28px, 4vw, 42px);
+  align-items: start;
+  justify-items: center;
 }
 
 .hero-glow {
@@ -415,7 +416,15 @@ html[data-theme="light"] .locale-picker select {
   z-index: 0;
 }
 
-.hero-content { position: relative; z-index: 1; }
+.hero-content {
+  position: relative;
+  z-index: 1;
+  width: min(100%, 980px);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .badge {
   display: inline-flex;
@@ -447,19 +456,19 @@ html[data-theme="light"] .locale-picker select {
 }
 
 .hero-title {
-  font-size: clamp(36px, 5.5vw, 60px);
+  font-size: clamp(42px, 6.6vw, 80px);
   font-weight: 800;
   letter-spacing: -0.04em;
-  line-height: 1.08;
-  margin-bottom: 20px;
+  line-height: 1.02;
+  margin-bottom: 24px;
 }
 
 .hero-sub {
-  font-size: clamp(16px, 1.8vw, 18px);
+  font-size: clamp(18px, 2vw, 22px);
   color: var(--text-2);
   line-height: 1.7;
   margin-bottom: 32px;
-  max-width: 520px;
+  max-width: 760px;
 }
 
 .hero-sub strong { color: var(--text); }
@@ -467,6 +476,7 @@ html[data-theme="light"] .locale-picker select {
 .hero-actions {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 12px;
   flex-wrap: wrap;
   margin-bottom: 20px;
@@ -476,32 +486,28 @@ html[data-theme="light"] .locale-picker select {
   font-size: 13px;
   color: var(--text-3);
   font-family: var(--font-mono);
+  text-align: center;
 }
 
 .hero-visual {
   position: relative;
   z-index: 1;
-  width: min(100%, 880px);
-  justify-self: end;
+  order: -1;
+  width: min(100%, 1120px);
+  justify-self: stretch;
 }
 
 .hero-showcase {
   display: grid;
   gap: 16px;
-  padding: clamp(10px, 1.4vw, 14px);
-  border-radius: calc(var(--radius-lg) + 6px);
-  border: 1px solid var(--border);
-  background:
-    radial-gradient(circle at top left, rgba(59, 130, 246, 0.08), transparent 34%),
-    linear-gradient(180deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.02)),
-    var(--bg-card);
-  box-shadow: var(--shadow-lg);
+  padding: 0;
 }
 
 .hero-img-wrap {
   position: relative;
-  border-radius: calc(var(--radius-lg) - 2px);
+  border-radius: clamp(26px, 3vw, 34px);
   overflow: hidden;
+  box-shadow: 0 28px 72px rgba(15, 23, 42, 0.18);
 }
 
 .hero-img-wrap img {
@@ -513,7 +519,7 @@ html[data-theme="light"] .locale-picker select {
   --hero-media-ratio: 1390 / 868;
   aspect-ratio: var(--hero-media-ratio);
   overflow: hidden;
-  border-radius: calc(var(--radius-lg) - 2px);
+  border-radius: inherit;
 }
 
 html[data-theme="light"] .hero-media-stage {
@@ -524,7 +530,7 @@ html[data-theme="light"] .hero-media-stage {
   width: 100%;
   height: 100%;
   object-fit: contain;
-  border-radius: calc(var(--radius) + 2px);
+  border-radius: inherit;
   transition: opacity 0.35s ease, transform 0.55s ease, filter 0.35s ease;
 }
 
@@ -1131,28 +1137,14 @@ html[data-theme="dark"] .hero-carousel-dot.is-active {
    Responsive — Tablet (≤ 1024px)
 ============================================================ */
 @media (max-width: 1024px) {
-  .hero-inner {
-    grid-template-columns: 1fr;
-  }
-
   .hero-visual {
-    order: -1;
     max-width: 860px;
     margin-inline: auto;
     width: 100%;
     justify-self: center;
   }
 
-  .hero-showcase {
-    padding: 14px;
-  }
-
-  .hero-content {
-    text-align: center;
-  }
-
   .hero-sub { max-width: 100%; margin-inline: auto; }
-  .hero-actions { justify-content: center; }
 
   .features-grid {
     grid-template-columns: 1fr 1fr;
@@ -1203,6 +1195,10 @@ html[data-theme="dark"] .hero-carousel-dot.is-active {
 
   .hero-title { font-size: clamp(30px, 8vw, 42px); }
 
+  .hero-sub {
+    font-size: 17px;
+  }
+
   .features-grid {
     grid-template-columns: 1fr;
   }
@@ -1240,25 +1236,7 @@ html[data-theme="dark"] .hero-carousel-dot.is-active {
 
   .trust-sep { display: none; }
 
-  .hero-stat-1, .hero-stat-2 { display: none; }
-
-  .hero-carousel-ui {
-    top: 8px;
-    right: 26px;
-  }
-
-  .hero-showcase {
-    padding: 10px 0 18px;
-  }
-
-  .hero-browser-bar {
-    height: 38px;
-    padding-inline: 12px;
-  }
-
-  .hero-browser-controls span,
-  .hero-browser-actions span {
-    width: 8px;
-    height: 8px;
+  .hero-img-wrap {
+    border-radius: 22px;
   }
 }
