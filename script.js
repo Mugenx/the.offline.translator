@@ -490,7 +490,6 @@
     setText('#install-heading', messages.cta.title);
     setText('.cta-sub', messages.cta.sub);
     setText('.cta-actions .btn-primary .btn-label', messages.cta.primary);
-    setText('.cta-actions .btn-ghost .btn-label', messages.cta.secondary);
     setText('.cta-req', messages.cta.req);
 
     setText('.faq .section-label', messages.faq.label);
