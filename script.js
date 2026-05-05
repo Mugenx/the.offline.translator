@@ -61,120 +61,403 @@
       toggleToDark: 'Switch to dark theme',
       slideshow: 'Product screenshots',
       slide: 'Go to screenshot',
-      trustAccount: 'No account needed',
-      comparisonLastRow: ['No sign-up required', null, 'Varies', null]
+      trustAccount: 'Free AI translation',
+      comparisonLastRow: ['Free translation', null, 'Varies', null]
     },
     'zh-Hans': {
       toggleToLight: '切换到浅色主题',
       toggleToDark: '切换到深色主题',
       slideshow: '产品截图',
       slide: '查看第',
-      trustAccount: '无需账号',
-      comparisonLastRow: ['无需注册', null, '视服务而定', null]
+      trustAccount: '免费 AI 翻译',
+      comparisonLastRow: ['免费翻译', null, '视服务而定', null]
     },
     'zh-Hant': {
       toggleToLight: '切換到淺色主題',
       toggleToDark: '切換到深色主題',
       slideshow: '產品截圖',
       slide: '查看第',
-      trustAccount: '無需帳號',
-      comparisonLastRow: ['無需註冊', null, '視服務而定', null]
+      trustAccount: '免費 AI 翻譯',
+      comparisonLastRow: ['免費翻譯', null, '視服務而定', null]
     },
     'zh-Hant-HK': {
       toggleToLight: '切換到淺色主題',
       toggleToDark: '切換到深色主題',
       slideshow: '產品截圖',
       slide: '查看第',
-      trustAccount: '毋須帳號',
-      comparisonLastRow: ['毋須註冊', null, '視乎服務而定', null]
+      trustAccount: '免費 AI 翻譯',
+      comparisonLastRow: ['免費翻譯', null, '視乎服務而定', null]
     },
     ja: {
       toggleToLight: 'ライトテーマに切り替える',
       toggleToDark: 'ダークテーマに切り替える',
       slideshow: '製品スクリーンショット',
       slide: 'スクリーンショット',
-      trustAccount: 'アカウント不要',
-      comparisonLastRow: ['登録不要', null, 'サービス次第', null]
+      trustAccount: '無料 AI 翻訳',
+      comparisonLastRow: ['無料翻訳', null, 'サービス次第', null]
     },
     ar: {
       toggleToLight: 'التبديل إلى الوضع الفاتح',
       toggleToDark: 'التبديل إلى الوضع الداكن',
       slideshow: 'لقطات المنتج',
       slide: 'انتقل إلى اللقطة',
-      trustAccount: 'لا حاجة إلى حساب',
-      comparisonLastRow: ['لا يتطلب تسجيلًا', null, 'يختلف', null]
+      trustAccount: 'ترجمة AI مجانية',
+      comparisonLastRow: ['ترجمة مجانية', null, 'يختلف', null]
     },
     de: {
       toggleToLight: 'Zum hellen Design wechseln',
       toggleToDark: 'Zum dunklen Design wechseln',
       slideshow: 'Produkt-Screenshots',
       slide: 'Zum Screenshot',
-      trustAccount: 'Kein Konto nötig',
-      comparisonLastRow: ['Keine Registrierung nötig', null, 'Unterschiedlich', null]
+      trustAccount: 'Kostenlose AI-Übersetzung',
+      comparisonLastRow: ['Kostenlose Übersetzung', null, 'Unterschiedlich', null]
     },
     es: {
       toggleToLight: 'Cambiar al tema claro',
       toggleToDark: 'Cambiar al tema oscuro',
       slideshow: 'Capturas del producto',
       slide: 'Ir a la captura',
-      trustAccount: 'Sin cuenta necesaria',
-      comparisonLastRow: ['Sin registro obligatorio', null, 'Varía', null]
+      trustAccount: 'Traducción AI gratis',
+      comparisonLastRow: ['Traducción gratis', null, 'Varía', null]
     },
     fr: {
       toggleToLight: 'Passer au thème clair',
       toggleToDark: 'Passer au thème sombre',
       slideshow: 'Captures produit',
       slide: 'Aller à la capture',
-      trustAccount: 'Aucun compte requis',
-      comparisonLastRow: ['Sans inscription obligatoire', null, 'Variable', null]
+      trustAccount: 'Traduction AI gratuite',
+      comparisonLastRow: ['Traduction gratuite', null, 'Variable', null]
     },
     hi: {
       toggleToLight: 'लाइट थीम पर जाएँ',
       toggleToDark: 'डार्क थीम पर जाएँ',
       slideshow: 'प्रोडक्ट स्क्रीनशॉट',
       slide: 'स्क्रीनशॉट पर जाएँ',
-      trustAccount: 'खाते की ज़रूरत नहीं',
-      comparisonLastRow: ['साइनअप की ज़रूरत नहीं', null, 'सेवा पर निर्भर', null]
+      trustAccount: 'मुफ़्त AI अनुवाद',
+      comparisonLastRow: ['मुफ़्त अनुवाद', null, 'सेवा पर निर्भर', null]
     },
     it: {
       toggleToLight: 'Passa al tema chiaro',
       toggleToDark: 'Passa al tema scuro',
       slideshow: 'Screenshot del prodotto',
       slide: 'Vai allo screenshot',
-      trustAccount: 'Nessun account richiesto',
-      comparisonLastRow: ['Nessuna registrazione richiesta', null, 'Variabile', null]
+      trustAccount: 'Traduzione AI gratis',
+      comparisonLastRow: ['Traduzione gratis', null, 'Variabile', null]
     },
     ko: {
       toggleToLight: '라이트 테마로 전환',
       toggleToDark: '다크 테마로 전환',
       slideshow: '제품 스크린샷',
       slide: '스크린샷으로 이동',
-      trustAccount: '계정 불필요',
-      comparisonLastRow: ['가입 불필요', null, '서비스마다 다름', null]
+      trustAccount: '무료 AI 번역',
+      comparisonLastRow: ['무료 번역', null, '서비스마다 다름', null]
     },
     pt: {
       toggleToLight: 'Mudar para tema claro',
       toggleToDark: 'Mudar para tema escuro',
       slideshow: 'Capturas do produto',
       slide: 'Ir para a captura',
-      trustAccount: 'Sem conta',
-      comparisonLastRow: ['Sem registo obrigatório', null, 'Varia', null]
+      trustAccount: 'Tradução AI gratuita',
+      comparisonLastRow: ['Tradução gratuita', null, 'Varia', null]
     },
     'pt-BR': {
       toggleToLight: 'Mudar para tema claro',
       toggleToDark: 'Mudar para tema escuro',
       slideshow: 'Capturas do produto',
       slide: 'Ir para a captura',
-      trustAccount: 'Sem conta',
-      comparisonLastRow: ['Sem cadastro obrigatório', null, 'Varia', null]
+      trustAccount: 'Tradução AI grátis',
+      comparisonLastRow: ['Tradução grátis', null, 'Varia', null]
     },
     ru: {
       toggleToLight: 'Переключить на светлую тему',
       toggleToDark: 'Переключить на темную тему',
       slideshow: 'Скриншоты продукта',
       slide: 'Перейти к скриншоту',
-      trustAccount: 'Без аккаунта',
-      comparisonLastRow: ['Без регистрации', null, 'Зависит от сервиса', null]
+      trustAccount: 'Бесплатный AI-перевод',
+      comparisonLastRow: ['Бесплатный перевод', null, 'Зависит от сервиса', null]
+    }
+  };
+  var SEO_KEYWORDS = 'offline translator, offline AI translator, free AI translator, free AI translation, free translation, chrome translate, chrome translate extension, free chrome translate, built in chrome translate, built-in chrome translator, on-device translation, private browser translation';
+  var HOME_MESSAGE_OVERRIDES = {
+    'zh-Hans': {
+      meta: {
+        title: 'offline.translator – 免费 AI Chrome 网页翻译扩展',
+        description: '免费 AI Chrome translate 扩展，使用 Chrome 内置 Translator API 在浏览器内完成整页翻译。支持 40+ 种语言、智能缓存与免费翻译，无需账号。',
+        ogTitle: 'offline.translator – 免费 AI Chrome 网页翻译扩展',
+        ogDescription: '免费 AI Chrome translate 扩展，使用 Chrome 内置 Translator API 在浏览器内完成整页翻译。支持 40+ 种语言、智能缓存与免费翻译，无需账号。',
+        keywords: SEO_KEYWORDS
+      },
+      hero: {
+        title: '免费 AI Chrome 网页翻译<br><span class="gradient-text">适用于任意网页</span>',
+        sub: '一款免费的 AI Chrome 翻译扩展，基于 Chrome 内置 Translator API。<br>翻译在浏览器内本地完成。<strong>免费翻译时，页面文本始终留在 Chrome 中。</strong>',
+        primaryCta: '安装免费 AI 翻译扩展',
+        trust: '免费翻译 · 无需账号 · 支持 40+ 种语言'
+      },
+      cta: {
+        title: '开始在 Chrome 中使用免费 AI 翻译。',
+        sub: '免费。内置。私密。无需账号，无需 API key，安装后即可翻译整个网页。',
+        primary: '在 Chrome 上安装 · 免费'
+      }
+    },
+    'zh-Hant': {
+      meta: {
+        title: 'offline.translator – 免費 AI Chrome 網頁翻譯擴充功能',
+        description: '免費 AI Chrome translate 擴充功能，使用 Chrome 內建 Translator API 在瀏覽器內完成整頁翻譯。支援 40+ 種語言、智慧快取與免費翻譯，不需帳號。',
+        ogTitle: 'offline.translator – 免費 AI Chrome 網頁翻譯擴充功能',
+        ogDescription: '免費 AI Chrome translate 擴充功能，使用 Chrome 內建 Translator API 在瀏覽器內完成整頁翻譯。支援 40+ 種語言、智慧快取與免費翻譯，不需帳號。',
+        keywords: SEO_KEYWORDS
+      },
+      hero: {
+        title: '免費 AI Chrome 網頁翻譯<br><span class="gradient-text">適用於任何網頁</span>',
+        sub: '一款免費的 AI Chrome 翻譯擴充功能，基於 Chrome 內建 Translator API。<br>翻譯會在瀏覽器內本地完成。<strong>免費翻譯時，頁面文字始終留在 Chrome 中。</strong>',
+        primaryCta: '安裝免費 AI 翻譯擴充功能',
+        trust: '免費翻譯 · 不需帳號 · 支援 40+ 種語言'
+      },
+      cta: {
+        title: '開始在 Chrome 中使用免費 AI 翻譯。',
+        sub: '免費。內建。私密。不需帳號，不需 API key，安裝後即可翻譯整個網頁。',
+        primary: '在 Chrome 上安裝 · 免費'
+      }
+    },
+    'zh-Hant-HK': {
+      meta: {
+        title: 'offline.translator – 免費 AI Chrome 網頁翻譯擴充功能',
+        description: '免費 AI Chrome translate 擴充功能，使用 Chrome 內建 Translator API 在瀏覽器內完成整頁翻譯。支援 40+ 種語言、智慧快取與免費翻譯，毋須帳號。',
+        ogTitle: 'offline.translator – 免費 AI Chrome 網頁翻譯擴充功能',
+        ogDescription: '免費 AI Chrome translate 擴充功能，使用 Chrome 內建 Translator API 在瀏覽器內完成整頁翻譯。支援 40+ 種語言、智慧快取與免費翻譯，毋須帳號。',
+        keywords: SEO_KEYWORDS
+      },
+      hero: {
+        title: '免費 AI Chrome 網頁翻譯<br><span class="gradient-text">適用於任何網頁</span>',
+        sub: '一款免費的 AI Chrome 翻譯擴充功能，基於 Chrome 內建 Translator API。<br>翻譯會在瀏覽器內本地完成。<strong>免費翻譯時，頁面文字始終留在 Chrome 中。</strong>',
+        primaryCta: '安裝免費 AI 翻譯擴充功能',
+        trust: '免費翻譯 · 毋須帳號 · 支援 40+ 種語言'
+      },
+      cta: {
+        title: '開始在 Chrome 中使用免費 AI 翻譯。',
+        sub: '免費。內建。私密。毋須帳號，毋須 API key，安裝後即可翻譯整個網頁。',
+        primary: '在 Chrome 上安裝 · 免費'
+      }
+    },
+    ja: {
+      meta: {
+        title: 'offline.translator – 無料 AI Chrome 翻訳拡張機能',
+        description: '無料で使える AI Chrome 翻訳拡張機能。Chrome 内蔵の Translator API でページ全体をブラウザ内翻訳。40以上の言語、スマートキャッシュ、アカウント不要。',
+        ogTitle: 'offline.translator – 無料 AI Chrome 翻訳拡張機能',
+        ogDescription: '無料で使える AI Chrome 翻訳拡張機能。Chrome 内蔵の Translator API でページ全体をブラウザ内翻訳。40以上の言語、スマートキャッシュ、アカウント不要。',
+        keywords: SEO_KEYWORDS
+      },
+      hero: {
+        title: '無料 AI Chrome 翻訳<br><span class="gradient-text">あらゆるWebページに対応</span>',
+        sub: 'Chrome 内蔵の Translator API を使う無料 AI Chrome 翻訳拡張機能です。<br>翻訳はブラウザ内で端末上に保持されたまま実行されます。<strong>ページのテキストは無料翻訳中も Chrome 内にとどまります。</strong>',
+        primaryCta: '無料 AI 翻訳をインストール',
+        trust: '無料翻訳 · アカウント不要 · 40以上の言語'
+      },
+      cta: {
+        title: 'Chrome で無料 AI 翻訳を始めましょう。',
+        sub: '無料。内蔵。プライベート。アカウント不要、API キー不要。インストールするだけで翻訳できます。',
+        primary: 'Chrome にインストール · 無料'
+      }
+    },
+    ar: {
+      meta: {
+        title: 'offline.translator – ترجمة AI مجانية لصفحات Chrome',
+        description: 'إضافة ترجمة AI مجانية لمتصفح Chrome تستخدم Translator API المدمج في Chrome لترجمة صفحات الويب بالكامل داخل المتصفح. تدعم أكثر من 40 لغة وتعمل بدون حساب.',
+        ogTitle: 'offline.translator – ترجمة AI مجانية لصفحات Chrome',
+        ogDescription: 'إضافة ترجمة AI مجانية لمتصفح Chrome تستخدم Translator API المدمج في Chrome لترجمة صفحات الويب بالكامل داخل المتصفح. تدعم أكثر من 40 لغة وتعمل بدون حساب.',
+        keywords: SEO_KEYWORDS
+      },
+      hero: {
+        title: 'ترجمة AI مجانية في Chrome<br><span class="gradient-text">لأي صفحة ويب</span>',
+        sub: 'إضافة ترجمة AI مجانية لمتصفح Chrome تعتمد على Translator API المدمج في Chrome.<br>تتم الترجمة محلياً داخل المتصفح. <strong>يبقى نص الصفحة داخل Chrome أثناء الترجمة المجانية.</strong>',
+        primaryCta: 'ثبّت مترجم AI المجاني',
+        trust: 'ترجمة مجانية · بلا حساب · أكثر من 40 لغة'
+      },
+      cta: {
+        title: 'ابدأ الترجمة المجانية بالذكاء الاصطناعي داخل Chrome.',
+        sub: 'مجاني. مدمج. خاص. بدون حساب وبدون مفتاح API، فقط ثبّت وابدأ الترجمة.',
+        primary: 'ثبّت على Chrome · مجاناً'
+      }
+    },
+    de: {
+      meta: {
+        title: 'offline.translator – Kostenlose AI-Chrome-Übersetzung für Webseiten',
+        description: 'Kostenlose AI-Chrome-Übersetzung mit der integrierten Translator API von Chrome. Ganze Webseiten direkt im Browser übersetzen, mit 40+ Sprachen, Cache und ohne Konto.',
+        ogTitle: 'offline.translator – Kostenlose AI-Chrome-Übersetzung für Webseiten',
+        ogDescription: 'Kostenlose AI-Chrome-Übersetzung mit der integrierten Translator API von Chrome. Ganze Webseiten direkt im Browser übersetzen, mit 40+ Sprachen, Cache und ohne Konto.',
+        keywords: SEO_KEYWORDS
+      },
+      hero: {
+        title: 'Kostenlose AI-Chrome-Übersetzung<br><span class="gradient-text">für jede Webseite</span>',
+        sub: 'Eine kostenlose AI-Übersetzungserweiterung für Chrome auf Basis der integrierten Translator API von Chrome.<br>Die Übersetzung läuft lokal in deinem Browser. <strong>Seitentext bleibt während der kostenlosen Übersetzung in Chrome.</strong>',
+        primaryCta: 'Kostenlosen AI-Übersetzer installieren',
+        trust: 'Kostenlose Übersetzung · Kein Konto · 40+ Sprachen'
+      },
+      cta: {
+        title: 'Starte kostenlose AI-Übersetzung in Chrome.',
+        sub: 'Kostenlos. Integriert. Privat. Kein Konto, kein API-Key, einfach installieren und ganze Seiten übersetzen.',
+        primary: 'In Chrome installieren · Kostenlos'
+      }
+    },
+    es: {
+      meta: {
+        title: 'offline.translator – Traducción AI gratis para Chrome y páginas web',
+        description: 'Extensión de traducción AI gratis para Chrome con Translator API integrada de Chrome. Traduce páginas completas en el navegador con 40+ idiomas, caché inteligente y sin cuenta.',
+        ogTitle: 'offline.translator – Traducción AI gratis para Chrome y páginas web',
+        ogDescription: 'Extensión de traducción AI gratis para Chrome con Translator API integrada de Chrome. Traduce páginas completas en el navegador con 40+ idiomas, caché inteligente y sin cuenta.',
+        keywords: SEO_KEYWORDS
+      },
+      hero: {
+        title: 'Traducción AI gratis en Chrome<br><span class="gradient-text">para cualquier página web</span>',
+        sub: 'Una extensión de traducción AI gratis para Chrome basada en la Translator API integrada de Chrome.<br>La traducción se ejecuta localmente en tu navegador. <strong>El texto de la página permanece en Chrome durante la traducción gratuita.</strong>',
+        primaryCta: 'Instalar traductor AI gratis',
+        trust: 'Traducción gratis · Sin cuenta · 40+ idiomas'
+      },
+      cta: {
+        title: 'Empieza a traducir gratis con AI en Chrome.',
+        sub: 'Gratis. Integrado. Privado. Sin cuenta ni API key: instala y traduce páginas completas.',
+        primary: 'Instalar en Chrome · Gratis'
+      }
+    },
+    fr: {
+      meta: {
+        title: 'offline.translator – Traduction AI gratuite pour Chrome et le web',
+        description: 'Extension de traduction AI gratuite pour Chrome avec la Translator API intégrée de Chrome. Traduisez des pages entières dans le navigateur, avec plus de 40 langues, cache intelligent et sans compte.',
+        ogTitle: 'offline.translator – Traduction AI gratuite pour Chrome et le web',
+        ogDescription: 'Extension de traduction AI gratuite pour Chrome avec la Translator API intégrée de Chrome. Traduisez des pages entières dans le navigateur, avec plus de 40 langues, cache intelligent et sans compte.',
+        keywords: SEO_KEYWORDS
+      },
+      hero: {
+        title: 'Traduction AI gratuite sur Chrome<br><span class="gradient-text">pour n\'importe quelle page web</span>',
+        sub: 'Une extension de traduction AI gratuite pour Chrome, basée sur la Translator API intégrée de Chrome.<br>La traduction s\'exécute localement dans votre navigateur. <strong>Le texte de la page reste dans Chrome pendant la traduction gratuite.</strong>',
+        primaryCta: 'Installer le traducteur AI gratuit',
+        trust: 'Traduction gratuite · Sans compte · Plus de 40 langues'
+      },
+      cta: {
+        title: 'Commencez la traduction AI gratuite dans Chrome.',
+        sub: 'Gratuit. Intégré. Privé. Aucun compte, aucune clé API : installez et traduisez immédiatement.',
+        primary: 'Installer sur Chrome · Gratuit'
+      }
+    },
+    hi: {
+      meta: {
+        title: 'offline.translator – मुफ़्त AI Chrome वेबपेज अनुवाद एक्सटेंशन',
+        description: 'मुफ़्त AI Chrome translate एक्सटेंशन जो Chrome के built-in Translator API से पूरे वेबपेज को ब्राउज़र में अनुवाद करता है। 40+ भाषाएँ, स्मार्ट कैश और बिना अकाउंट।',
+        ogTitle: 'offline.translator – मुफ़्त AI Chrome वेबपेज अनुवाद एक्सटेंशन',
+        ogDescription: 'मुफ़्त AI Chrome translate एक्सटेंशन जो Chrome के built-in Translator API से पूरे वेबपेज को ब्राउज़र में अनुवाद करता है। 40+ भाषाएँ, स्मार्ट कैश और बिना अकाउंट।',
+        keywords: SEO_KEYWORDS
+      },
+      hero: {
+        title: 'किसी भी वेबपेज के लिए<br><span class="gradient-text">मुफ़्त AI Chrome अनुवाद</span>',
+        sub: 'Chrome के built-in Translator API पर आधारित एक मुफ़्त AI Chrome translate एक्सटेंशन।<br>अनुवाद आपके ब्राउज़र में लोकली चलता है। <strong>मुफ़्त अनुवाद के दौरान पेज का टेक्स्ट Chrome में ही रहता है।</strong>',
+        primaryCta: 'मुफ़्त AI अनुवादक इंस्टॉल करें',
+        trust: 'मुफ़्त अनुवाद · बिना अकाउंट · 40+ भाषाएँ'
+      },
+      cta: {
+        title: 'Chrome में मुफ़्त AI अनुवाद शुरू करें।',
+        sub: 'मुफ़्त। Built-in। निजी। न अकाउंट, न API key, बस इंस्टॉल करें और पूरे वेबपेज का अनुवाद करें।',
+        primary: 'Chrome पर इंस्टॉल करें · मुफ़्त'
+      }
+    },
+    it: {
+      meta: {
+        title: 'offline.translator – Traduzione AI gratis per Chrome e pagine web',
+        description: 'Estensione di traduzione AI gratis per Chrome con la Translator API integrata di Chrome. Traduce pagine complete nel browser con 40+ lingue, cache intelligente e senza account.',
+        ogTitle: 'offline.translator – Traduzione AI gratis per Chrome e pagine web',
+        ogDescription: 'Estensione di traduzione AI gratis per Chrome con la Translator API integrata di Chrome. Traduce pagine complete nel browser con 40+ lingue, cache intelligente e senza account.',
+        keywords: SEO_KEYWORDS
+      },
+      hero: {
+        title: 'Traduzione AI gratis in Chrome<br><span class="gradient-text">per qualsiasi pagina web</span>',
+        sub: 'Un\'estensione di traduzione AI gratis per Chrome basata sulla Translator API integrata di Chrome.<br>La traduzione gira localmente nel browser. <strong>Il testo della pagina resta in Chrome durante la traduzione gratuita.</strong>',
+        primaryCta: 'Installa il traduttore AI gratis',
+        trust: 'Traduzione gratis · Nessun account · 40+ lingue'
+      },
+      cta: {
+        title: 'Inizia la traduzione AI gratuita in Chrome.',
+        sub: 'Gratis. Integrata. Privata. Nessun account, nessuna API key: installa e traduci subito.',
+        primary: 'Installa su Chrome · Gratis'
+      }
+    },
+    ko: {
+      meta: {
+        title: 'offline.translator – 무료 AI Chrome 웹페이지 번역 확장 프로그램',
+        description: 'Chrome 내장 Translator API로 웹페이지 전체를 브라우저 안에서 번역하는 무료 AI Chrome translate 확장 프로그램입니다. 40개 이상 언어, 스마트 캐시, 계정 불필요.',
+        ogTitle: 'offline.translator – 무료 AI Chrome 웹페이지 번역 확장 프로그램',
+        ogDescription: 'Chrome 내장 Translator API로 웹페이지 전체를 브라우저 안에서 번역하는 무료 AI Chrome translate 확장 프로그램입니다. 40개 이상 언어, 스마트 캐시, 계정 불필요.',
+        keywords: SEO_KEYWORDS
+      },
+      hero: {
+        title: '모든 웹페이지를 위한<br><span class="gradient-text">무료 AI Chrome 번역</span>',
+        sub: 'Chrome 내장 Translator API 기반의 무료 AI Chrome 번역 확장 프로그램입니다.<br>번역은 브라우저 안에서 로컬로 실행됩니다. <strong>무료 번역 중에도 페이지 텍스트는 Chrome 안에 유지됩니다.</strong>',
+        primaryCta: '무료 AI 번역기 설치',
+        trust: '무료 번역 · 계정 불필요 · 40개 이상 언어'
+      },
+      cta: {
+        title: 'Chrome에서 무료 AI 번역을 시작하세요.',
+        sub: '무료. 내장. 비공개. 계정도 API 키도 없이 설치만 하면 바로 번역됩니다.',
+        primary: 'Chrome에 설치 · 무료'
+      }
+    },
+    pt: {
+      meta: {
+        title: 'offline.translator – Tradução AI gratuita para Chrome e páginas web',
+        description: 'Extensão de tradução AI gratuita para Chrome com a Translator API integrada do Chrome. Traduza páginas completas no navegador com mais de 40 idiomas, cache inteligente e sem conta.',
+        ogTitle: 'offline.translator – Tradução AI gratuita para Chrome e páginas web',
+        ogDescription: 'Extensão de tradução AI gratuita para Chrome com a Translator API integrada do Chrome. Traduza páginas completas no navegador com mais de 40 idiomas, cache inteligente e sem conta.',
+        keywords: SEO_KEYWORDS
+      },
+      hero: {
+        title: 'Tradução AI gratuita no Chrome<br><span class="gradient-text">para qualquer página web</span>',
+        sub: 'Uma extensão de tradução AI gratuita para Chrome baseada na Translator API integrada do Chrome.<br>A tradução é executada localmente no navegador. <strong>O texto da página fica no Chrome durante a tradução gratuita.</strong>',
+        primaryCta: 'Instalar tradutor AI gratuito',
+        trust: 'Tradução AI gratuita · Sem conta · Mais de 40 idiomas'
+      },
+      cta: {
+        title: 'Comece a tradução AI gratuita no Chrome.',
+        sub: 'Gratuito. Integrado. Privado. Sem conta nem chave de API: instale e traduza páginas inteiras.',
+        primary: 'Instalar no Chrome · Gratuito'
+      }
+    },
+    'pt-BR': {
+      meta: {
+        title: 'offline.translator – Tradutor AI grátis para Chrome e páginas da web',
+        description: 'Extensão de tradução AI grátis para Chrome com a Translator API integrada do Chrome. Traduza páginas completas no navegador com 40+ idiomas, cache inteligente e sem conta.',
+        ogTitle: 'offline.translator – Tradutor AI grátis para Chrome e páginas da web',
+        ogDescription: 'Extensão de tradução AI grátis para Chrome com a Translator API integrada do Chrome. Traduza páginas completas no navegador com 40+ idiomas, cache inteligente e sem conta.',
+        keywords: SEO_KEYWORDS
+      },
+      hero: {
+        title: 'Tradução AI grátis no Chrome<br><span class="gradient-text">para qualquer página da web</span>',
+        sub: 'Uma extensão de tradução AI grátis para Chrome baseada na Translator API integrada do Chrome.<br>A tradução roda localmente no navegador. <strong>O texto da página permanece no Chrome durante a tradução grátis.</strong>',
+        primaryCta: 'Instalar tradutor AI grátis',
+        trust: 'Tradução AI grátis · Sem conta · 40+ idiomas'
+      },
+      cta: {
+        title: 'Comece a tradução AI grátis no Chrome.',
+        sub: 'Grátis. Integrado. Privado. Sem conta e sem chave de API: instale e traduza páginas inteiras.',
+        primary: 'Instalar no Chrome · Grátis'
+      }
+    },
+    ru: {
+      meta: {
+        title: 'offline.translator – Бесплатный AI-переводчик Chrome для веб-страниц',
+        description: 'Бесплатное AI-расширение для перевода в Chrome на базе встроенного Translator API Chrome. Переводите целые страницы в браузере: 40+ языков, умный кэш и без аккаунта.',
+        ogTitle: 'offline.translator – Бесплатный AI-переводчик Chrome для веб-страниц',
+        ogDescription: 'Бесплатное AI-расширение для перевода в Chrome на базе встроенного Translator API Chrome. Переводите целые страницы в браузере: 40+ языков, умный кэш и без аккаунта.',
+        keywords: SEO_KEYWORDS
+      },
+      hero: {
+        title: 'Бесплатный AI-перевод в Chrome<br><span class="gradient-text">для любой веб-страницы</span>',
+        sub: 'Бесплатное AI-расширение для Chrome на базе встроенного Translator API Chrome.<br>Перевод выполняется локально в браузере. <strong>Текст страницы остаётся в Chrome во время бесплатного перевода.</strong>',
+        primaryCta: 'Установить бесплатный AI-переводчик',
+        trust: 'Бесплатный перевод · Без аккаунта · 40+ языков'
+      },
+      cta: {
+        title: 'Запустите бесплатный AI-перевод в Chrome.',
+        sub: 'Бесплатно. Встроено. Приватно. Без аккаунта и без API key: установите и переводите целые страницы.',
+        primary: 'Установить в Chrome · Бесплатно'
+      }
     }
   };
   var DEFAULT_OG_IMAGE = 'https://theofflinetranslator.com/assets/ScreenShot_2026-04-24_185508_569.png';
@@ -188,6 +471,54 @@
     }) || SUPPORTED_LOCALES.find(function (item) {
       return item.code === 'en';
     });
+  }
+
+  function isPlainObject(value) {
+    return Object.prototype.toString.call(value) === '[object Object]';
+  }
+
+  function mergeMessageTrees(base, override) {
+    if (!base) return override;
+    if (!override) return base;
+
+    var result = {};
+
+    Object.keys(base).forEach(function (key) {
+      var value = base[key];
+
+      if (Array.isArray(value)) {
+        result[key] = value.slice();
+      } else if (isPlainObject(value)) {
+        result[key] = mergeMessageTrees(value, null);
+      } else {
+        result[key] = value;
+      }
+    });
+
+    Object.keys(override).forEach(function (key) {
+      var overrideValue = override[key];
+      var baseValue = result[key];
+
+      if (isPlainObject(overrideValue) && isPlainObject(baseValue)) {
+        result[key] = mergeMessageTrees(baseValue, overrideValue);
+      } else if (Array.isArray(overrideValue)) {
+        result[key] = overrideValue.slice();
+      } else {
+        result[key] = overrideValue;
+      }
+    });
+
+    return result;
+  }
+
+  function getHomeMessages(locale) {
+    var baseMessages = I18N.home && I18N.home[locale];
+    var overrides = HOME_MESSAGE_OVERRIDES[locale];
+
+    if (!baseMessages) return null;
+    if (!overrides) return baseMessages;
+
+    return mergeMessageTrees(baseMessages, overrides);
   }
 
   function stripHtml(value) {
@@ -407,7 +738,7 @@
   }
 
   function applyHomeTranslations(locale) {
-    var messages = I18N.home && I18N.home[locale];
+    var messages = getHomeMessages(locale);
     var currentUrl = getCurrentUrlWithoutHash();
     var localeConfig = getLocaleConfig(locale);
 
@@ -416,6 +747,7 @@
     setCanonical(currentUrl);
     setMeta('meta[property="og:url"]', currentUrl);
     setMeta('meta[property="og:locale"]', localeConfig.ogLocale);
+    setMeta('meta[name="keywords"]', SEO_KEYWORDS);
     setMeta('meta[property="og:image"]', DEFAULT_OG_IMAGE);
     setMeta('meta[property="og:image:alt"]', DEFAULT_OG_IMAGE_ALT);
     setMeta('meta[name="twitter:image"]', DEFAULT_OG_IMAGE);
@@ -424,6 +756,7 @@
     if (messages && messages.meta) {
       if (messages.meta.title) document.title = messages.meta.title;
       setMeta('meta[name="description"]', messages.meta.description);
+      setMeta('meta[name="keywords"]', messages.meta.keywords || SEO_KEYWORDS);
       setMeta('meta[property="og:title"]', messages.meta.ogTitle || messages.meta.title);
       setMeta('meta[property="og:description"]', messages.meta.ogDescription || messages.meta.description);
       setMeta('meta[name="twitter:title"]', messages.meta.ogTitle || messages.meta.title);
@@ -765,15 +1098,6 @@
 
   document.addEventListener('DOMContentLoaded', function () {
     var locale = resolveLocale(window.location.pathname);
-
-    if (
-      document.body &&
-      document.body.dataset.page === 'home' &&
-      !isSupportedLocale(normalizePathname(window.location.pathname).split('/').filter(Boolean)[0] || '')
-    ) {
-      window.history.replaceState(null, '', buildLocalePath('en'));
-      locale = 'en';
-    }
 
     initThemeToggle(locale);
     initLocalePicker(locale);
