@@ -1,6 +1,6 @@
 /* ============================================================
    offline.translator landing page — script.js
-============================================================ */
+   ============================================================ */
 
 (function () {
   'use strict';
@@ -24,171 +24,104 @@
   ];
 
   var I18N = window.OFFLINE_TRANSLATOR_I18N || {};
-  var THEME_STORAGE_KEY = 'offline-translator-theme';
   var HERO_SLIDES = [
-    {
-      src: '/assets/ScreenShot_2026-04-24_191406_506.png',
-      alt: 'roadmap.sh translated with the offline.translator side panel visible'
-    },
-    {
-      src: '/assets/ScreenShot_2026-04-24_185508_569.png',
-      alt: 'GitHub blog translated with live progress in the side panel'
-    },
-    {
-      src: '/assets/Paste.jpg',
-      alt: 'Gates Notes translated inside Chrome with the extension side panel open'
-    },
-    {
-      src: '/assets/setting.jpg',
-      alt: 'Language settings with configurable source and target languages'
-    },
-    {
-      src: '/assets/ScreenShot_2026-04-24_151406_755.png',
-      alt: 'offline.translator extension screenshot preview'
-    },
-    {
-      src: '/assets/ScreenShot_2026-04-24_185020_360.png',
-      alt: 'offline.translator screenshot showing translation controls'
-    },
-    {
-      src: '/assets/ScreenShot_2026-04-24_190729_089.png',
-      alt: 'offline.translator screenshot showing translated content and side panel metrics'
-    }
+    { src: '/assets/ScreenShot_2026-04-24_191406_506.png', alt: 'roadmap.sh translated with the offline.translator side panel visible' },
+    { src: '/assets/ScreenShot_2026-04-24_185508_569.png', alt: 'GitHub blog translated with live progress in the side panel' },
+    { src: '/assets/Paste.jpg', alt: 'Gates Notes translated inside Chrome with the extension side panel open' },
+    { src: '/assets/setting.jpg', alt: 'Language settings with configurable source and target languages' },
+    { src: '/assets/ScreenShot_2026-04-24_151406_755.png', alt: 'offline.translator extension screenshot preview' },
+    { src: '/assets/ScreenShot_2026-04-24_185020_360.png', alt: 'offline.translator screenshot showing translation controls' },
+    { src: '/assets/ScreenShot_2026-04-24_190729_089.png', alt: 'offline.translator screenshot showing translated content and side panel metrics' }
   ];
   var UI_MESSAGES = {
     en: {
-      toggleToLight: 'Switch to light theme',
-      toggleToDark: 'Switch to dark theme',
-      slideshow: 'Product screenshots',
-      slide: 'Go to screenshot',
-      trustAccount: 'Free AI translation',
+      screenshotsLabel: 'Feature previews',
+      screenshotLabel: 'Show feature',
       comparisonLastRow: ['Free translation', null, 'Varies', null]
     },
     'zh-Hans': {
-      toggleToLight: '切换到浅色主题',
-      toggleToDark: '切换到深色主题',
-      slideshow: '产品截图',
-      slide: '查看第',
-      trustAccount: '免费 AI 翻译',
+      screenshotsLabel: '产品截图',
+      screenshotLabel: '查看第',
       comparisonLastRow: ['免费翻译', null, '视服务而定', null]
     },
     'zh-Hant': {
-      toggleToLight: '切換到淺色主題',
-      toggleToDark: '切換到深色主題',
-      slideshow: '產品截圖',
-      slide: '查看第',
-      trustAccount: '免費 AI 翻譯',
+      screenshotsLabel: '產品截圖',
+      screenshotLabel: '查看第',
       comparisonLastRow: ['免費翻譯', null, '視服務而定', null]
     },
     'zh-Hant-HK': {
-      toggleToLight: '切換到淺色主題',
-      toggleToDark: '切換到深色主題',
-      slideshow: '產品截圖',
-      slide: '查看第',
-      trustAccount: '免費 AI 翻譯',
+      screenshotsLabel: '產品截圖',
+      screenshotLabel: '查看第',
       comparisonLastRow: ['免費翻譯', null, '視乎服務而定', null]
     },
     ja: {
-      toggleToLight: 'ライトテーマに切り替える',
-      toggleToDark: 'ダークテーマに切り替える',
-      slideshow: '製品スクリーンショット',
-      slide: 'スクリーンショット',
-      trustAccount: '無料 AI 翻訳',
+      screenshotsLabel: '製品スクリーンショット',
+      screenshotLabel: 'スクリーンショット',
       comparisonLastRow: ['無料翻訳', null, 'サービス次第', null]
     },
     ar: {
-      toggleToLight: 'التبديل إلى الوضع الفاتح',
-      toggleToDark: 'التبديل إلى الوضع الداكن',
-      slideshow: 'لقطات المنتج',
-      slide: 'انتقل إلى اللقطة',
-      trustAccount: 'ترجمة AI مجانية',
+      screenshotsLabel: 'لقطات المنتج',
+      screenshotLabel: 'انتقل إلى اللقطة',
       comparisonLastRow: ['ترجمة مجانية', null, 'يختلف', null]
     },
     de: {
-      toggleToLight: 'Zum hellen Design wechseln',
-      toggleToDark: 'Zum dunklen Design wechseln',
-      slideshow: 'Produkt-Screenshots',
-      slide: 'Zum Screenshot',
-      trustAccount: 'Kostenlose AI-Übersetzung',
+      screenshotsLabel: 'Produkt-Screenshots',
+      screenshotLabel: 'Zum Screenshot',
       comparisonLastRow: ['Kostenlose Übersetzung', null, 'Unterschiedlich', null]
     },
     es: {
-      toggleToLight: 'Cambiar al tema claro',
-      toggleToDark: 'Cambiar al tema oscuro',
-      slideshow: 'Capturas del producto',
-      slide: 'Ir a la captura',
-      trustAccount: 'Traducción AI gratis',
+      screenshotsLabel: 'Capturas del producto',
+      screenshotLabel: 'Ir a la captura',
       comparisonLastRow: ['Traducción gratis', null, 'Varía', null]
     },
     fr: {
-      toggleToLight: 'Passer au thème clair',
-      toggleToDark: 'Passer au thème sombre',
-      slideshow: 'Captures produit',
-      slide: 'Aller à la capture',
-      trustAccount: 'Traduction AI gratuite',
+      screenshotsLabel: 'Captures produit',
+      screenshotLabel: 'Aller à la capture',
       comparisonLastRow: ['Traduction gratuite', null, 'Variable', null]
     },
     hi: {
-      toggleToLight: 'लाइट थीम पर जाएँ',
-      toggleToDark: 'डार्क थीम पर जाएँ',
-      slideshow: 'प्रोडक्ट स्क्रीनशॉट',
-      slide: 'स्क्रीनशॉट पर जाएँ',
-      trustAccount: 'मुफ़्त AI अनुवाद',
+      screenshotsLabel: 'प्रोडक्ट स्क्रीनशॉट',
+      screenshotLabel: 'स्क्रीनशॉट पर जाएँ',
       comparisonLastRow: ['मुफ़्त अनुवाद', null, 'सेवा पर निर्भर', null]
     },
     it: {
-      toggleToLight: 'Passa al tema chiaro',
-      toggleToDark: 'Passa al tema scuro',
-      slideshow: 'Screenshot del prodotto',
-      slide: 'Vai allo screenshot',
-      trustAccount: 'Traduzione AI gratis',
+      screenshotsLabel: 'Screenshot del prodotto',
+      screenshotLabel: 'Vai allo screenshot',
       comparisonLastRow: ['Traduzione gratis', null, 'Variabile', null]
     },
     ko: {
-      toggleToLight: '라이트 테마로 전환',
-      toggleToDark: '다크 테마로 전환',
-      slideshow: '제품 스크린샷',
-      slide: '스크린샷으로 이동',
-      trustAccount: '무료 AI 번역',
+      screenshotsLabel: '제품 스크린샷',
+      screenshotLabel: '스크린샷으로 이동',
       comparisonLastRow: ['무료 번역', null, '서비스마다 다름', null]
     },
     pt: {
-      toggleToLight: 'Mudar para tema claro',
-      toggleToDark: 'Mudar para tema escuro',
-      slideshow: 'Capturas do produto',
-      slide: 'Ir para a captura',
-      trustAccount: 'Tradução AI gratuita',
+      screenshotsLabel: 'Capturas do produto',
+      screenshotLabel: 'Ir para a captura',
       comparisonLastRow: ['Tradução gratuita', null, 'Varia', null]
     },
     'pt-BR': {
-      toggleToLight: 'Mudar para tema claro',
-      toggleToDark: 'Mudar para tema escuro',
-      slideshow: 'Capturas do produto',
-      slide: 'Ir para a captura',
-      trustAccount: 'Tradução AI grátis',
+      screenshotsLabel: 'Capturas do produto',
+      screenshotLabel: 'Ir para a captura',
       comparisonLastRow: ['Tradução grátis', null, 'Varia', null]
     },
     ru: {
-      toggleToLight: 'Переключить на светлую тему',
-      toggleToDark: 'Переключить на темную тему',
-      slideshow: 'Скриншоты продукта',
-      slide: 'Перейти к скриншоту',
-      trustAccount: 'Бесплатный AI-перевод',
+      screenshotsLabel: 'Скриншоты продукта',
+      screenshotLabel: 'Перейти к скриншоту',
       comparisonLastRow: ['Бесплатный перевод', null, 'Зависит от сервиса', null]
     }
   };
-  var SEO_KEYWORDS = 'offline translator, offline AI translator, free AI translator, free AI translation, free translation, chrome translate, chrome translate extension, free chrome translate, built in chrome translate, built-in chrome translator, on-device translation, private browser translation';
+  var SEO_KEYWORDS = 'local webpage translation, Chrome AI translator, Gemini Nano translation, on-device translation, privacy-first translator, Chrome translate extension, AI-powered translation, local AI processing, browser translation, offline translator';
   var HOME_MESSAGE_OVERRIDES = {
     'zh-Hans': {
       meta: {
-        title: 'offline.translator – 免费 AI Chrome 网页翻译扩展',
+        title: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
         description: '免费 AI Chrome translate 扩展，使用 Chrome 内置 Translator API 在浏览器内完成整页翻译。支持 40+ 种语言、智能缓存与免费翻译，无需账号。',
-        ogTitle: 'offline.translator – 免费 AI Chrome 网页翻译扩展',
+        ogTitle: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
         ogDescription: '免费 AI Chrome translate 扩展，使用 Chrome 内置 Translator API 在浏览器内完成整页翻译。支持 40+ 种语言、智能缓存与免费翻译，无需账号。',
         keywords: SEO_KEYWORDS
       },
       hero: {
-        title: '免费 AI Chrome 网页翻译<br><span class="gradient-text">适用于任意网页</span>',
+        title: '免费 AI Chrome 网页翻译<br><span class="highlight">适用于任意网页</span>',
         sub: '一款免费的 AI Chrome 翻译扩展，基于 Chrome 内置 Translator API。<br>翻译在浏览器内本地完成。<strong>免费翻译时，页面文本始终留在 Chrome 中。</strong>',
         primaryCta: '安装免费 AI 翻译扩展',
         trust: '免费翻译 · 无需账号 · 支持 40+ 种语言'
@@ -201,14 +134,14 @@
     },
     'zh-Hant': {
       meta: {
-        title: 'offline.translator – 免費 AI Chrome 網頁翻譯擴充功能',
-        description: '免費 AI Chrome translate 擴充功能，使用 Chrome 內建 Translator API 在瀏覽器內完成整頁翻譯。支援 40+ 種語言、智慧快取與免費翻譯，不需帳號。',
-        ogTitle: 'offline.translator – 免費 AI Chrome 網頁翻譯擴充功能',
-        ogDescription: '免費 AI Chrome translate 擴充功能，使用 Chrome 內建 Translator API 在瀏覽器內完成整頁翻譯。支援 40+ 種語言、智慧快取與免費翻譯，不需帳號。',
+        title: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
+        description: 'Translate webpages directly on your device using Chrome's built-in AI and Gemini Nano. Privacy-first design with no developer-hosted translation server.',
+        ogTitle: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
+        ogDescription: 'Translate webpages directly on your device using Chrome's built-in AI and Gemini Nano. Privacy-first design with no developer-hosted translation server.',
         keywords: SEO_KEYWORDS
       },
       hero: {
-        title: '免費 AI Chrome 網頁翻譯<br><span class="gradient-text">適用於任何網頁</span>',
+        title: '免費 AI Chrome 網頁翻譯<br><span class="highlight">適用於任何網頁</span>',
         sub: '一款免費的 AI Chrome 翻譯擴充功能，基於 Chrome 內建 Translator API。<br>翻譯會在瀏覽器內本地完成。<strong>免費翻譯時，頁面文字始終留在 Chrome 中。</strong>',
         primaryCta: '安裝免費 AI 翻譯擴充功能',
         trust: '免費翻譯 · 不需帳號 · 支援 40+ 種語言'
@@ -221,14 +154,14 @@
     },
     'zh-Hant-HK': {
       meta: {
-        title: 'offline.translator – 免費 AI Chrome 網頁翻譯擴充功能',
-        description: '免費 AI Chrome translate 擴充功能，使用 Chrome 內建 Translator API 在瀏覽器內完成整頁翻譯。支援 40+ 種語言、智慧快取與免費翻譯，毋須帳號。',
-        ogTitle: 'offline.translator – 免費 AI Chrome 網頁翻譯擴充功能',
-        ogDescription: '免費 AI Chrome translate 擴充功能，使用 Chrome 內建 Translator API 在瀏覽器內完成整頁翻譯。支援 40+ 種語言、智慧快取與免費翻譯，毋須帳號。',
+        title: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
+        description: 'Translate webpages directly on your device using Chrome's built-in AI and Gemini Nano. Privacy-first design with no developer-hosted translation server.',
+        ogTitle: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
+        ogDescription: 'Translate webpages directly on your device using Chrome's built-in AI and Gemini Nano. Privacy-first design with no developer-hosted translation server.',
         keywords: SEO_KEYWORDS
       },
       hero: {
-        title: '免費 AI Chrome 網頁翻譯<br><span class="gradient-text">適用於任何網頁</span>',
+        title: '免費 AI Chrome 網頁翻譯<br><span class="highlight">適用於任何網頁</span>',
         sub: '一款免費的 AI Chrome 翻譯擴充功能，基於 Chrome 內建 Translator API。<br>翻譯會在瀏覽器內本地完成。<strong>免費翻譯時，頁面文字始終留在 Chrome 中。</strong>',
         primaryCta: '安裝免費 AI 翻譯擴充功能',
         trust: '免費翻譯 · 毋須帳號 · 支援 40+ 種語言'
@@ -241,14 +174,14 @@
     },
     ja: {
       meta: {
-        title: 'offline.translator – 無料 AI Chrome 翻訳拡張機能',
+        title: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
         description: '無料で使える AI Chrome 翻訳拡張機能。Chrome 内蔵の Translator API でページ全体をブラウザ内翻訳。40以上の言語、スマートキャッシュ、アカウント不要。',
-        ogTitle: 'offline.translator – 無料 AI Chrome 翻訳拡張機能',
+        ogTitle: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
         ogDescription: '無料で使える AI Chrome 翻訳拡張機能。Chrome 内蔵の Translator API でページ全体をブラウザ内翻訳。40以上の言語、スマートキャッシュ、アカウント不要。',
         keywords: SEO_KEYWORDS
       },
       hero: {
-        title: '無料 AI Chrome 翻訳<br><span class="gradient-text">あらゆるWebページに対応</span>',
+        title: '無料 AI Chrome 翻訳<br><span class="highlight">あらゆるWebページに対応</span>',
         sub: 'Chrome 内蔵の Translator API を使う無料 AI Chrome 翻訳拡張機能です。<br>翻訳はブラウザ内で端末上に保持されたまま実行されます。<strong>ページのテキストは無料翻訳中も Chrome 内にとどまります。</strong>',
         primaryCta: '無料 AI 翻訳をインストール',
         trust: '無料翻訳 · アカウント不要 · 40以上の言語'
@@ -261,14 +194,14 @@
     },
     ar: {
       meta: {
-        title: 'offline.translator – ترجمة AI مجانية لصفحات Chrome',
+        title: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
         description: 'إضافة ترجمة AI مجانية لمتصفح Chrome تستخدم Translator API المدمج في Chrome لترجمة صفحات الويب بالكامل داخل المتصفح. تدعم أكثر من 40 لغة وتعمل بدون حساب.',
-        ogTitle: 'offline.translator – ترجمة AI مجانية لصفحات Chrome',
+        ogTitle: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
         ogDescription: 'إضافة ترجمة AI مجانية لمتصفح Chrome تستخدم Translator API المدمج في Chrome لترجمة صفحات الويب بالكامل داخل المتصفح. تدعم أكثر من 40 لغة وتعمل بدون حساب.',
         keywords: SEO_KEYWORDS
       },
       hero: {
-        title: 'ترجمة AI مجانية في Chrome<br><span class="gradient-text">لأي صفحة ويب</span>',
+        title: 'ترجمة AI مجانية في Chrome<br><span class="highlight">لأي صفحة ويب</span>',
         sub: 'إضافة ترجمة AI مجانية لمتصفح Chrome تعتمد على Translator API المدمج في Chrome.<br>تتم الترجمة محلياً داخل المتصفح. <strong>يبقى نص الصفحة داخل Chrome أثناء الترجمة المجانية.</strong>',
         primaryCta: 'ثبّت مترجم AI المجاني',
         trust: 'ترجمة مجانية · بلا حساب · أكثر من 40 لغة'
@@ -281,14 +214,14 @@
     },
     de: {
       meta: {
-        title: 'offline.translator – Kostenlose AI-Chrome-Übersetzung für Webseiten',
-        description: 'Kostenlose AI-Chrome-Übersetzung mit der integrierten Translator API von Chrome. Ganze Webseiten direkt im Browser übersetzen, mit 40+ Sprachen, Cache und ohne Konto.',
-        ogTitle: 'offline.translator – Kostenlose AI-Chrome-Übersetzung für Webseiten',
-        ogDescription: 'Kostenlose AI-Chrome-Übersetzung mit der integrierten Translator API von Chrome. Ganze Webseiten direkt im Browser übersetzen, mit 40+ Sprachen, Cache und ohne Konto.',
+        title: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
+        description: 'Translate webpages directly on your device using Chrome's built-in AI and Gemini Nano. Privacy-first design with no developer-hosted translation server.',
+        ogTitle: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
+        ogDescription: 'Translate webpages directly on your device using Chrome's built-in AI and Gemini Nano. Privacy-first design with no developer-hosted translation server.',
         keywords: SEO_KEYWORDS
       },
       hero: {
-        title: 'Kostenlose AI-Chrome-Übersetzung<br><span class="gradient-text">für jede Webseite</span>',
+        title: 'Kostenlose AI-Chrome-Übersetzung<br><span class="highlight">für jede Webseite</span>',
         sub: 'Eine kostenlose AI-Übersetzungserweiterung für Chrome auf Basis der integrierten Translator API von Chrome.<br>Die Übersetzung läuft lokal in deinem Browser. <strong>Seitentext bleibt während der kostenlosen Übersetzung in Chrome.</strong>',
         primaryCta: 'Kostenlosen AI-Übersetzer installieren',
         trust: 'Kostenlose Übersetzung · Kein Konto · 40+ Sprachen'
@@ -301,14 +234,14 @@
     },
     es: {
       meta: {
-        title: 'offline.translator – Traducción AI gratis para Chrome y páginas web',
+        title: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
         description: 'Extensión de traducción AI gratis para Chrome con Translator API integrada de Chrome. Traduce páginas completas en el navegador con 40+ idiomas, caché inteligente y sin cuenta.',
-        ogTitle: 'offline.translator – Traducción AI gratis para Chrome y páginas web',
+        ogTitle: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
         ogDescription: 'Extensión de traducción AI gratis para Chrome con Translator API integrada de Chrome. Traduce páginas completas en el navegador con 40+ idiomas, caché inteligente y sin cuenta.',
         keywords: SEO_KEYWORDS
       },
       hero: {
-        title: 'Traducción AI gratis en Chrome<br><span class="gradient-text">para cualquier página web</span>',
+        title: 'Traducción AI gratis en Chrome<br><span class="highlight">para cualquier página web</span>',
         sub: 'Una extensión de traducción AI gratis para Chrome basada en la Translator API integrada de Chrome.<br>La traducción se ejecuta localmente en tu navegador. <strong>El texto de la página permanece en Chrome durante la traducción gratuita.</strong>',
         primaryCta: 'Instalar traductor AI gratis',
         trust: 'Traducción gratis · Sin cuenta · 40+ idiomas'
@@ -321,14 +254,14 @@
     },
     fr: {
       meta: {
-        title: 'offline.translator – Traduction AI gratuite pour Chrome et le web',
+        title: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
         description: 'Extension de traduction AI gratuite pour Chrome avec la Translator API intégrée de Chrome. Traduisez des pages entières dans le navigateur, avec plus de 40 langues, cache intelligent et sans compte.',
-        ogTitle: 'offline.translator – Traduction AI gratuite pour Chrome et le web',
+        ogTitle: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
         ogDescription: 'Extension de traduction AI gratuite pour Chrome avec la Translator API intégrée de Chrome. Traduisez des pages entières dans le navigateur, avec plus de 40 langues, cache intelligent et sans compte.',
         keywords: SEO_KEYWORDS
       },
       hero: {
-        title: 'Traduction AI gratuite sur Chrome<br><span class="gradient-text">pour n\'importe quelle page web</span>',
+        title: 'Traduction AI gratuite sur Chrome<br><span class="highlight">pour n\'importe quelle page web</span>',
         sub: 'Une extension de traduction AI gratuite pour Chrome, basée sur la Translator API intégrée de Chrome.<br>La traduction s\'exécute localement dans votre navigateur. <strong>Le texte de la page reste dans Chrome pendant la traduction gratuite.</strong>',
         primaryCta: 'Installer le traducteur AI gratuit',
         trust: 'Traduction gratuite · Sans compte · Plus de 40 langues'
@@ -341,14 +274,14 @@
     },
     hi: {
       meta: {
-        title: 'offline.translator – मुफ़्त AI Chrome वेबपेज अनुवाद एक्सटेंशन',
-        description: 'मुफ़्त AI Chrome translate एक्सटेंशन जो Chrome के built-in Translator API से पूरे वेबपेज को ब्राउज़र में अनुवाद करता है। 40+ भाषाएँ, स्मार्ट कैश और बिना अकाउंट।',
-        ogTitle: 'offline.translator – मुफ़्त AI Chrome वेबपेज अनुवाद एक्सटेंशन',
-        ogDescription: 'मुफ़्त AI Chrome translate एक्सटेंशन जो Chrome के built-in Translator API से पूरे वेबपेज को ब्राउज़र में अनुवाद करता है। 40+ भाषाएँ, स्मार्ट कैश और बिना अकाउंट।',
+        title: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
+        description: 'Translate webpages directly on your device using Chrome's built-in AI and Gemini Nano. Privacy-first design with no developer-hosted translation server.',
+        ogTitle: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
+        ogDescription: 'Translate webpages directly on your device using Chrome's built-in AI and Gemini Nano. Privacy-first design with no developer-hosted translation server.',
         keywords: SEO_KEYWORDS
       },
       hero: {
-        title: 'किसी भी वेबपेज के लिए<br><span class="gradient-text">मुफ़्त AI Chrome अनुवाद</span>',
+        title: 'किसी भी वेबपेज के लिए<br><span class="highlight">मुफ़्त AI Chrome अनुवाद</span>',
         sub: 'Chrome के built-in Translator API पर आधारित एक मुफ़्त AI Chrome translate एक्सटेंशन।<br>अनुवाद आपके ब्राउज़र में लोकली चलता है। <strong>मुफ़्त अनुवाद के दौरान पेज का टेक्स्ट Chrome में ही रहता है।</strong>',
         primaryCta: 'मुफ़्त AI अनुवादक इंस्टॉल करें',
         trust: 'मुफ़्त अनुवाद · बिना अकाउंट · 40+ भाषाएँ'
@@ -361,14 +294,14 @@
     },
     it: {
       meta: {
-        title: 'offline.translator – Traduzione AI gratis per Chrome e pagine web',
+        title: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
         description: 'Estensione di traduzione AI gratis per Chrome con la Translator API integrata di Chrome. Traduce pagine complete nel browser con 40+ lingue, cache intelligente e senza account.',
-        ogTitle: 'offline.translator – Traduzione AI gratis per Chrome e pagine web',
+        ogTitle: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
         ogDescription: 'Estensione di traduzione AI gratis per Chrome con la Translator API integrata di Chrome. Traduce pagine complete nel browser con 40+ lingue, cache intelligente e senza account.',
         keywords: SEO_KEYWORDS
       },
       hero: {
-        title: 'Traduzione AI gratis in Chrome<br><span class="gradient-text">per qualsiasi pagina web</span>',
+        title: 'Traduzione AI gratis in Chrome<br><span class="highlight">per qualsiasi pagina web</span>',
         sub: 'Un\'estensione di traduzione AI gratis per Chrome basata sulla Translator API integrata di Chrome.<br>La traduzione gira localmente nel browser. <strong>Il testo della pagina resta in Chrome durante la traduzione gratuita.</strong>',
         primaryCta: 'Installa il traduttore AI gratis',
         trust: 'Traduzione gratis · Nessun account · 40+ lingue'
@@ -381,14 +314,14 @@
     },
     ko: {
       meta: {
-        title: 'offline.translator – 무료 AI Chrome 웹페이지 번역 확장 프로그램',
+        title: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
         description: 'Chrome 내장 Translator API로 웹페이지 전체를 브라우저 안에서 번역하는 무료 AI Chrome translate 확장 프로그램입니다. 40개 이상 언어, 스마트 캐시, 계정 불필요.',
-        ogTitle: 'offline.translator – 무료 AI Chrome 웹페이지 번역 확장 프로그램',
+        ogTitle: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
         ogDescription: 'Chrome 내장 Translator API로 웹페이지 전체를 브라우저 안에서 번역하는 무료 AI Chrome translate 확장 프로그램입니다. 40개 이상 언어, 스마트 캐시, 계정 불필요.',
         keywords: SEO_KEYWORDS
       },
       hero: {
-        title: '모든 웹페이지를 위한<br><span class="gradient-text">무료 AI Chrome 번역</span>',
+        title: '모든 웹페이지를 위한<br><span class="highlight">무료 AI Chrome 번역</span>',
         sub: 'Chrome 내장 Translator API 기반의 무료 AI Chrome 번역 확장 프로그램입니다.<br>번역은 브라우저 안에서 로컬로 실행됩니다. <strong>무료 번역 중에도 페이지 텍스트는 Chrome 안에 유지됩니다.</strong>',
         primaryCta: '무료 AI 번역기 설치',
         trust: '무료 번역 · 계정 불필요 · 40개 이상 언어'
@@ -401,14 +334,14 @@
     },
     pt: {
       meta: {
-        title: 'offline.translator – Tradução AI gratuita para Chrome e páginas web',
+        title: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
         description: 'Extensão de tradução AI gratuita para Chrome com a Translator API integrada do Chrome. Traduza páginas completas no navegador com mais de 40 idiomas, cache inteligente e sem conta.',
-        ogTitle: 'offline.translator – Tradução AI gratuita para Chrome e páginas web',
+        ogTitle: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
         ogDescription: 'Extensão de tradução AI gratuita para Chrome com a Translator API integrada do Chrome. Traduza páginas completas no navegador com mais de 40 idiomas, cache inteligente e sem conta.',
         keywords: SEO_KEYWORDS
       },
       hero: {
-        title: 'Tradução AI gratuita no Chrome<br><span class="gradient-text">para qualquer página web</span>',
+        title: 'Tradução AI gratuita no Chrome<br><span class="highlight">para qualquer página web</span>',
         sub: 'Uma extensão de tradução AI gratuita para Chrome baseada na Translator API integrada do Chrome.<br>A tradução é executada localmente no navegador. <strong>O texto da página fica no Chrome durante a tradução gratuita.</strong>',
         primaryCta: 'Instalar tradutor AI gratuito',
         trust: 'Tradução AI gratuita · Sem conta · Mais de 40 idiomas'
@@ -421,14 +354,14 @@
     },
     'pt-BR': {
       meta: {
-        title: 'offline.translator – Tradutor AI grátis para Chrome e páginas da web',
+        title: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
         description: 'Extensão de tradução AI grátis para Chrome com a Translator API integrada do Chrome. Traduza páginas completas no navegador com 40+ idiomas, cache inteligente e sem conta.',
-        ogTitle: 'offline.translator – Tradutor AI grátis para Chrome e páginas da web',
+        ogTitle: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
         ogDescription: 'Extensão de tradução AI grátis para Chrome com a Translator API integrada do Chrome. Traduza páginas completas no navegador com 40+ idiomas, cache inteligente e sem conta.',
         keywords: SEO_KEYWORDS
       },
       hero: {
-        title: 'Tradução AI grátis no Chrome<br><span class="gradient-text">para qualquer página da web</span>',
+        title: 'Tradução AI grátis no Chrome<br><span class="highlight">para qualquer página da web</span>',
         sub: 'Uma extensão de tradução AI grátis para Chrome baseada na Translator API integrada do Chrome.<br>A tradução roda localmente no navegador. <strong>O texto da página permanece no Chrome durante a tradução grátis.</strong>',
         primaryCta: 'Instalar tradutor AI grátis',
         trust: 'Tradução AI grátis · Sem conta · 40+ idiomas'
@@ -441,14 +374,14 @@
     },
     ru: {
       meta: {
-        title: 'offline.translator – Бесплатный AI-переводчик Chrome для веб-страниц',
+        title: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
         description: 'Бесплатное AI-расширение для перевода в Chrome на базе встроенного Translator API Chrome. Переводите целые страницы в браузере: 40+ языков, умный кэш и без аккаунта.',
-        ogTitle: 'offline.translator – Бесплатный AI-переводчик Chrome для веб-страниц',
+        ogTitle: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
         ogDescription: 'Бесплатное AI-расширение для перевода в Chrome на базе встроенного Translator API Chrome. Переводите целые страницы в браузере: 40+ языков, умный кэш и без аккаунта.',
         keywords: SEO_KEYWORDS
       },
       hero: {
-        title: 'Бесплатный AI-перевод в Chrome<br><span class="gradient-text">для любой веб-страницы</span>',
+        title: 'Бесплатный AI-перевод в Chrome<br><span class="highlight">для любой веб-страницы</span>',
         sub: 'Бесплатное AI-расширение для Chrome на базе встроенного Translator API Chrome.<br>Перевод выполняется локально в браузере. <strong>Текст страницы остаётся в Chrome во время бесплатного перевода.</strong>',
         primaryCta: 'Установить бесплатный AI-переводчик',
         trust: 'Бесплатный перевод · Без аккаунта · 40+ языков'
@@ -462,8 +395,6 @@
   };
   var DEFAULT_OG_IMAGE = 'https://theofflinetranslator.com/assets/ScreenShot_2026-04-24_185508_569.png';
   var DEFAULT_OG_IMAGE_ALT = 'offline.translator side panel translating a webpage locally in Chrome';
-
-  document.documentElement.dataset.theme = getPreferredTheme();
 
   function getLocaleConfig(locale) {
     return SUPPORTED_LOCALES.find(function (item) {
@@ -604,33 +535,6 @@
 
   function getUiMessages(locale) {
     return UI_MESSAGES[locale] || UI_MESSAGES.en;
-  }
-
-  function readStoredTheme() {
-    try {
-      return window.localStorage.getItem(THEME_STORAGE_KEY);
-    } catch (error) {
-      return null;
-    }
-  }
-
-  function writeStoredTheme(theme) {
-    try {
-      window.localStorage.setItem(THEME_STORAGE_KEY, theme);
-    } catch (error) {
-      // Ignore storage failures and keep the theme only for the current session.
-    }
-  }
-
-  function getPreferredTheme() {
-    var storedTheme = readStoredTheme();
-
-    if (storedTheme === 'light' || storedTheme === 'dark') return storedTheme;
-    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
-      return 'light';
-    }
-
-    return 'dark';
   }
 
   function isSupportedLocale(locale) {
@@ -780,12 +684,6 @@
     setText('#hero-cta .btn-label', messages.hero.primaryCta);
     setText('.hero-actions .btn-ghost', messages.hero.secondaryCta);
     setText('.hero-trust', messages.hero.trust);
-    setText('.hero-visual-note', messages.trust.private);
-
-    setTextAt('.trust-item span', 0, messages.trust.private);
-    setTextAt('.trust-item span', 1, getUiMessages(locale).trustAccount || messages.trust.free);
-    setTextAt('.trust-item span', 2, messages.trust.languages);
-
     setText('#features .section-label', messages.features.label);
     setHTML('#features .section-header h2', messages.features.title);
     setText('#features .section-sub', messages.features.sub);
@@ -864,120 +762,62 @@
     });
   }
 
-  function updateThemeToggle(locale) {
-    var toggle = document.getElementById('theme-toggle');
-    var theme = document.documentElement.dataset.theme || 'dark';
-    var uiMessages = getUiMessages(locale);
-
-    if (!toggle) return;
-
-    toggle.setAttribute('aria-pressed', theme === 'light' ? 'true' : 'false');
-    toggle.setAttribute(
-      'aria-label',
-      theme === 'light' ? uiMessages.toggleToDark : uiMessages.toggleToLight
-    );
-    toggle.title = theme === 'light' ? uiMessages.toggleToDark : uiMessages.toggleToLight;
-  }
-
-  function initThemeToggle(locale) {
-    var toggle = document.getElementById('theme-toggle');
-
-    updateThemeToggle(locale);
-
-    if (!toggle) return;
-
-    toggle.addEventListener('click', function () {
-      var nextTheme = document.documentElement.dataset.theme === 'light' ? 'dark' : 'light';
-
-      document.documentElement.dataset.theme = nextTheme;
-      writeStoredTheme(nextTheme);
-      updateThemeToggle(locale);
-    });
-
-    if (window.matchMedia) {
-      var mediaQuery = window.matchMedia('(prefers-color-scheme: light)');
-
-      mediaQuery.addEventListener('change', function (event) {
-        if (readStoredTheme()) return;
-
-        document.documentElement.dataset.theme = event.matches ? 'light' : 'dark';
-        updateThemeToggle(locale);
-      });
-    }
-  }
-
-  function initHeroCarousel(locale) {
-    var image = document.getElementById('hero-carousel-image');
-    var stage = document.getElementById('hero-browser-stage');
-    var dots = document.getElementById('hero-carousel-dots');
+  function initHeroScreenshots(locale) {
+    var image = document.getElementById('hero-screenshot');
+    var dotsContainer = document.getElementById('hero-screenshot-dots');
     var currentIndex = 0;
     var intervalId = null;
     var uiMessages = getUiMessages(locale);
 
-    if (!image || !dots || !stage || !HERO_SLIDES.length) return;
+    if (!image || !dotsContainer || !HERO_SLIDES.length) return;
 
-    dots.innerHTML = '';
-    dots.setAttribute('aria-label', uiMessages.slideshow);
+    dotsContainer.setAttribute('aria-label', uiMessages.screenshotsLabel);
 
     HERO_SLIDES.forEach(function (slide, index) {
       var button = document.createElement('button');
-
       button.type = 'button';
-      button.className = 'hero-carousel-dot' + (index === 0 ? ' is-active' : '');
+      button.className = 'hero-screenshot-dot' + (index === 0 ? ' is-active' : '');
       button.setAttribute('role', 'tab');
       button.setAttribute('aria-selected', index === 0 ? 'true' : 'false');
-      button.setAttribute('aria-label', uiMessages.slide + ' ' + (index + 1));
+      button.setAttribute('aria-label', uiMessages.screenshotLabel + ' ' + (index + 1));
       button.addEventListener('click', function () {
         setSlide(index);
         restart();
       });
-      dots.appendChild(button);
+      dotsContainer.appendChild(button);
     });
 
-    function preload(nextIndex) {
-      var preloadImage = new Image();
-      preloadImage.src = HERO_SLIDES[nextIndex].src;
-    }
-
-    function syncStageRatio() {
-      if (!image.naturalWidth || !image.naturalHeight) return;
-
-      stage.style.setProperty('--hero-media-ratio', image.naturalWidth + ' / ' + image.naturalHeight);
-    }
-
     function syncButtons() {
-      var buttons = dots.querySelectorAll('.hero-carousel-dot');
-
-      buttons.forEach(function (button, index) {
-        var isActive = index === currentIndex;
-        button.classList.toggle('is-active', isActive);
-        button.setAttribute('aria-selected', isActive ? 'true' : 'false');
+      var buttons = dotsContainer.querySelectorAll('.hero-screenshot-dot');
+      buttons.forEach(function (btn, i) {
+        var isActive = i === currentIndex;
+        btn.classList.toggle('is-active', isActive);
+        btn.setAttribute('aria-selected', isActive ? 'true' : 'false');
       });
     }
 
     function setSlide(nextIndex) {
       var slide = HERO_SLIDES[nextIndex];
-
       currentIndex = nextIndex;
-      image.classList.add('is-fading');
       syncButtons();
-      preload((currentIndex + 1) % HERO_SLIDES.length);
 
-      if (image.getAttribute('src') === slide.src) {
+      if (image.getAttribute('src') === slide.src) return;
+
+      image.classList.add('is-fading');
+      image.addEventListener('transitionend', function onEnd() {
+        image.removeEventListener('transitionend', onEnd);
+        image.src = slide.src;
         image.alt = slide.alt;
-        syncStageRatio();
-        image.classList.remove('is-fading');
-        return;
-      }
-
-      image.alt = slide.alt;
-      image.src = slide.src;
+        requestAnimationFrame(function () {
+          image.classList.remove('is-fading');
+        });
+      });
     }
 
     function start() {
       intervalId = window.setInterval(function () {
         setSlide((currentIndex + 1) % HERO_SLIDES.length);
-      }, 3600);
+      }, 4000);
     }
 
     function restart() {
@@ -985,17 +825,6 @@
       start();
     }
 
-    image.addEventListener('load', function () {
-      syncStageRatio();
-      image.classList.remove('is-fading');
-    });
-
-    image.src = HERO_SLIDES[0].src;
-    image.alt = HERO_SLIDES[0].alt;
-    syncButtons();
-    preload(1);
-
-    if (image.complete) syncStageRatio();
     start();
   }
 
@@ -1085,7 +914,7 @@
             );
             if (active) {
               active.setAttribute('aria-current', 'true');
-              active.style.color = 'var(--text)';
+              active.style.color = 'var(--color-text-primary)';
             }
           }
         });
@@ -1099,13 +928,10 @@
   document.addEventListener('DOMContentLoaded', function () {
     var locale = resolveLocale(window.location.pathname);
 
-    initThemeToggle(locale);
     initLocalePicker(locale);
 
     if (document.body && document.body.dataset.page === 'home') {
       applyHomeTranslations(locale);
-      updateThemeToggle(locale);
-      initHeroCarousel(locale);
     }
 
     initFAQ();
