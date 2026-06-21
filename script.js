@@ -121,7 +121,7 @@
         keywords: SEO_KEYWORDS
       },
       hero: {
-        title: '免费 Chrome <span class="highlight">AI 翻译</span><br><span class="highlight">适用于任意网页</span>',
+        title: '免费 Chrome<br><span class="highlight">AI 翻译</span><br><span class="highlight">适用于任意网页</span>',
         sub: '一款免费的 Chrome 翻译扩展，基于 Chrome 内置 Translator API。<br>翻译在浏览器内本地完成。<strong>免费翻译时，页面文本始终留在 Chrome 中。</strong>',
         primaryCta: '安装免费翻译扩展',
         trust: '免费翻译 · 无需账号 · 支持 35+ 种语言'
@@ -141,7 +141,7 @@
         keywords: SEO_KEYWORDS
       },
       hero: {
-        title: '免費 Chrome <span class="highlight">AI 翻譯</span><br><span class="highlight">適用於任何網頁</span>',
+        title: '免費 Chrome<br><span class="highlight">AI 翻譯</span><br><span class="highlight">適用於任何網頁</span>',
         sub: '一款免費的 Chrome 翻譯擴充功能，基於 Chrome 內建 Translator API。<br>翻譯會在瀏覽器內本地完成。<strong>免費翻譯時，頁面文字始終留在 Chrome 中。</strong>',
         primaryCta: '安裝免費翻譯擴充功能',
         trust: '免費翻譯 · 不需帳號 · 支援 35+ 種語言'
@@ -161,7 +161,7 @@
         keywords: SEO_KEYWORDS
       },
       hero: {
-        title: '免費 Chrome <span class="highlight">AI 翻譯</span><br><span class="highlight">適用於任何網頁</span>',
+        title: '免費 Chrome<br><span class="highlight">AI 翻譯</span><br><span class="highlight">適用於任何網頁</span>',
         sub: '一款免費的 Chrome 翻譯擴充功能，基於 Chrome 內建 Translator API。<br>翻譯會在瀏覽器內本地完成。<strong>免費翻譯時，頁面文字始終留在 Chrome 中。</strong>',
         primaryCta: '安裝免費翻譯擴充功能',
         trust: '免費翻譯 · 毋須帳號 · 支援 35+ 種語言'
@@ -181,7 +181,7 @@
         keywords: SEO_KEYWORDS
       },
       hero: {
-        title: '無料 Chrome <span class="highlight">AI 翻訳</span><br><span class="highlight">あらゆるWebページに対応</span>',
+        title: '無料 Chrome<br><span class="highlight">AI 翻訳</span><br><span class="highlight">あらゆるWebページに対応</span>',
         sub: 'Chrome 内蔵の Translator API を使う無料 Chrome 翻訳拡張機能です。<br>翻訳はブラウザ内で端末上に保持されたまま実行されます。<strong>ページのテキストは無料翻訳中も Chrome 内にとどまります。</strong>',
         primaryCta: '無料翻訳をインストール',
         trust: '無料翻訳 · アカウント不要 · 40以上の言語'
@@ -201,7 +201,7 @@
         keywords: SEO_KEYWORDS
       },
       hero: {
-        title: '<span class="highlight">ترجمة AI</span> مجانية في Chrome<br><span class="highlight">لأي صفحة ويب</span>',
+        title: 'مجانية في Chrome<br><span class="highlight">AI ترجمة</span><br><span class="highlight">لأي صفحة ويب</span>',
         sub: 'إضافة ترجمة مجانية لمتصفح Chrome تعتمد على Translator API المدمج في Chrome.<br>تتم الترجمة محلياً داخل المتصفح. <strong>يبقى نص الصفحة داخل Chrome أثناء الترجمة المجانية.</strong>',
         primaryCta: 'ثبّت مترجم المجاني',
         trust: 'ترجمة مجانية · بلا حساب · أكثر من 40 لغة'
@@ -221,7 +221,7 @@
         keywords: SEO_KEYWORDS
       },
       hero: {
-        title: 'Kostenlose Chrome <span class="highlight">AI-Übersetzung</span><br><span class="highlight">für jede Webseite</span>',
+        title: 'Kostenlose Chrome<br><span class="highlight">AI-Übersetzung</span><br><span class="highlight">für jede Webseite</span>',
         sub: 'Eine kostenlose Übersetzungserweiterung für Chrome auf Basis der integrierten Translator API von Chrome.<br>Die Übersetzung läuft lokal in deinem Browser. <strong>Seitentext bleibt während der kostenlosen Übersetzung in Chrome.</strong>',
         primaryCta: 'Kostenlosen Übersetzer installieren',
         trust: 'Kostenlose Übersetzung · Kein Konto · 35+ Sprachen'
@@ -241,7 +241,7 @@
         keywords: SEO_KEYWORDS
       },
       hero: {
-        title: '<span class="highlight">Traducción AI</span> gratis en Chrome<br><span class="highlight">para cualquier página web</span>',
+        title: 'Gratis en Chrome<br><span class="highlight">Traducción AI</span><br><span class="highlight">para cualquier página web</span>',
         sub: 'Una extensión de traducción gratis para Chrome basada en la Translator API integrada de Chrome.<br>La traducción se ejecuta localmente en tu navegador. <strong>El texto de la página permanece en Chrome durante la traducción gratuita.</strong>',
         primaryCta: 'Instalar traductor gratis',
         trust: 'Traducción gratis · Sin cuenta · 35+ idiomas'
@@ -261,7 +261,7 @@
         keywords: SEO_KEYWORDS
       },
       hero: {
-        title: '<span class="highlight">Traduction AI</span> gratuite sur Chrome<br><span class="highlight">pour n\'importe quelle page web</span>',
+        title: 'Gratuite sur Chrome<br><span class="highlight">Traduction AI</span><br><span class="highlight">pour n\'importe quelle page web</span>',
         sub: 'Une extension de traduction gratuite pour Chrome, basée sur la Translator API intégrée de Chrome.<br>La traduction s\'exécute localement dans votre navigateur. <strong>Le texte de la page reste dans Chrome pendant la traduction gratuite.</strong>',
         primaryCta: 'Installer le traducteur gratuit',
         trust: 'Traduction gratuite · Sans compte · Plus de 40 langues'
@@ -281,7 +281,7 @@
         keywords: SEO_KEYWORDS
       },
       hero: {
-        title: '<span class="highlight">मुफ़्त Chrome AI अनुवाद</span><br><span class="highlight">किसी भी वेबपेज के लिए</span>',
+        title: 'मुफ़्त Chrome<br><span class="highlight">AI अनुवाद</span><br><span class="highlight">किसी भी वेबपेज के लिए</span>',
         sub: 'Chrome के built-in Translator API पर आधारित एक मुफ़्त Chrome translate एक्सटेंशन।<br>अनुवाद आपके ब्राउज़र में लोकली चलता है। <strong>मुफ़्त अनुवाद के दौरान पेज का टेक्स्ट Chrome में ही रहता है।</strong>',
         primaryCta: 'मुफ़्त अनुवादक इंस्टॉल करें',
         trust: 'मुफ़्त अनुवाद · बिना अकाउंट · 35+ भाषाएँ'
@@ -301,7 +301,7 @@
         keywords: SEO_KEYWORDS
       },
       hero: {
-        title: '<span class="highlight">Traduzione AI</span> gratis in Chrome<br><span class="highlight">per qualsiasi pagina web</span>',
+        title: 'Gratis in Chrome<br><span class="highlight">Traduzione AI</span><br><span class="highlight">per qualsiasi pagina web</span>',
         sub: 'Un\'estensione di traduzione gratis per Chrome basata sulla Translator API integrata di Chrome.<br>La traduzione gira localmente nel browser. <strong>Il testo della pagina resta in Chrome durante la traduzione gratuita.</strong>',
         primaryCta: 'Installa il traduttore gratis',
         trust: 'Traduzione gratis · Nessun account · 35+ lingue'
@@ -321,7 +321,7 @@
         keywords: SEO_KEYWORDS
       },
       hero: {
-        title: '무료 Chrome <span class="highlight">AI 번역</span><br><span class="highlight">모든 웹페이지를 위한</span>',
+        title: '무료 Chrome<br><span class="highlight">AI 번역</span><br><span class="highlight">모든 웹페이지를 위한</span>',
         sub: 'Chrome 내장 Translator API 기반의 무료 Chrome 번역 확장 프로그램입니다.<br>번역은 브라우저 안에서 로컬로 실행됩니다. <strong>무료 번역 중에도 페이지 텍스트는 Chrome 안에 유지됩니다.</strong>',
         primaryCta: '무료 번역기 설치',
         trust: '무료 번역 · 계정 불필요 · 40개 이상 언어'
@@ -341,7 +341,7 @@
         keywords: SEO_KEYWORDS
       },
       hero: {
-        title: '<span class="highlight">Tradução AI</span> gratuita no Chrome<br><span class="highlight">para qualquer página web</span>',
+        title: 'Gratuita no Chrome<br><span class="highlight">Tradução AI</span><br><span class="highlight">para qualquer página web</span>',
         sub: 'Uma extensão de tradução gratuita para Chrome baseada na Translator API integrada do Chrome.<br>A tradução é executada localmente no navegador. <strong>O texto da página fica no Chrome durante a tradução gratuita.</strong>',
         primaryCta: 'Instalar tradutor gratuito',
         trust: 'Tradução gratuita · Sem conta · Mais de 40 idiomas'
@@ -361,7 +361,7 @@
         keywords: SEO_KEYWORDS
       },
       hero: {
-        title: '<span class="highlight">Tradução AI</span> grátis no Chrome<br><span class="highlight">para qualquer página da web</span>',
+        title: 'Grátis no Chrome<br><span class="highlight">Tradução AI</span><br><span class="highlight">para qualquer página da web</span>',
         sub: 'Uma extensão de tradução grátis para Chrome baseada na Translator API integrada do Chrome.<br>A tradução roda localmente no navegador. <strong>O texto da página permanece no Chrome durante a tradução grátis.</strong>',
         primaryCta: 'Instalar tradutor grátis',
         trust: 'Tradução grátis · Sem conta · 35+ idiomas'
@@ -381,7 +381,7 @@
         keywords: SEO_KEYWORDS
       },
       hero: {
-        title: 'Бесплатный <span class="highlight">AI-перевод</span> в Chrome<br><span class="highlight">для любой веб-страницы</span>',
+        title: 'Бесплатный в Chrome<br><span class="highlight">AI-перевод</span><br><span class="highlight">для любой веб-страницы</span>',
         sub: 'Бесплатное расширение для Chrome на базе встроенного Translator API Chrome.<br>Перевод выполняется локально в браузере. <strong>Текст страницы остаётся в Chrome во время бесплатного перевода.</strong>',
         primaryCta: 'Установить бесплатный переводчик',
         trust: 'Бесплатный перевод · Без аккаунта · 35+ языков'
