@@ -115,19 +115,19 @@
     'zh-Hans': {
       meta: {
         title: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        description: '免费 AI Chrome translate 扩展，使用 Chrome 内置 Translator API 在浏览器内完成整页翻译。支持 40+ 种语言、智能缓存与免费翻译，无需账号。',
+        description: '免费 Chrome translate 扩展，使用 Chrome 内置 Translator API 在浏览器内完成整页翻译。支持 35+ 种语言、智能缓存与免费翻译，无需账号。',
         ogTitle: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        ogDescription: '免费 AI Chrome translate 扩展，使用 Chrome 内置 Translator API 在浏览器内完成整页翻译。支持 40+ 种语言、智能缓存与免费翻译，无需账号。',
+        ogDescription: '免费 Chrome translate 扩展，使用 Chrome 内置 Translator API 在浏览器内完成整页翻译。支持 35+ 种语言、智能缓存与免费翻译，无需账号。',
         keywords: SEO_KEYWORDS
       },
       hero: {
-        title: '免费 AI Chrome 网页翻译<br><span class="highlight">适用于任意网页</span>',
-        sub: '一款免费的 AI Chrome 翻译扩展，基于 Chrome 内置 Translator API。<br>翻译在浏览器内本地完成。<strong>免费翻译时，页面文本始终留在 Chrome 中。</strong>',
-        primaryCta: '安装免费 AI 翻译扩展',
-        trust: '免费翻译 · 无需账号 · 支持 40+ 种语言'
+        title: '免费 Chrome <span class="highlight">AI 翻译</span><br><span class="highlight">适用于任意网页</span>',
+        sub: '一款免费的 Chrome 翻译扩展，基于 Chrome 内置 Translator API。<br>翻译在浏览器内本地完成。<strong>免费翻译时，页面文本始终留在 Chrome 中。</strong>',
+        primaryCta: '安装免费翻译扩展',
+        trust: '免费翻译 · 无需账号 · 支持 35+ 种语言'
       },
       cta: {
-        title: '开始在 Chrome 中使用免费 AI 翻译。',
+        title: '开始在 Chrome 中使用免费翻译。',
         sub: '免费。内置。私密。无需账号，无需 API key，安装后即可翻译整个网页。',
         primary: '在 Chrome 上安装 · 免费'
       }
@@ -135,19 +135,19 @@
     'zh-Hant': {
       meta: {
         title: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        description: 'Translate webpages directly on your device using Chrome's built-in AI and Gemini Nano. Privacy-first design with no developer-hosted translation server.',
+        description: 'Translate webpages directly on your device using Chrome\'s built-in AI and Gemini Nano. Privacy-first design with no developer-hosted translation server.',
         ogTitle: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        ogDescription: 'Translate webpages directly on your device using Chrome's built-in AI and Gemini Nano. Privacy-first design with no developer-hosted translation server.',
+        ogDescription: 'Translate webpages directly on your device using Chrome\'s built-in AI and Gemini Nano. Privacy-first design with no developer-hosted translation server.',
         keywords: SEO_KEYWORDS
       },
       hero: {
-        title: '免費 AI Chrome 網頁翻譯<br><span class="highlight">適用於任何網頁</span>',
-        sub: '一款免費的 AI Chrome 翻譯擴充功能，基於 Chrome 內建 Translator API。<br>翻譯會在瀏覽器內本地完成。<strong>免費翻譯時，頁面文字始終留在 Chrome 中。</strong>',
-        primaryCta: '安裝免費 AI 翻譯擴充功能',
-        trust: '免費翻譯 · 不需帳號 · 支援 40+ 種語言'
+        title: '免費 Chrome <span class="highlight">AI 翻譯</span><br><span class="highlight">適用於任何網頁</span>',
+        sub: '一款免費的 Chrome 翻譯擴充功能，基於 Chrome 內建 Translator API。<br>翻譯會在瀏覽器內本地完成。<strong>免費翻譯時，頁面文字始終留在 Chrome 中。</strong>',
+        primaryCta: '安裝免費翻譯擴充功能',
+        trust: '免費翻譯 · 不需帳號 · 支援 35+ 種語言'
       },
       cta: {
-        title: '開始在 Chrome 中使用免費 AI 翻譯。',
+        title: '開始在 Chrome 中使用免費翻譯。',
         sub: '免費。內建。私密。不需帳號，不需 API key，安裝後即可翻譯整個網頁。',
         primary: '在 Chrome 上安裝 · 免費'
       }
@@ -155,19 +155,19 @@
     'zh-Hant-HK': {
       meta: {
         title: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        description: 'Translate webpages directly on your device using Chrome's built-in AI and Gemini Nano. Privacy-first design with no developer-hosted translation server.',
+        description: 'Translate webpages directly on your device using Chrome\'s built-in AI and Gemini Nano. Privacy-first design with no developer-hosted translation server.',
         ogTitle: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        ogDescription: 'Translate webpages directly on your device using Chrome's built-in AI and Gemini Nano. Privacy-first design with no developer-hosted translation server.',
+        ogDescription: 'Translate webpages directly on your device using Chrome\'s built-in AI and Gemini Nano. Privacy-first design with no developer-hosted translation server.',
         keywords: SEO_KEYWORDS
       },
       hero: {
-        title: '免費 AI Chrome 網頁翻譯<br><span class="highlight">適用於任何網頁</span>',
-        sub: '一款免費的 AI Chrome 翻譯擴充功能，基於 Chrome 內建 Translator API。<br>翻譯會在瀏覽器內本地完成。<strong>免費翻譯時，頁面文字始終留在 Chrome 中。</strong>',
-        primaryCta: '安裝免費 AI 翻譯擴充功能',
-        trust: '免費翻譯 · 毋須帳號 · 支援 40+ 種語言'
+        title: '免費 Chrome <span class="highlight">AI 翻譯</span><br><span class="highlight">適用於任何網頁</span>',
+        sub: '一款免費的 Chrome 翻譯擴充功能，基於 Chrome 內建 Translator API。<br>翻譯會在瀏覽器內本地完成。<strong>免費翻譯時，頁面文字始終留在 Chrome 中。</strong>',
+        primaryCta: '安裝免費翻譯擴充功能',
+        trust: '免費翻譯 · 毋須帳號 · 支援 35+ 種語言'
       },
       cta: {
-        title: '開始在 Chrome 中使用免費 AI 翻譯。',
+        title: '開始在 Chrome 中使用免費翻譯。',
         sub: '免費。內建。私密。毋須帳號，毋須 API key，安裝後即可翻譯整個網頁。',
         primary: '在 Chrome 上安裝 · 免費'
       }
@@ -175,19 +175,19 @@
     ja: {
       meta: {
         title: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        description: '無料で使える AI Chrome 翻訳拡張機能。Chrome 内蔵の Translator API でページ全体をブラウザ内翻訳。40以上の言語、スマートキャッシュ、アカウント不要。',
+        description: '無料で使える Chrome 翻訳拡張機能。Chrome 内蔵の Translator API でページ全体をブラウザ内翻訳。40以上の言語、スマートキャッシュ、アカウント不要。',
         ogTitle: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        ogDescription: '無料で使える AI Chrome 翻訳拡張機能。Chrome 内蔵の Translator API でページ全体をブラウザ内翻訳。40以上の言語、スマートキャッシュ、アカウント不要。',
+        ogDescription: '無料で使える Chrome 翻訳拡張機能。Chrome 内蔵の Translator API でページ全体をブラウザ内翻訳。40以上の言語、スマートキャッシュ、アカウント不要。',
         keywords: SEO_KEYWORDS
       },
       hero: {
-        title: '無料 AI Chrome 翻訳<br><span class="highlight">あらゆるWebページに対応</span>',
-        sub: 'Chrome 内蔵の Translator API を使う無料 AI Chrome 翻訳拡張機能です。<br>翻訳はブラウザ内で端末上に保持されたまま実行されます。<strong>ページのテキストは無料翻訳中も Chrome 内にとどまります。</strong>',
-        primaryCta: '無料 AI 翻訳をインストール',
+        title: '無料 Chrome <span class="highlight">AI 翻訳</span><br><span class="highlight">あらゆるWebページに対応</span>',
+        sub: 'Chrome 内蔵の Translator API を使う無料 Chrome 翻訳拡張機能です。<br>翻訳はブラウザ内で端末上に保持されたまま実行されます。<strong>ページのテキストは無料翻訳中も Chrome 内にとどまります。</strong>',
+        primaryCta: '無料翻訳をインストール',
         trust: '無料翻訳 · アカウント不要 · 40以上の言語'
       },
       cta: {
-        title: 'Chrome で無料 AI 翻訳を始めましょう。',
+        title: 'Chrome で無料翻訳を始めましょう。',
         sub: '無料。内蔵。プライベート。アカウント不要、API キー不要。インストールするだけで翻訳できます。',
         primary: 'Chrome にインストール · 無料'
       }
@@ -195,15 +195,15 @@
     ar: {
       meta: {
         title: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        description: 'إضافة ترجمة AI مجانية لمتصفح Chrome تستخدم Translator API المدمج في Chrome لترجمة صفحات الويب بالكامل داخل المتصفح. تدعم أكثر من 40 لغة وتعمل بدون حساب.',
+        description: 'إضافة ترجمة مجانية لمتصفح Chrome تستخدم Translator API المدمج في Chrome لترجمة صفحات الويب بالكامل داخل المتصفح. تدعم أكثر من 40 لغة وتعمل بدون حساب.',
         ogTitle: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        ogDescription: 'إضافة ترجمة AI مجانية لمتصفح Chrome تستخدم Translator API المدمج في Chrome لترجمة صفحات الويب بالكامل داخل المتصفح. تدعم أكثر من 40 لغة وتعمل بدون حساب.',
+        ogDescription: 'إضافة ترجمة مجانية لمتصفح Chrome تستخدم Translator API المدمج في Chrome لترجمة صفحات الويب بالكامل داخل المتصفح. تدعم أكثر من 40 لغة وتعمل بدون حساب.',
         keywords: SEO_KEYWORDS
       },
       hero: {
-        title: 'ترجمة AI مجانية في Chrome<br><span class="highlight">لأي صفحة ويب</span>',
-        sub: 'إضافة ترجمة AI مجانية لمتصفح Chrome تعتمد على Translator API المدمج في Chrome.<br>تتم الترجمة محلياً داخل المتصفح. <strong>يبقى نص الصفحة داخل Chrome أثناء الترجمة المجانية.</strong>',
-        primaryCta: 'ثبّت مترجم AI المجاني',
+        title: '<span class="highlight">ترجمة AI</span> مجانية في Chrome<br><span class="highlight">لأي صفحة ويب</span>',
+        sub: 'إضافة ترجمة مجانية لمتصفح Chrome تعتمد على Translator API المدمج في Chrome.<br>تتم الترجمة محلياً داخل المتصفح. <strong>يبقى نص الصفحة داخل Chrome أثناء الترجمة المجانية.</strong>',
+        primaryCta: 'ثبّت مترجم المجاني',
         trust: 'ترجمة مجانية · بلا حساب · أكثر من 40 لغة'
       },
       cta: {
@@ -215,19 +215,19 @@
     de: {
       meta: {
         title: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        description: 'Translate webpages directly on your device using Chrome's built-in AI and Gemini Nano. Privacy-first design with no developer-hosted translation server.',
+        description: 'Translate webpages directly on your device using Chrome\'s built-in AI and Gemini Nano. Privacy-first design with no developer-hosted translation server.',
         ogTitle: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        ogDescription: 'Translate webpages directly on your device using Chrome's built-in AI and Gemini Nano. Privacy-first design with no developer-hosted translation server.',
+        ogDescription: 'Translate webpages directly on your device using Chrome\'s built-in AI and Gemini Nano. Privacy-first design with no developer-hosted translation server.',
         keywords: SEO_KEYWORDS
       },
       hero: {
-        title: 'Kostenlose AI-Chrome-Übersetzung<br><span class="highlight">für jede Webseite</span>',
-        sub: 'Eine kostenlose AI-Übersetzungserweiterung für Chrome auf Basis der integrierten Translator API von Chrome.<br>Die Übersetzung läuft lokal in deinem Browser. <strong>Seitentext bleibt während der kostenlosen Übersetzung in Chrome.</strong>',
-        primaryCta: 'Kostenlosen AI-Übersetzer installieren',
-        trust: 'Kostenlose Übersetzung · Kein Konto · 40+ Sprachen'
+        title: 'Kostenlose Chrome <span class="highlight">AI-Übersetzung</span><br><span class="highlight">für jede Webseite</span>',
+        sub: 'Eine kostenlose Übersetzungserweiterung für Chrome auf Basis der integrierten Translator API von Chrome.<br>Die Übersetzung läuft lokal in deinem Browser. <strong>Seitentext bleibt während der kostenlosen Übersetzung in Chrome.</strong>',
+        primaryCta: 'Kostenlosen Übersetzer installieren',
+        trust: 'Kostenlose Übersetzung · Kein Konto · 35+ Sprachen'
       },
       cta: {
-        title: 'Starte kostenlose AI-Übersetzung in Chrome.',
+        title: 'Starte kostenlose Übersetzung in Chrome.',
         sub: 'Kostenlos. Integriert. Privat. Kein Konto, kein API-Key, einfach installieren und ganze Seiten übersetzen.',
         primary: 'In Chrome installieren · Kostenlos'
       }
@@ -235,19 +235,19 @@
     es: {
       meta: {
         title: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        description: 'Extensión de traducción AI gratis para Chrome con Translator API integrada de Chrome. Traduce páginas completas en el navegador con 40+ idiomas, caché inteligente y sin cuenta.',
+        description: 'Extensión de traducción gratis para Chrome con Translator API integrada de Chrome. Traduce páginas completas en el navegador con 35+ idiomas, caché inteligente y sin cuenta.',
         ogTitle: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        ogDescription: 'Extensión de traducción AI gratis para Chrome con Translator API integrada de Chrome. Traduce páginas completas en el navegador con 40+ idiomas, caché inteligente y sin cuenta.',
+        ogDescription: 'Extensión de traducción gratis para Chrome con Translator API integrada de Chrome. Traduce páginas completas en el navegador con 35+ idiomas, caché inteligente y sin cuenta.',
         keywords: SEO_KEYWORDS
       },
       hero: {
-        title: 'Traducción AI gratis en Chrome<br><span class="highlight">para cualquier página web</span>',
-        sub: 'Una extensión de traducción AI gratis para Chrome basada en la Translator API integrada de Chrome.<br>La traducción se ejecuta localmente en tu navegador. <strong>El texto de la página permanece en Chrome durante la traducción gratuita.</strong>',
-        primaryCta: 'Instalar traductor AI gratis',
-        trust: 'Traducción gratis · Sin cuenta · 40+ idiomas'
+        title: '<span class="highlight">Traducción AI</span> gratis en Chrome<br><span class="highlight">para cualquier página web</span>',
+        sub: 'Una extensión de traducción gratis para Chrome basada en la Translator API integrada de Chrome.<br>La traducción se ejecuta localmente en tu navegador. <strong>El texto de la página permanece en Chrome durante la traducción gratuita.</strong>',
+        primaryCta: 'Instalar traductor gratis',
+        trust: 'Traducción gratis · Sin cuenta · 35+ idiomas'
       },
       cta: {
-        title: 'Empieza a traducir gratis con AI en Chrome.',
+        title: 'Empieza a traducir gratis en Chrome.',
         sub: 'Gratis. Integrado. Privado. Sin cuenta ni API key: instala y traduce páginas completas.',
         primary: 'Instalar en Chrome · Gratis'
       }
@@ -255,19 +255,19 @@
     fr: {
       meta: {
         title: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        description: 'Extension de traduction AI gratuite pour Chrome avec la Translator API intégrée de Chrome. Traduisez des pages entières dans le navigateur, avec plus de 40 langues, cache intelligent et sans compte.',
+        description: 'Extension de traduction gratuite pour Chrome avec la Translator API intégrée de Chrome. Traduisez des pages entières dans le navigateur, avec plus de 40 langues, cache intelligent et sans compte.',
         ogTitle: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        ogDescription: 'Extension de traduction AI gratuite pour Chrome avec la Translator API intégrée de Chrome. Traduisez des pages entières dans le navigateur, avec plus de 40 langues, cache intelligent et sans compte.',
+        ogDescription: 'Extension de traduction gratuite pour Chrome avec la Translator API intégrée de Chrome. Traduisez des pages entières dans le navigateur, avec plus de 40 langues, cache intelligent et sans compte.',
         keywords: SEO_KEYWORDS
       },
       hero: {
-        title: 'Traduction AI gratuite sur Chrome<br><span class="highlight">pour n\'importe quelle page web</span>',
-        sub: 'Une extension de traduction AI gratuite pour Chrome, basée sur la Translator API intégrée de Chrome.<br>La traduction s\'exécute localement dans votre navigateur. <strong>Le texte de la page reste dans Chrome pendant la traduction gratuite.</strong>',
-        primaryCta: 'Installer le traducteur AI gratuit',
+        title: '<span class="highlight">Traduction AI</span> gratuite sur Chrome<br><span class="highlight">pour n\'importe quelle page web</span>',
+        sub: 'Une extension de traduction gratuite pour Chrome, basée sur la Translator API intégrée de Chrome.<br>La traduction s\'exécute localement dans votre navigateur. <strong>Le texte de la page reste dans Chrome pendant la traduction gratuite.</strong>',
+        primaryCta: 'Installer le traducteur gratuit',
         trust: 'Traduction gratuite · Sans compte · Plus de 40 langues'
       },
       cta: {
-        title: 'Commencez la traduction AI gratuite dans Chrome.',
+        title: 'Commencez la traduction gratuite dans Chrome.',
         sub: 'Gratuit. Intégré. Privé. Aucun compte, aucune clé API : installez et traduisez immédiatement.',
         primary: 'Installer sur Chrome · Gratuit'
       }
@@ -275,19 +275,19 @@
     hi: {
       meta: {
         title: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        description: 'Translate webpages directly on your device using Chrome's built-in AI and Gemini Nano. Privacy-first design with no developer-hosted translation server.',
+        description: 'Translate webpages directly on your device using Chrome\'s built-in AI and Gemini Nano. Privacy-first design with no developer-hosted translation server.',
         ogTitle: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        ogDescription: 'Translate webpages directly on your device using Chrome's built-in AI and Gemini Nano. Privacy-first design with no developer-hosted translation server.',
+        ogDescription: 'Translate webpages directly on your device using Chrome\'s built-in AI and Gemini Nano. Privacy-first design with no developer-hosted translation server.',
         keywords: SEO_KEYWORDS
       },
       hero: {
-        title: 'किसी भी वेबपेज के लिए<br><span class="highlight">मुफ़्त AI Chrome अनुवाद</span>',
-        sub: 'Chrome के built-in Translator API पर आधारित एक मुफ़्त AI Chrome translate एक्सटेंशन।<br>अनुवाद आपके ब्राउज़र में लोकली चलता है। <strong>मुफ़्त अनुवाद के दौरान पेज का टेक्स्ट Chrome में ही रहता है।</strong>',
-        primaryCta: 'मुफ़्त AI अनुवादक इंस्टॉल करें',
-        trust: 'मुफ़्त अनुवाद · बिना अकाउंट · 40+ भाषाएँ'
+        title: '<span class="highlight">मुफ़्त Chrome AI अनुवाद</span><br><span class="highlight">किसी भी वेबपेज के लिए</span>',
+        sub: 'Chrome के built-in Translator API पर आधारित एक मुफ़्त Chrome translate एक्सटेंशन।<br>अनुवाद आपके ब्राउज़र में लोकली चलता है। <strong>मुफ़्त अनुवाद के दौरान पेज का टेक्स्ट Chrome में ही रहता है।</strong>',
+        primaryCta: 'मुफ़्त अनुवादक इंस्टॉल करें',
+        trust: 'मुफ़्त अनुवाद · बिना अकाउंट · 35+ भाषाएँ'
       },
       cta: {
-        title: 'Chrome में मुफ़्त AI अनुवाद शुरू करें।',
+        title: 'Chrome में मुफ़्त अनुवाद शुरू करें।',
         sub: 'मुफ़्त। Built-in। निजी। न अकाउंट, न API key, बस इंस्टॉल करें और पूरे वेबपेज का अनुवाद करें।',
         primary: 'Chrome पर इंस्टॉल करें · मुफ़्त'
       }
@@ -295,19 +295,19 @@
     it: {
       meta: {
         title: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        description: 'Estensione di traduzione AI gratis per Chrome con la Translator API integrata di Chrome. Traduce pagine complete nel browser con 40+ lingue, cache intelligente e senza account.',
+        description: 'Estensione di traduzione gratis per Chrome con la Translator API integrata di Chrome. Traduce pagine complete nel browser con 35+ lingue, cache intelligente e senza account.',
         ogTitle: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        ogDescription: 'Estensione di traduzione AI gratis per Chrome con la Translator API integrata di Chrome. Traduce pagine complete nel browser con 40+ lingue, cache intelligente e senza account.',
+        ogDescription: 'Estensione di traduzione gratis per Chrome con la Translator API integrata di Chrome. Traduce pagine complete nel browser con 35+ lingue, cache intelligente e senza account.',
         keywords: SEO_KEYWORDS
       },
       hero: {
-        title: 'Traduzione AI gratis in Chrome<br><span class="highlight">per qualsiasi pagina web</span>',
-        sub: 'Un\'estensione di traduzione AI gratis per Chrome basata sulla Translator API integrata di Chrome.<br>La traduzione gira localmente nel browser. <strong>Il testo della pagina resta in Chrome durante la traduzione gratuita.</strong>',
-        primaryCta: 'Installa il traduttore AI gratis',
-        trust: 'Traduzione gratis · Nessun account · 40+ lingue'
+        title: '<span class="highlight">Traduzione AI</span> gratis in Chrome<br><span class="highlight">per qualsiasi pagina web</span>',
+        sub: 'Un\'estensione di traduzione gratis per Chrome basata sulla Translator API integrata di Chrome.<br>La traduzione gira localmente nel browser. <strong>Il testo della pagina resta in Chrome durante la traduzione gratuita.</strong>',
+        primaryCta: 'Installa il traduttore gratis',
+        trust: 'Traduzione gratis · Nessun account · 35+ lingue'
       },
       cta: {
-        title: 'Inizia la traduzione AI gratuita in Chrome.',
+        title: 'Inizia la traduzione gratuita in Chrome.',
         sub: 'Gratis. Integrata. Privata. Nessun account, nessuna API key: installa e traduci subito.',
         primary: 'Installa su Chrome · Gratis'
       }
@@ -315,19 +315,19 @@
     ko: {
       meta: {
         title: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        description: 'Chrome 내장 Translator API로 웹페이지 전체를 브라우저 안에서 번역하는 무료 AI Chrome translate 확장 프로그램입니다. 40개 이상 언어, 스마트 캐시, 계정 불필요.',
+        description: 'Chrome 내장 Translator API로 웹페이지 전체를 브라우저 안에서 번역하는 무료 Chrome translate 확장 프로그램입니다. 40개 이상 언어, 스마트 캐시, 계정 불필요.',
         ogTitle: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        ogDescription: 'Chrome 내장 Translator API로 웹페이지 전체를 브라우저 안에서 번역하는 무료 AI Chrome translate 확장 프로그램입니다. 40개 이상 언어, 스마트 캐시, 계정 불필요.',
+        ogDescription: 'Chrome 내장 Translator API로 웹페이지 전체를 브라우저 안에서 번역하는 무료 Chrome translate 확장 프로그램입니다. 40개 이상 언어, 스마트 캐시, 계정 불필요.',
         keywords: SEO_KEYWORDS
       },
       hero: {
-        title: '모든 웹페이지를 위한<br><span class="highlight">무료 AI Chrome 번역</span>',
-        sub: 'Chrome 내장 Translator API 기반의 무료 AI Chrome 번역 확장 프로그램입니다.<br>번역은 브라우저 안에서 로컬로 실행됩니다. <strong>무료 번역 중에도 페이지 텍스트는 Chrome 안에 유지됩니다.</strong>',
-        primaryCta: '무료 AI 번역기 설치',
+        title: '무료 Chrome <span class="highlight">AI 번역</span><br><span class="highlight">모든 웹페이지를 위한</span>',
+        sub: 'Chrome 내장 Translator API 기반의 무료 Chrome 번역 확장 프로그램입니다.<br>번역은 브라우저 안에서 로컬로 실행됩니다. <strong>무료 번역 중에도 페이지 텍스트는 Chrome 안에 유지됩니다.</strong>',
+        primaryCta: '무료 번역기 설치',
         trust: '무료 번역 · 계정 불필요 · 40개 이상 언어'
       },
       cta: {
-        title: 'Chrome에서 무료 AI 번역을 시작하세요.',
+        title: 'Chrome에서 무료 번역을 시작하세요.',
         sub: '무료. 내장. 비공개. 계정도 API 키도 없이 설치만 하면 바로 번역됩니다.',
         primary: 'Chrome에 설치 · 무료'
       }
@@ -335,19 +335,19 @@
     pt: {
       meta: {
         title: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        description: 'Extensão de tradução AI gratuita para Chrome com a Translator API integrada do Chrome. Traduza páginas completas no navegador com mais de 40 idiomas, cache inteligente e sem conta.',
+        description: 'Extensão de tradução gratuita para Chrome com a Translator API integrada do Chrome. Traduza páginas completas no navegador com mais de 40 idiomas, cache inteligente e sem conta.',
         ogTitle: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        ogDescription: 'Extensão de tradução AI gratuita para Chrome com a Translator API integrada do Chrome. Traduza páginas completas no navegador com mais de 40 idiomas, cache inteligente e sem conta.',
+        ogDescription: 'Extensão de tradução gratuita para Chrome com a Translator API integrada do Chrome. Traduza páginas completas no navegador com mais de 40 idiomas, cache inteligente e sem conta.',
         keywords: SEO_KEYWORDS
       },
       hero: {
-        title: 'Tradução AI gratuita no Chrome<br><span class="highlight">para qualquer página web</span>',
-        sub: 'Uma extensão de tradução AI gratuita para Chrome baseada na Translator API integrada do Chrome.<br>A tradução é executada localmente no navegador. <strong>O texto da página fica no Chrome durante a tradução gratuita.</strong>',
-        primaryCta: 'Instalar tradutor AI gratuito',
-        trust: 'Tradução AI gratuita · Sem conta · Mais de 40 idiomas'
+        title: '<span class="highlight">Tradução AI</span> gratuita no Chrome<br><span class="highlight">para qualquer página web</span>',
+        sub: 'Uma extensão de tradução gratuita para Chrome baseada na Translator API integrada do Chrome.<br>A tradução é executada localmente no navegador. <strong>O texto da página fica no Chrome durante a tradução gratuita.</strong>',
+        primaryCta: 'Instalar tradutor gratuito',
+        trust: 'Tradução gratuita · Sem conta · Mais de 40 idiomas'
       },
       cta: {
-        title: 'Comece a tradução AI gratuita no Chrome.',
+        title: 'Comece a tradução gratuita no Chrome.',
         sub: 'Gratuito. Integrado. Privado. Sem conta nem chave de API: instale e traduza páginas inteiras.',
         primary: 'Instalar no Chrome · Gratuito'
       }
@@ -355,19 +355,19 @@
     'pt-BR': {
       meta: {
         title: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        description: 'Extensão de tradução AI grátis para Chrome com a Translator API integrada do Chrome. Traduza páginas completas no navegador com 40+ idiomas, cache inteligente e sem conta.',
+        description: 'Extensão de tradução grátis para Chrome com a Translator API integrada do Chrome. Traduza páginas completas no navegador com 35+ idiomas, cache inteligente e sem conta.',
         ogTitle: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        ogDescription: 'Extensão de tradução AI grátis para Chrome com a Translator API integrada do Chrome. Traduza páginas completas no navegador com 40+ idiomas, cache inteligente e sem conta.',
+        ogDescription: 'Extensão de tradução grátis para Chrome com a Translator API integrada do Chrome. Traduza páginas completas no navegador com 35+ idiomas, cache inteligente e sem conta.',
         keywords: SEO_KEYWORDS
       },
       hero: {
-        title: 'Tradução AI grátis no Chrome<br><span class="highlight">para qualquer página da web</span>',
-        sub: 'Uma extensão de tradução AI grátis para Chrome baseada na Translator API integrada do Chrome.<br>A tradução roda localmente no navegador. <strong>O texto da página permanece no Chrome durante a tradução grátis.</strong>',
-        primaryCta: 'Instalar tradutor AI grátis',
-        trust: 'Tradução AI grátis · Sem conta · 40+ idiomas'
+        title: '<span class="highlight">Tradução AI</span> grátis no Chrome<br><span class="highlight">para qualquer página da web</span>',
+        sub: 'Uma extensão de tradução grátis para Chrome baseada na Translator API integrada do Chrome.<br>A tradução roda localmente no navegador. <strong>O texto da página permanece no Chrome durante a tradução grátis.</strong>',
+        primaryCta: 'Instalar tradutor grátis',
+        trust: 'Tradução grátis · Sem conta · 35+ idiomas'
       },
       cta: {
-        title: 'Comece a tradução AI grátis no Chrome.',
+        title: 'Comece a tradução grátis no Chrome.',
         sub: 'Grátis. Integrado. Privado. Sem conta e sem chave de API: instale e traduza páginas inteiras.',
         primary: 'Instalar no Chrome · Grátis'
       }
@@ -375,19 +375,19 @@
     ru: {
       meta: {
         title: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        description: 'Бесплатное AI-расширение для перевода в Chrome на базе встроенного Translator API Chrome. Переводите целые страницы в браузере: 40+ языков, умный кэш и без аккаунта.',
+        description: 'Бесплатное расширение для перевода в Chrome на базе встроенного Translator API Chrome. Переводите целые страницы в браузере: 35+ языков, умный кэш и без аккаунта.',
         ogTitle: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        ogDescription: 'Бесплатное AI-расширение для перевода в Chrome на базе встроенного Translator API Chrome. Переводите целые страницы в браузере: 40+ языков, умный кэш и без аккаунта.',
+        ogDescription: 'Бесплатное расширение для перевода в Chrome на базе встроенного Translator API Chrome. Переводите целые страницы в браузере: 35+ языков, умный кэш и без аккаунта.',
         keywords: SEO_KEYWORDS
       },
       hero: {
-        title: 'Бесплатный AI-перевод в Chrome<br><span class="highlight">для любой веб-страницы</span>',
-        sub: 'Бесплатное AI-расширение для Chrome на базе встроенного Translator API Chrome.<br>Перевод выполняется локально в браузере. <strong>Текст страницы остаётся в Chrome во время бесплатного перевода.</strong>',
-        primaryCta: 'Установить бесплатный AI-переводчик',
-        trust: 'Бесплатный перевод · Без аккаунта · 40+ языков'
+        title: 'Бесплатный <span class="highlight">AI-перевод</span> в Chrome<br><span class="highlight">для любой веб-страницы</span>',
+        sub: 'Бесплатное расширение для Chrome на базе встроенного Translator API Chrome.<br>Перевод выполняется локально в браузере. <strong>Текст страницы остаётся в Chrome во время бесплатного перевода.</strong>',
+        primaryCta: 'Установить бесплатный переводчик',
+        trust: 'Бесплатный перевод · Без аккаунта · 35+ языков'
       },
       cta: {
-        title: 'Запустите бесплатный AI-перевод в Chrome.',
+        title: 'Запустите бесплатный перевод в Chrome.',
         sub: 'Бесплатно. Встроено. Приватно. Без аккаунта и без API key: установите и переводите целые страницы.',
         primary: 'Установить в Chrome · Бесплатно'
       }

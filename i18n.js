@@ -19,14 +19,14 @@ window.OFFLINE_TRANSLATOR_I18N = {
       "sub": "一款基于本地 AI 的免费 Chrome 翻译扩展。<br>翻译过程在浏览器中完成。<strong>页面文本会在 Chrome 内完成翻译。</strong>",
       "primaryCta": "安装扩展程序，完全免费",
       "secondaryCta": "查看演示",
-      "trust": "无需账号 · 浏览器内翻译 · 支持 40+ 种语言",
+      "trust": "无需账号 · 浏览器内翻译 · 支持 35+ 种语言",
       "statTranslated": "已翻译",
       "statDataSent": "发送数据"
     },
     "trust": {
       "private": "本地设备翻译 · 无需外部翻译服务器",
       "free": "免费，无需账号",
-      "languages": "支持 40+ 种语言"
+      "languages": "支持 35+ 种语言"
     },
     "features": {
       "label": "功能",
@@ -50,7 +50,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
           "body": "可用 Chrome 的 Prompt API 对翻译结果进行后处理。支持 <strong>Professional</strong>、<strong>Casual</strong> 和 <strong>Concise</strong> 三种风格。优化后的文本会写回缓存，之后可瞬时复用。"
         },
         {
-          "title": "支持 40+ 种语言",
+          "title": "支持 35+ 种语言",
           "body": "支持阿拉伯语、中文、法语、德语、印地语、日语、韩语、葡萄牙语、俄语、西班牙语等多种语言。你还可以自定义 From 和 To 下拉菜单中显示的语言。"
         },
         {
@@ -85,7 +85,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
         "<strong>整页翻译</strong> —— roadmap.sh 开发者路线图已翻译为中文",
         "<strong>实时进度追踪</strong> —— GitHub 博客翻译中，侧边栏显示分段统计",
         "<strong>富媒体页面</strong> —— Gates Notes 文章内容已完成端到端翻译",
-        "<strong>40+ 种语言</strong> —— From 与 To 语言列表可完全自定义"
+        "<strong>35+ 种语言</strong> —— From 与 To 语言列表可完全自定义"
       ]
     },
     "usecases": {
@@ -224,14 +224,14 @@ window.OFFLINE_TRANSLATOR_I18N = {
       "sub": "一款以裝置端 AI 為核心的免費 Chrome 翻譯擴充功能。<br>翻譯過程在瀏覽器中完成。<strong>頁面文字會在 Chrome 內完成翻譯。</strong>",
       "primaryCta": "安裝擴充功能，免費使用",
       "secondaryCta": "查看示範",
-      "trust": "不需帳號 · 瀏覽器內翻譯 · 支援 40+ 種語言",
+      "trust": "不需帳號 · 瀏覽器內翻譯 · 支援 35+ 種語言",
       "statTranslated": "已翻譯",
       "statDataSent": "傳送資料"
     },
     "trust": {
       "private": "裝置端翻譯 · 無需外部翻譯伺服器",
       "free": "免費，不需帳號",
-      "languages": "支援 40+ 種語言"
+      "languages": "支援 35+ 種語言"
     },
     "features": {
       "label": "功能",
@@ -255,7 +255,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
           "body": "可使用 Chrome 的 Prompt API 對譯文進行後處理。提供 <strong>Professional</strong>、<strong>Casual</strong> 與 <strong>Concise</strong> 三種風格。優化後文字會寫回快取，之後可立即重用。"
         },
         {
-          "title": "支援 40+ 種語言",
+          "title": "支援 35+ 種語言",
           "body": "支援阿拉伯語、中文、法語、德語、印地語、日語、韓語、葡萄牙語、俄語、西班牙語等多種語言。你也可以自訂 From 與 To 下拉選單中顯示的語言。"
         },
         {
@@ -290,7 +290,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
         "<strong>整頁翻譯</strong> —— roadmap.sh 開發者路線圖已翻譯成中文",
         "<strong>即時進度追蹤</strong> —— GitHub 部落格翻譯中，側邊欄顯示段落統計",
         "<strong>富媒體頁面</strong> —— Gates Notes 文章內容已完整翻譯",
-        "<strong>40+ 種語言</strong> —— From 與 To 語言清單可完全自訂"
+        "<strong>35+ 種語言</strong> —— From 與 To 語言清單可完全自訂"
       ]
     },
     "usecases": {
@@ -429,14 +429,14 @@ window.OFFLINE_TRANSLATOR_I18N = {
       "sub": "一款以裝置端 AI 為核心的免費 Chrome 翻譯擴充功能。<br>翻譯過程在瀏覽器中完成。<strong>頁面文字會在 Chrome 內完成翻譯。</strong>",
       "primaryCta": "安裝擴充功能，完全免費",
       "secondaryCta": "查看示範",
-      "trust": "毋須帳號 · 瀏覽器內翻譯 · 支援 40+ 種語言",
+      "trust": "毋須帳號 · 瀏覽器內翻譯 · 支援 35+ 種語言",
       "statTranslated": "已翻譯",
       "statDataSent": "傳送資料"
     },
     "trust": {
       "private": "裝置端翻譯 · 無需外部翻譯伺服器",
       "free": "免費，毋須帳號",
-      "languages": "支援 40+ 種語言"
+      "languages": "支援 35+ 種語言"
     },
     "features": {
       "label": "功能",
@@ -460,7 +460,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
           "body": "可使用 Chrome 的 Prompt API 對譯文作後處理。提供 <strong>Professional</strong>、<strong>Casual</strong> 及 <strong>Concise</strong> 三種風格。優化後文字會寫回快取，之後可即時重用。"
         },
         {
-          "title": "支援 40+ 種語言",
+          "title": "支援 35+ 種語言",
           "body": "支援阿拉伯語、中文、法語、德語、印地語、日語、韓語、葡萄牙語、俄語、西班牙語等多種語言。你亦可自訂 From 與 To 下拉選單中顯示的語言。"
         },
         {
@@ -495,7 +495,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
         "<strong>整頁翻譯</strong> —— roadmap.sh 開發者路線圖已翻譯成中文",
         "<strong>即時進度追蹤</strong> —— GitHub 網誌翻譯中，側邊欄顯示段落統計",
         "<strong>多媒體頁面</strong> —— Gates Notes 文章內容已完整翻譯",
-        "<strong>40+ 種語言</strong> —— From 及 To 語言清單可完全自訂"
+        "<strong>35+ 種語言</strong> —— From 及 To 語言清單可完全自訂"
       ]
     },
     "usecases": {
@@ -1044,14 +1044,14 @@ window.OFFLINE_TRANSLATOR_I18N = {
       "sub": "Eine kostenlose Chrome-Übersetzungserweiterung rund um geräteinterne KI.<br>Die Übersetzung läuft direkt im Browser. <strong>Seitentext bleibt während der Übersetzung in Chrome.</strong>",
       "primaryCta": "Erweiterung installieren – kostenlos",
       "secondaryCta": "In Aktion sehen",
-      "trust": "Kein Konto nötig · Übersetzung im Browser · 40+ Sprachen",
+      "trust": "Kein Konto nötig · Übersetzung im Browser · 35+ Sprachen",
       "statTranslated": "Übersetzt",
       "statDataSent": "Gesendete Daten"
     },
     "trust": {
       "private": "On-Device-Übersetzung · Kein externer Übersetzungsserver nötig",
       "free": "Kostenlos, kein Konto nötig",
-      "languages": "40+ Sprachen unterstützt"
+      "languages": "35+ Sprachen unterstützt"
     },
     "features": {
       "label": "Funktionen",
@@ -1075,7 +1075,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
           "body": "Nachbearbeitung von Übersetzungen mit Chromes Prompt API. Wähle zwischen <strong>Professional</strong>, <strong>Casual</strong> oder <strong>Concise</strong>. Optimierter Text wird zurück in den Cache geschrieben und ist sofort wieder verfügbar."
         },
         {
-          "title": "40+ unterstützte Sprachen",
+          "title": "35+ unterstützte Sprachen",
           "body": "Arabisch, Chinesisch, Französisch, Deutsch, Hindi, Japanisch, Koreanisch, Portugiesisch, Russisch, Spanisch und viele mehr. Du bestimmst genau, welche Sprachen in den Dropdowns From und To erscheinen."
         },
         {
@@ -1110,7 +1110,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
         "<strong>Ganzseitenübersetzung</strong> – roadmap.sh-Entwicklerroadmap ins Chinesische übersetzt",
         "<strong>Live-Fortschritt</strong> – GitHub-Blog mitten in der Übersetzung mit Segmentzählern",
         "<strong>Seiten mit vielen Medien</strong> – Gates-Notes-Artikel von Anfang bis Ende übersetzt",
-        "<strong>40+ Sprachen</strong> – From- und To-Sprachlisten vollständig anpassbar"
+        "<strong>35+ Sprachen</strong> – From- und To-Sprachlisten vollständig anpassbar"
       ]
     },
     "usecases": {
@@ -1315,7 +1315,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
         "<strong>Traducción de página completa</strong> — hoja de ruta de roadmap.sh traducida al chino",
         "<strong>Seguimiento en vivo</strong> — blog de GitHub a mitad de traducción con conteo por segmentos",
         "<strong>Páginas con mucho contenido visual</strong> — artículo de Gates Notes traducido de principio a fin",
-        "<strong>40+ idiomas</strong> — listas de idiomas From y To totalmente personalizables"
+        "<strong>35+ idiomas</strong> — listas de idiomas From y To totalmente personalizables"
       ]
     },
     "usecases": {
@@ -1659,14 +1659,14 @@ window.OFFLINE_TRANSLATOR_I18N = {
       "sub": "on-device AI पर आधारित एक मुफ्त Chrome translation extension।<br>अनुवाद ब्राउज़र के भीतर होता है। <strong>पेज का टेक्स्ट Chrome के भीतर ही अनुवादित होता है।</strong>",
       "primaryCta": "एक्सटेंशन इंस्टॉल करें — बिल्कुल मुफ्त",
       "secondaryCta": "इसे काम करते देखें",
-      "trust": "कोई अकाउंट नहीं · ब्राउज़र के भीतर अनुवाद · 40+ भाषाएँ",
+      "trust": "कोई अकाउंट नहीं · ब्राउज़र के भीतर अनुवाद · 35+ भाषाएँ",
       "statTranslated": "अनुवादित",
       "statDataSent": "भेजा गया डेटा"
     },
     "trust": {
       "private": "On-device translation · बाहरी translation server की जरूरत नहीं",
       "free": "हमेशा मुफ्त, बिना खाते के",
-      "languages": "40+ भाषाओं का समर्थन"
+      "languages": "35+ भाषाओं का समर्थन"
     },
     "features": {
       "label": "सुविधाएँ",
@@ -1690,7 +1690,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
           "body": "Chrome के Prompt API से अनुवाद को बाद में बेहतर करें। <strong>Professional</strong>, <strong>Casual</strong> या <strong>Concise</strong> स्टाइल चुनें। ऑप्टिमाइज़ किया हुआ टेक्स्ट दोबारा उपयोग के लिए कैश में सेव हो जाता है।"
         },
         {
-          "title": "40+ भाषाओं का समर्थन",
+          "title": "35+ भाषाओं का समर्थन",
           "body": "अरबी, चीनी, फ्रेंच, जर्मन, हिंदी, जापानी, कोरियाई, पुर्तगाली, रूसी, स्पेनिश और बहुत कुछ। आप तय कर सकते हैं कि From और To ड्रॉपडाउन में कौन-सी भाषाएँ दिखें।"
         },
         {
@@ -1725,7 +1725,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
         "<strong>पूरे पेज का अनुवाद</strong> — roadmap.sh developer roadmap का चीनी में अनुवाद",
         "<strong>लाइव प्रोग्रेस ट्रैकिंग</strong> — GitHub ब्लॉग अनुवाद के बीच में, सेगमेंट काउंट के साथ",
         "<strong>रिच-मीडिया पेज</strong> — Gates Notes लेख का पूरा अनुवाद",
-        "<strong>40+ भाषाएँ</strong> — From और To भाषा सूचियाँ पूरी तरह अनुकूलन योग्य"
+        "<strong>35+ भाषाएँ</strong> — From और To भाषा सूचियाँ पूरी तरह अनुकूलन योग्य"
       ]
     },
     "usecases": {
@@ -2274,14 +2274,14 @@ window.OFFLINE_TRANSLATOR_I18N = {
       "sub": "Uma extensão gratuita de tradução para Chrome baseada em IA no dispositivo.<br>A tradução acontece no navegador. <strong>O texto da página é traduzido dentro do Chrome.</strong>",
       "primaryCta": "Instalar extensão — grátis",
       "secondaryCta": "Ver em ação",
-      "trust": "Sem conta · Tradução no navegador · 40+ idiomas",
+      "trust": "Sem conta · Tradução no navegador · 35+ idiomas",
       "statTranslated": "Traduzido",
       "statDataSent": "Dados enviados"
     },
     "trust": {
       "private": "Tradução no dispositivo · Sem servidor de tradução externo",
       "free": "Grátis, sem conta",
-      "languages": "40+ idiomas suportados"
+      "languages": "35+ idiomas suportados"
     },
     "features": {
       "label": "Funcionalidades",
@@ -2305,7 +2305,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
           "body": "Faça pós-processamento das traduções com a Prompt API do Chrome. Escolha entre os estilos <strong>Professional</strong>, <strong>Casual</strong> ou <strong>Concise</strong>. O texto otimizado é guardado novamente na cache para reutilização instantânea."
         },
         {
-          "title": "40+ idiomas suportados",
+          "title": "35+ idiomas suportados",
           "body": "Árabe, chinês, francês, alemão, hindi, japonês, coreano, português, russo, espanhol e muitos outros. Pode definir exatamente que idiomas aparecem nas listas From e To."
         },
         {
@@ -2340,7 +2340,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
         "<strong>Tradução de página completa</strong> — roteiro de programador do roadmap.sh traduzido para chinês",
         "<strong>Progresso em direto</strong> — blog do GitHub a meio da tradução com contagem por segmentos",
         "<strong>Páginas com multimédia</strong> — artigo do Gates Notes traduzido de ponta a ponta",
-        "<strong>40+ idiomas</strong> — listas de idiomas From e To totalmente personalizáveis"
+        "<strong>35+ idiomas</strong> — listas de idiomas From e To totalmente personalizáveis"
       ]
     },
     "usecases": {
@@ -2479,14 +2479,14 @@ window.OFFLINE_TRANSLATOR_I18N = {
       "sub": "Uma extensão gratuita de tradução para Chrome baseada em IA no dispositivo.<br>A tradução acontece no navegador. <strong>O texto da página é traduzido dentro do Chrome.</strong>",
       "primaryCta": "Instalar extensão — é grátis",
       "secondaryCta": "Ver em ação",
-      "trust": "Sem conta · Tradução no navegador · 40+ idiomas",
+      "trust": "Sem conta · Tradução no navegador · 35+ idiomas",
       "statTranslated": "Traduzido",
       "statDataSent": "Dados enviados"
     },
     "trust": {
       "private": "Tradução no dispositivo · Sem servidor de tradução externo",
       "free": "Grátis, sem conta",
-      "languages": "40+ idiomas suportados"
+      "languages": "35+ idiomas suportados"
     },
     "features": {
       "label": "Recursos",
@@ -2545,7 +2545,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
         "<strong>Tradução de página inteira</strong> — roadmap de desenvolvedor do roadmap.sh traduzido para chinês",
         "<strong>Progresso ao vivo</strong> — blog do GitHub no meio da tradução com contagem por segmentos",
         "<strong>Páginas ricas em mídia</strong> — artigo do Gates Notes traduzido de ponta a ponta",
-        "<strong>40+ idiomas</strong> — listas de idiomas From e To totalmente personalizáveis"
+        "<strong>35+ idiomas</strong> — listas de idiomas From e To totalmente personalizáveis"
       ]
     },
     "usecases": {
@@ -2684,14 +2684,14 @@ window.OFFLINE_TRANSLATOR_I18N = {
       "sub": "Бесплатное расширение Chrome для перевода на базе ИИ, работающего на устройстве.<br>Перевод выполняется прямо в браузере. <strong>Текст страницы переводится внутри Chrome.</strong>",
       "primaryCta": "Установить расширение — бесплатно",
       "secondaryCta": "Посмотреть в действии",
-      "trust": "Без аккаунта · Перевод в браузере · 40+ языков",
+      "trust": "Без аккаунта · Перевод в браузере · 35+ языков",
       "statTranslated": "Переведено",
       "statDataSent": "Отправлено данных"
     },
     "trust": {
       "private": "Перевод на устройстве · Без внешнего сервера перевода",
       "free": "Навсегда бесплатно, без аккаунта",
-      "languages": "Поддержка 40+ языков"
+      "languages": "Поддержка 35+ языков"
     },
     "features": {
       "label": "Функции",
@@ -2715,7 +2715,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
           "body": "Дорабатывайте переводы с помощью Prompt API в Chrome. Доступны стили <strong>Professional</strong>, <strong>Casual</strong> и <strong>Concise</strong>. Оптимизированный текст сохраняется обратно в кэш для мгновенного повторного использования."
         },
         {
-          "title": "Поддержка 40+ языков",
+          "title": "Поддержка 35+ языков",
           "body": "Арабский, китайский, французский, немецкий, хинди, японский, корейский, португальский, русский, испанский и многие другие. Вы сами выбираете, какие языки отображать в списках From и To."
         },
         {
@@ -2750,7 +2750,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
         "<strong>Перевод всей страницы</strong> — дорожная карта разработчика roadmap.sh переведена на китайский",
         "<strong>Прогресс в реальном времени</strong> — блог GitHub в процессе перевода с подсчетом сегментов",
         "<strong>Страницы с насыщенным медиаконтентом</strong> — статья Gates Notes переведена полностью",
-        "<strong>40+ языков</strong> — списки языков From и To полностью настраиваются"
+        "<strong>35+ языков</strong> — списки языков From и To полностью настраиваются"
       ]
     },
     "usecases": {
