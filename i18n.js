@@ -3,7 +3,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
   "zh-Hans": {
     "meta": {
       "title": "offline.translator – 适用于任意网页的免费离线 Chrome 翻译扩展",
-      "description": "Translate webpages directly on your device using Chrome's built-in AI and Gemini Nano. Privacy-first design with no developer-hosted translation server."
+      "description": "Translate webpages directly on your device using Chrome's built-in AI and Gemini Nano. No external servers — your page content never leaves your browser."
     },
     "localeLabel": "语言",
     "nav": {
@@ -208,7 +208,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
   "zh-Hant": {
     "meta": {
       "title": "offline.translator – 適用於任何網頁的免費離線 Chrome 翻譯擴充功能",
-      "description": "Translate webpages directly on your device using Chrome's built-in AI and Gemini Nano. Privacy-first design with no developer-hosted translation server."
+      "description": "Translate webpages directly on your device using Chrome's built-in AI and Gemini Nano. No external servers — your page content never leaves your browser."
     },
     "localeLabel": "語言",
     "nav": {
@@ -413,7 +413,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
   "zh-Hant-HK": {
     "meta": {
       "title": "offline.translator – 適用於任何網頁的免費離線 Chrome 翻譯擴充功能",
-      "description": "Translate webpages directly on your device using Chrome's built-in AI and Gemini Nano. Privacy-first design with no developer-hosted translation server."
+      "description": "Translate webpages directly on your device using Chrome's built-in AI and Gemini Nano. No external servers — your page content never leaves your browser."
     },
     "localeLabel": "語言",
     "nav": {
@@ -618,7 +618,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
   "ja": {
     "meta": {
       "title": "offline.translator – あらゆるWebページ向けの無料オフラインChrome翻訳拡張機能",
-      "description": "Translate webpages directly on your device using Chrome's built-in AI and Gemini Nano. Privacy-first design with no developer-hosted translation server."
+      "description": "Translate webpages directly on your device using Chrome's built-in AI and Gemini Nano. No external servers — your page content never leaves your browser."
     },
     "localeLabel": "言語",
     "nav": {
@@ -823,7 +823,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
   "ar": {
     "meta": {
       "title": "offline.translator – إضافة ترجمة Chrome مجانية تعمل دون اتصال لأي صفحة ويب",
-      "description": "Translate webpages directly on your device using Chrome's built-in AI and Gemini Nano. Privacy-first design with no developer-hosted translation server."
+      "description": "Translate webpages directly on your device using Chrome's built-in AI and Gemini Nano. No external servers — your page content never leaves your browser."
     },
     "localeLabel": "اللغة",
     "nav": {
@@ -1028,7 +1028,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
   "de": {
     "meta": {
       "title": "offline.translator – Kostenlose Offline-Chrome-Übersetzungserweiterung für jede Webseite",
-      "description": "Translate webpages directly on your device using Chrome's built-in AI and Gemini Nano. Privacy-first design with no developer-hosted translation server."
+      "description": "Translate webpages directly on your device using Chrome's built-in AI and Gemini Nano. No external servers — your page content never leaves your browser."
     },
     "localeLabel": "Sprache",
     "nav": {
@@ -1233,7 +1233,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
   "es": {
     "meta": {
       "title": "offline.translator – Extensión gratuita de traducción offline para Chrome en cualquier página web",
-      "description": "Translate webpages directly on your device using Chrome's built-in AI and Gemini Nano. Privacy-first design with no developer-hosted translation server."
+      "description": "Translate webpages directly on your device using Chrome's built-in AI and Gemini Nano. No external servers — your page content never leaves your browser."
     },
     "localeLabel": "Idioma",
     "nav": {
@@ -1438,7 +1438,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
   "fr": {
     "meta": {
       "title": "offline.translator – Extension Chrome gratuite de traduction hors ligne pour n'importe quelle page web",
-      "description": "Translate webpages directly on your device using Chrome's built-in AI and Gemini Nano. Privacy-first design with no developer-hosted translation server."
+      "description": "Translate webpages directly on your device using Chrome's built-in AI and Gemini Nano. No external servers — your page content never leaves your browser."
     },
     "localeLabel": "Langue",
     "nav": {
@@ -1643,7 +1643,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
   "hi": {
     "meta": {
       "title": "offline.translator – किसी भी वेबपेज के लिए मुफ्त ऑफलाइन Chrome अनुवाद एक्सटेंशन",
-      "description": "Translate webpages directly on your device using Chrome's built-in AI and Gemini Nano. Privacy-first design with no developer-hosted translation server."
+      "description": "Translate webpages directly on your device using Chrome's built-in AI and Gemini Nano. No external servers — your page content never leaves your browser."
     },
     "localeLabel": "भाषा",
     "nav": {
@@ -1848,7 +1848,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
   "it": {
     "meta": {
       "title": "offline.translator – Estensione Chrome gratuita di traduzione offline per qualsiasi pagina web",
-      "description": "Translate webpages directly on your device using Chrome's built-in AI and Gemini Nano. Privacy-first design with no developer-hosted translation server."
+      "description": "Translate webpages directly on your device using Chrome's built-in AI and Gemini Nano. No external servers — your page content never leaves your browser."
     },
     "localeLabel": "Lingua",
     "nav": {
@@ -2053,7 +2053,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
   "ko": {
     "meta": {
       "title": "offline.translator – 모든 웹페이지를 위한 무료 오프라인 Chrome 번역 확장 프로그램",
-      "description": "Translate webpages directly on your device using Chrome's built-in AI and Gemini Nano. Privacy-first design with no developer-hosted translation server."
+      "description": "Translate webpages directly on your device using Chrome's built-in AI and Gemini Nano. No external servers — your page content never leaves your browser."
     },
     "localeLabel": "언어",
     "nav": {
@@ -2258,7 +2258,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
   "pt": {
     "meta": {
       "title": "offline.translator – Extensão gratuita de tradução offline para Chrome em qualquer página web",
-      "description": "Translate webpages directly on your device using Chrome's built-in AI and Gemini Nano. Privacy-first design with no developer-hosted translation server."
+      "description": "Translate webpages directly on your device using Chrome's built-in AI and Gemini Nano. No external servers — your page content never leaves your browser."
     },
     "localeLabel": "Idioma",
     "nav": {
@@ -2463,7 +2463,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
   "pt-BR": {
     "meta": {
       "title": "offline.translator – Extensão gratuita de tradução offline para Chrome em qualquer página da web",
-      "description": "Translate webpages directly on your device using Chrome's built-in AI and Gemini Nano. Privacy-first design with no developer-hosted translation server."
+      "description": "Translate webpages directly on your device using Chrome's built-in AI and Gemini Nano. No external servers — your page content never leaves your browser."
     },
     "localeLabel": "Idioma",
     "nav": {
@@ -2668,7 +2668,7 @@ window.OFFLINE_TRANSLATOR_I18N = {
   "ru": {
     "meta": {
       "title": "offline.translator — бесплатное офлайн-расширение Chrome для перевода любых веб-страниц",
-      "description": "Translate webpages directly on your device using Chrome's built-in AI and Gemini Nano. Privacy-first design with no developer-hosted translation server."
+      "description": "Translate webpages directly on your device using Chrome's built-in AI and Gemini Nano. No external servers — your page content never leaves your browser."
     },
     "localeLabel": "Язык",
     "nav": {
