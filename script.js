@@ -19,7 +19,6 @@
     { code: 'it', label: 'Italiano', hreflang: 'it', ogLocale: 'it_IT' },
     { code: 'ko', label: '한국어', hreflang: 'ko', ogLocale: 'ko_KR' },
     { code: 'pt', label: 'Português', hreflang: 'pt', ogLocale: 'pt_PT' },
-    { code: 'pt-BR', label: 'Português (Brasil)', hreflang: 'pt-BR', ogLocale: 'pt_BR' },
     { code: 'ru', label: 'Русский', hreflang: 'ru', ogLocale: 'ru_RU' }
   ];
 
@@ -99,11 +98,6 @@
       screenshotLabel: 'Ir para a captura',
       comparisonLastRow: ['Tradução gratuita', null, 'Varia', null]
     },
-    'pt-BR': {
-      screenshotsLabel: 'Capturas do produto',
-      screenshotLabel: 'Ir para a captura',
-      comparisonLastRow: ['Tradução grátis', null, 'Varia', null]
-    },
     ru: {
       screenshotsLabel: 'Скриншоты продукта',
       screenshotLabel: 'Перейти к скриншоту',
@@ -114,17 +108,15 @@
   var HOME_MESSAGE_OVERRIDES = {
     'zh-Hans': {
       meta: {
-        title: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        description: '免费 Chrome translate 扩展，使用 Chrome 内置 Translator API 在浏览器内完成整页翻译。支持 35+ 种语言、智能缓存与免费翻译，无需账号。',
-        ogTitle: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        ogDescription: '免费 Chrome translate 扩展，使用 Chrome 内置 Translator API 在浏览器内完成整页翻译。支持 35+ 种语言、智能缓存与免费翻译，无需账号。',
+        description: '免费 Chrome translate 扩展，使用 Chrome 内置 Translator API 在浏览器内完成整页翻译。支持 39 种语言、智能缓存与免费翻译，无需账号。',
+        ogDescription: '免费 Chrome translate 扩展，使用 Chrome 内置 Translator API 在浏览器内完成整页翻译。支持 39 种语言、智能缓存与免费翻译，无需账号。',
         keywords: SEO_KEYWORDS
       },
       hero: {
         title: '免费 Chrome<br><span class="highlight">AI 翻译</span><br><span class="highlight">适用于任意网页</span>',
         sub: '一款免费的 Chrome 翻译扩展，基于 Chrome 内置 Translator API。<br>翻译在浏览器内本地完成。<strong>免费翻译时，页面文本始终留在 Chrome 中。</strong>',
         primaryCta: '安装免费翻译扩展',
-        trust: '免费翻译 · 无需账号 · 支持 35+ 种语言'
+        trust: '免费翻译 · 无需账号 · 支持 39 种语言'
       },
       cta: {
         title: '开始在 Chrome 中使用免费翻译。',
@@ -134,17 +126,15 @@
     },
     'zh-Hant': {
       meta: {
-        title: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        description: 'Translate webpages directly on your device using Chrome\'s built-in AI and Gemini Nano. Privacy-first design with no developer-hosted translation server.',
-        ogTitle: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        ogDescription: 'Translate webpages directly on your device using Chrome\'s built-in AI and Gemini Nano. Privacy-first design with no developer-hosted translation server.',
+        description: '免費 Chrome 翻譯擴充功能，使用 Chrome 內建 Translator API 在瀏覽器內完成整頁翻譯。支援 39 種語言、智慧快取，不需帳號。',
+        ogDescription: '免費 Chrome 翻譯擴充功能，使用 Chrome 內建 Translator API 在瀏覽器內完成整頁翻譯。支援 39 種語言、智慧快取，不需帳號。',
         keywords: SEO_KEYWORDS
       },
       hero: {
         title: '免費 Chrome<br><span class="highlight">AI 翻譯</span><br><span class="highlight">適用於任何網頁</span>',
         sub: '一款免費的 Chrome 翻譯擴充功能，基於 Chrome 內建 Translator API。<br>翻譯會在瀏覽器內本地完成。<strong>免費翻譯時，頁面文字始終留在 Chrome 中。</strong>',
         primaryCta: '安裝免費翻譯擴充功能',
-        trust: '免費翻譯 · 不需帳號 · 支援 35+ 種語言'
+        trust: '免費翻譯 · 不需帳號 · 支援 39 種語言'
       },
       cta: {
         title: '開始在 Chrome 中使用免費翻譯。',
@@ -154,17 +144,15 @@
     },
     'zh-Hant-HK': {
       meta: {
-        title: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        description: 'Translate webpages directly on your device using Chrome\'s built-in AI and Gemini Nano. Privacy-first design with no developer-hosted translation server.',
-        ogTitle: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        ogDescription: 'Translate webpages directly on your device using Chrome\'s built-in AI and Gemini Nano. Privacy-first design with no developer-hosted translation server.',
+        description: '免費 Chrome 翻譯擴充功能，使用 Chrome 內建 Translator API 在瀏覽器內完成整頁翻譯。支援 39 種語言、智能快取，毋須帳號。',
+        ogDescription: '免費 Chrome 翻譯擴充功能，使用 Chrome 內建 Translator API 在瀏覽器內完成整頁翻譯。支援 39 種語言、智能快取，毋須帳號。',
         keywords: SEO_KEYWORDS
       },
       hero: {
         title: '免費 Chrome<br><span class="highlight">AI 翻譯</span><br><span class="highlight">適用於任何網頁</span>',
         sub: '一款免費的 Chrome 翻譯擴充功能，基於 Chrome 內建 Translator API。<br>翻譯會在瀏覽器內本地完成。<strong>免費翻譯時，頁面文字始終留在 Chrome 中。</strong>',
         primaryCta: '安裝免費翻譯擴充功能',
-        trust: '免費翻譯 · 毋須帳號 · 支援 35+ 種語言'
+        trust: '免費翻譯 · 毋須帳號 · 支援 39 種語言'
       },
       cta: {
         title: '開始在 Chrome 中使用免費翻譯。',
@@ -174,17 +162,15 @@
     },
     ja: {
       meta: {
-        title: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        description: '無料で使える Chrome 翻訳拡張機能。Chrome 内蔵の Translator API でページ全体をブラウザ内翻訳。40以上の言語、スマートキャッシュ、アカウント不要。',
-        ogTitle: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        ogDescription: '無料で使える Chrome 翻訳拡張機能。Chrome 内蔵の Translator API でページ全体をブラウザ内翻訳。40以上の言語、スマートキャッシュ、アカウント不要。',
+        description: '無料で使える Chrome 翻訳拡張機能。Chrome 内蔵の Translator API でページ全体をブラウザ内翻訳。39の言語、スマートキャッシュ、アカウント不要。',
+        ogDescription: '無料で使える Chrome 翻訳拡張機能。Chrome 内蔵の Translator API でページ全体をブラウザ内翻訳。39の言語、スマートキャッシュ、アカウント不要。',
         keywords: SEO_KEYWORDS
       },
       hero: {
         title: '無料 Chrome<br><span class="highlight">AI 翻訳</span><br><span class="highlight">あらゆるWebページに対応</span>',
         sub: 'Chrome 内蔵の Translator API を使う無料 Chrome 翻訳拡張機能です。<br>翻訳はブラウザ内で端末上に保持されたまま実行されます。<strong>ページのテキストは無料翻訳中も Chrome 内にとどまります。</strong>',
         primaryCta: '無料翻訳をインストール',
-        trust: '無料翻訳 · アカウント不要 · 40以上の言語'
+        trust: '無料翻訳 · アカウント不要 · 39の言語'
       },
       cta: {
         title: 'Chrome で無料翻訳を始めましょう。',
@@ -194,17 +180,15 @@
     },
     ar: {
       meta: {
-        title: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        description: 'إضافة ترجمة مجانية لمتصفح Chrome تستخدم Translator API المدمج في Chrome لترجمة صفحات الويب بالكامل داخل المتصفح. تدعم أكثر من 40 لغة وتعمل بدون حساب.',
-        ogTitle: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        ogDescription: 'إضافة ترجمة مجانية لمتصفح Chrome تستخدم Translator API المدمج في Chrome لترجمة صفحات الويب بالكامل داخل المتصفح. تدعم أكثر من 40 لغة وتعمل بدون حساب.',
+        description: 'إضافة ترجمة مجانية لمتصفح Chrome تستخدم Translator API المدمج في Chrome لترجمة صفحات الويب بالكامل داخل المتصفح. تدعم 39 لغة وتعمل بدون حساب.',
+        ogDescription: 'إضافة ترجمة مجانية لمتصفح Chrome تستخدم Translator API المدمج في Chrome لترجمة صفحات الويب بالكامل داخل المتصفح. تدعم 39 لغة وتعمل بدون حساب.',
         keywords: SEO_KEYWORDS
       },
       hero: {
         title: 'مجانية في Chrome<br><span class="highlight">AI ترجمة</span><br><span class="highlight">لأي صفحة ويب</span>',
         sub: 'إضافة ترجمة مجانية لمتصفح Chrome تعتمد على Translator API المدمج في Chrome.<br>تتم الترجمة محلياً داخل المتصفح. <strong>يبقى نص الصفحة داخل Chrome أثناء الترجمة المجانية.</strong>',
         primaryCta: 'ثبّت مترجم المجاني',
-        trust: 'ترجمة مجانية · بلا حساب · أكثر من 40 لغة'
+        trust: 'ترجمة مجانية · بلا حساب · 39 لغة'
       },
       cta: {
         title: 'ابدأ الترجمة المجانية بالذكاء الاصطناعي داخل Chrome.',
@@ -214,17 +198,15 @@
     },
     de: {
       meta: {
-        title: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        description: 'Translate webpages directly on your device using Chrome\'s built-in AI and Gemini Nano. Privacy-first design with no developer-hosted translation server.',
-        ogTitle: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        ogDescription: 'Translate webpages directly on your device using Chrome\'s built-in AI and Gemini Nano. Privacy-first design with no developer-hosted translation server.',
+        description: 'Kostenlose Chrome-Übersetzungserweiterung mit der integrierten Translator API von Chrome. Übersetzt ganze Webseiten direkt im Browser – 39 Sprachen, intelligenter Cache, kein Konto nötig.',
+        ogDescription: 'Kostenlose Chrome-Übersetzungserweiterung mit der integrierten Translator API von Chrome. Übersetzt ganze Webseiten direkt im Browser – 39 Sprachen, intelligenter Cache, kein Konto nötig.',
         keywords: SEO_KEYWORDS
       },
       hero: {
         title: 'Kostenlose Chrome<br><span class="highlight">AI-Übersetzung</span><br><span class="highlight">für jede Webseite</span>',
         sub: 'Eine kostenlose Übersetzungserweiterung für Chrome auf Basis der integrierten Translator API von Chrome.<br>Die Übersetzung läuft lokal in deinem Browser. <strong>Seitentext bleibt während der kostenlosen Übersetzung in Chrome.</strong>',
         primaryCta: 'Kostenlosen Übersetzer installieren',
-        trust: 'Kostenlose Übersetzung · Kein Konto · 35+ Sprachen'
+        trust: 'Kostenlose Übersetzung · Kein Konto · 39 Sprachen'
       },
       cta: {
         title: 'Starte kostenlose Übersetzung in Chrome.',
@@ -234,17 +216,15 @@
     },
     es: {
       meta: {
-        title: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        description: 'Extensión de traducción gratis para Chrome con Translator API integrada de Chrome. Traduce páginas completas en el navegador con 35+ idiomas, caché inteligente y sin cuenta.',
-        ogTitle: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        ogDescription: 'Extensión de traducción gratis para Chrome con Translator API integrada de Chrome. Traduce páginas completas en el navegador con 35+ idiomas, caché inteligente y sin cuenta.',
+        description: 'Extensión de traducción gratis para Chrome con Translator API integrada de Chrome. Traduce páginas completas en el navegador con 39 idiomas, caché inteligente y sin cuenta.',
+        ogDescription: 'Extensión de traducción gratis para Chrome con Translator API integrada de Chrome. Traduce páginas completas en el navegador con 39 idiomas, caché inteligente y sin cuenta.',
         keywords: SEO_KEYWORDS
       },
       hero: {
         title: 'Gratis en Chrome<br><span class="highlight">Traducción AI</span><br><span class="highlight">para cualquier página web</span>',
         sub: 'Una extensión de traducción gratis para Chrome basada en la Translator API integrada de Chrome.<br>La traducción se ejecuta localmente en tu navegador. <strong>El texto de la página permanece en Chrome durante la traducción gratuita.</strong>',
         primaryCta: 'Instalar traductor gratis',
-        trust: 'Traducción gratis · Sin cuenta · 35+ idiomas'
+        trust: 'Traducción gratis · Sin cuenta · 39 idiomas'
       },
       cta: {
         title: 'Empieza a traducir gratis en Chrome.',
@@ -254,17 +234,15 @@
     },
     fr: {
       meta: {
-        title: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        description: 'Extension de traduction gratuite pour Chrome avec la Translator API intégrée de Chrome. Traduisez des pages entières dans le navigateur, avec plus de 40 langues, cache intelligent et sans compte.',
-        ogTitle: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        ogDescription: 'Extension de traduction gratuite pour Chrome avec la Translator API intégrée de Chrome. Traduisez des pages entières dans le navigateur, avec plus de 40 langues, cache intelligent et sans compte.',
+        description: 'Extension de traduction gratuite pour Chrome avec la Translator API intégrée de Chrome. Traduisez des pages entières dans le navigateur, avec 39 langues, cache intelligent et sans compte.',
+        ogDescription: 'Extension de traduction gratuite pour Chrome avec la Translator API intégrée de Chrome. Traduisez des pages entières dans le navigateur, avec 39 langues, cache intelligent et sans compte.',
         keywords: SEO_KEYWORDS
       },
       hero: {
         title: 'Gratuite sur Chrome<br><span class="highlight">Traduction AI</span><br><span class="highlight">pour n\'importe quelle page web</span>',
         sub: 'Une extension de traduction gratuite pour Chrome, basée sur la Translator API intégrée de Chrome.<br>La traduction s\'exécute localement dans votre navigateur. <strong>Le texte de la page reste dans Chrome pendant la traduction gratuite.</strong>',
         primaryCta: 'Installer le traducteur gratuit',
-        trust: 'Traduction gratuite · Sans compte · Plus de 40 langues'
+        trust: 'Traduction gratuite · Sans compte · 39 langues'
       },
       cta: {
         title: 'Commencez la traduction gratuite dans Chrome.',
@@ -274,17 +252,15 @@
     },
     hi: {
       meta: {
-        title: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        description: 'Translate webpages directly on your device using Chrome\'s built-in AI and Gemini Nano. Privacy-first design with no developer-hosted translation server.',
-        ogTitle: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        ogDescription: 'Translate webpages directly on your device using Chrome\'s built-in AI and Gemini Nano. Privacy-first design with no developer-hosted translation server.',
+        description: 'Chrome के बिल्ट-इन Translator API से पूरे वेबपेज का अनुवाद ब्राउज़र में ही करने वाला मुफ़्त Chrome एक्सटेंशन। 39 भाषाएँ, स्मार्ट कैश, कोई अकाउंट ज़रूरी नहीं।',
+        ogDescription: 'Chrome के बिल्ट-इन Translator API से पूरे वेबपेज का अनुवाद ब्राउज़र में ही करने वाला मुफ़्त Chrome एक्सटेंशन। 39 भाषाएँ, स्मार्ट कैश, कोई अकाउंट ज़रूरी नहीं।',
         keywords: SEO_KEYWORDS
       },
       hero: {
         title: 'मुफ़्त Chrome<br><span class="highlight">AI अनुवाद</span><br><span class="highlight">किसी भी वेबपेज के लिए</span>',
         sub: 'Chrome के built-in Translator API पर आधारित एक मुफ़्त Chrome translate एक्सटेंशन।<br>अनुवाद आपके ब्राउज़र में लोकली चलता है। <strong>मुफ़्त अनुवाद के दौरान पेज का टेक्स्ट Chrome में ही रहता है।</strong>',
         primaryCta: 'मुफ़्त अनुवादक इंस्टॉल करें',
-        trust: 'मुफ़्त अनुवाद · बिना अकाउंट · 35+ भाषाएँ'
+        trust: 'मुफ़्त अनुवाद · बिना अकाउंट · 39 भाषाएँ'
       },
       cta: {
         title: 'Chrome में मुफ़्त अनुवाद शुरू करें।',
@@ -294,17 +270,15 @@
     },
     it: {
       meta: {
-        title: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        description: 'Estensione di traduzione gratis per Chrome con la Translator API integrata di Chrome. Traduce pagine complete nel browser con 35+ lingue, cache intelligente e senza account.',
-        ogTitle: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        ogDescription: 'Estensione di traduzione gratis per Chrome con la Translator API integrata di Chrome. Traduce pagine complete nel browser con 35+ lingue, cache intelligente e senza account.',
+        description: 'Estensione di traduzione gratis per Chrome con la Translator API integrata di Chrome. Traduce pagine complete nel browser con 39 lingue, cache intelligente e senza account.',
+        ogDescription: 'Estensione di traduzione gratis per Chrome con la Translator API integrata di Chrome. Traduce pagine complete nel browser con 39 lingue, cache intelligente e senza account.',
         keywords: SEO_KEYWORDS
       },
       hero: {
         title: 'Gratis in Chrome<br><span class="highlight">Traduzione AI</span><br><span class="highlight">per qualsiasi pagina web</span>',
         sub: 'Un\'estensione di traduzione gratis per Chrome basata sulla Translator API integrata di Chrome.<br>La traduzione gira localmente nel browser. <strong>Il testo della pagina resta in Chrome durante la traduzione gratuita.</strong>',
         primaryCta: 'Installa il traduttore gratis',
-        trust: 'Traduzione gratis · Nessun account · 35+ lingue'
+        trust: 'Traduzione gratis · Nessun account · 39 lingue'
       },
       cta: {
         title: 'Inizia la traduzione gratuita in Chrome.',
@@ -314,17 +288,15 @@
     },
     ko: {
       meta: {
-        title: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        description: 'Chrome 내장 Translator API로 웹페이지 전체를 브라우저 안에서 번역하는 무료 Chrome translate 확장 프로그램입니다. 40개 이상 언어, 스마트 캐시, 계정 불필요.',
-        ogTitle: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        ogDescription: 'Chrome 내장 Translator API로 웹페이지 전체를 브라우저 안에서 번역하는 무료 Chrome translate 확장 프로그램입니다. 40개 이상 언어, 스마트 캐시, 계정 불필요.',
+        description: 'Chrome 내장 Translator API로 웹페이지 전체를 브라우저 안에서 번역하는 무료 Chrome translate 확장 프로그램입니다. 39개 언어, 스마트 캐시, 계정 불필요.',
+        ogDescription: 'Chrome 내장 Translator API로 웹페이지 전체를 브라우저 안에서 번역하는 무료 Chrome translate 확장 프로그램입니다. 39개 언어, 스마트 캐시, 계정 불필요.',
         keywords: SEO_KEYWORDS
       },
       hero: {
         title: '무료 Chrome<br><span class="highlight">AI 번역</span><br><span class="highlight">모든 웹페이지를 위한</span>',
         sub: 'Chrome 내장 Translator API 기반의 무료 Chrome 번역 확장 프로그램입니다.<br>번역은 브라우저 안에서 로컬로 실행됩니다. <strong>무료 번역 중에도 페이지 텍스트는 Chrome 안에 유지됩니다.</strong>',
         primaryCta: '무료 번역기 설치',
-        trust: '무료 번역 · 계정 불필요 · 40개 이상 언어'
+        trust: '무료 번역 · 계정 불필요 · 39개 언어'
       },
       cta: {
         title: 'Chrome에서 무료 번역을 시작하세요.',
@@ -334,17 +306,15 @@
     },
     pt: {
       meta: {
-        title: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        description: 'Extensão de tradução gratuita para Chrome com a Translator API integrada do Chrome. Traduza páginas completas no navegador com mais de 40 idiomas, cache inteligente e sem conta.',
-        ogTitle: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        ogDescription: 'Extensão de tradução gratuita para Chrome com a Translator API integrada do Chrome. Traduza páginas completas no navegador com mais de 40 idiomas, cache inteligente e sem conta.',
+        description: 'Extensão de tradução gratuita para Chrome com a Translator API integrada do Chrome. Traduza páginas completas no navegador com 39 idiomas, cache inteligente e sem conta.',
+        ogDescription: 'Extensão de tradução gratuita para Chrome com a Translator API integrada do Chrome. Traduza páginas completas no navegador com 39 idiomas, cache inteligente e sem conta.',
         keywords: SEO_KEYWORDS
       },
       hero: {
         title: 'Gratuita no Chrome<br><span class="highlight">Tradução AI</span><br><span class="highlight">para qualquer página web</span>',
         sub: 'Uma extensão de tradução gratuita para Chrome baseada na Translator API integrada do Chrome.<br>A tradução é executada localmente no navegador. <strong>O texto da página fica no Chrome durante a tradução gratuita.</strong>',
         primaryCta: 'Instalar tradutor gratuito',
-        trust: 'Tradução gratuita · Sem conta · Mais de 40 idiomas'
+        trust: 'Tradução gratuita · Sem conta · 39 idiomas'
       },
       cta: {
         title: 'Comece a tradução gratuita no Chrome.',
@@ -352,39 +322,17 @@
         primary: 'Instalar no Chrome · Gratuito'
       }
     },
-    'pt-BR': {
-      meta: {
-        title: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        description: 'Extensão de tradução grátis para Chrome com a Translator API integrada do Chrome. Traduza páginas completas no navegador com 35+ idiomas, cache inteligente e sem conta.',
-        ogTitle: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        ogDescription: 'Extensão de tradução grátis para Chrome com a Translator API integrada do Chrome. Traduza páginas completas no navegador com 35+ idiomas, cache inteligente e sem conta.',
-        keywords: SEO_KEYWORDS
-      },
-      hero: {
-        title: 'Grátis no Chrome<br><span class="highlight">Tradução AI</span><br><span class="highlight">para qualquer página da web</span>',
-        sub: 'Uma extensão de tradução grátis para Chrome baseada na Translator API integrada do Chrome.<br>A tradução roda localmente no navegador. <strong>O texto da página permanece no Chrome durante a tradução grátis.</strong>',
-        primaryCta: 'Instalar tradutor grátis',
-        trust: 'Tradução grátis · Sem conta · 35+ idiomas'
-      },
-      cta: {
-        title: 'Comece a tradução grátis no Chrome.',
-        sub: 'Grátis. Integrado. Privado. Sem conta e sem chave de API: instale e traduza páginas inteiras.',
-        primary: 'Instalar no Chrome · Grátis'
-      }
-    },
     ru: {
       meta: {
-        title: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        description: 'Бесплатное расширение для перевода в Chrome на базе встроенного Translator API Chrome. Переводите целые страницы в браузере: 35+ языков, умный кэш и без аккаунта.',
-        ogTitle: 'offline.translator – AI-Powered Local Webpage Translation with Chrome AI',
-        ogDescription: 'Бесплатное расширение для перевода в Chrome на базе встроенного Translator API Chrome. Переводите целые страницы в браузере: 35+ языков, умный кэш и без аккаунта.',
+        description: 'Бесплатное расширение для перевода в Chrome на базе встроенного Translator API Chrome. Переводите целые страницы в браузере: 39 языков, умный кэш и без аккаунта.',
+        ogDescription: 'Бесплатное расширение для перевода в Chrome на базе встроенного Translator API Chrome. Переводите целые страницы в браузере: 39 языков, умный кэш и без аккаунта.',
         keywords: SEO_KEYWORDS
       },
       hero: {
         title: 'Бесплатный в Chrome<br><span class="highlight">AI-перевод</span><br><span class="highlight">для любой веб-страницы</span>',
         sub: 'Бесплатное расширение для Chrome на базе встроенного Translator API Chrome.<br>Перевод выполняется локально в браузере. <strong>Текст страницы остаётся в Chrome во время бесплатного перевода.</strong>',
         primaryCta: 'Установить бесплатный переводчик',
-        trust: 'Бесплатный перевод · Без аккаунта · 35+ языков'
+        trust: 'Бесплатный перевод · Без аккаунта · 39 языков'
       },
       cta: {
         title: 'Запустите бесплатный перевод в Chrome.',
@@ -558,10 +506,6 @@
     return '/' + locale + '/' + window.location.hash;
   }
 
-  function getCurrentUrlWithoutHash() {
-    return window.location.origin + normalizePathname(window.location.pathname);
-  }
-
   function setMeta(selector, value) {
     if (!value) return;
 
@@ -569,10 +513,6 @@
     if (node) node.setAttribute('content', value);
   }
 
-  function setCanonical(url) {
-    var node = document.querySelector('link[rel="canonical"]');
-    if (node) node.setAttribute('href', url);
-  }
 
   function getComparisonMessages(locale, comparison) {
     if (!comparison) return comparison;
@@ -643,14 +583,12 @@
 
   function applyHomeTranslations(locale) {
     var messages = getHomeMessages(locale);
-    var currentUrl = getCurrentUrlWithoutHash();
+    // Canonical, og:url and og:locale are written per page by scripts/sync-locales.py.
+    var currentUrl = document.querySelector('link[rel="canonical"]').href;
     var localeConfig = getLocaleConfig(locale);
 
     document.documentElement.lang = localeConfig.hreflang;
     document.documentElement.dir = locale === 'ar' ? 'rtl' : 'ltr';
-    setCanonical(currentUrl);
-    setMeta('meta[property="og:url"]', currentUrl);
-    setMeta('meta[property="og:locale"]', localeConfig.ogLocale);
     setMeta('meta[name="keywords"]', SEO_KEYWORDS);
     setMeta('meta[property="og:image"]', DEFAULT_OG_IMAGE);
     setMeta('meta[property="og:image:alt"]', DEFAULT_OG_IMAGE_ALT);
@@ -679,11 +617,7 @@
     setText('.nav-cta', messages.nav.install);
 
     setText('.badge-text', messages.hero.badge);
-    setHTML('.hero-title', messages.hero.title);
-    setHTML('.hero-sub', messages.hero.sub);
-    setText('#hero-cta .btn-label', messages.hero.primaryCta);
     setText('.hero-actions .btn-ghost', messages.hero.secondaryCta);
-    setText('.hero-trust', messages.hero.trust);
     setText('#features .section-label', messages.features.label);
     setHTML('#features .section-header h2', messages.features.title);
     setText('#features .section-sub', messages.features.sub);
@@ -737,28 +671,62 @@
     setText('.footer-nav a[href="#faq"]', messages.nav.faq);
     setText('.footer-nav a[href="/privacy.html"]', messages.footer.privacy);
     setText('.footer-meta a[href="/privacy.html"]', messages.footer.privacy);
+
+    applyUiStrings(locale);
+  }
+
+  // Everything without a keyed message above: the exact English text (or the element's markup) maps to its translation.
+  function applyUiStrings(locale) {
+    var dict = I18N.ui && I18N.ui[locale];
+    if (!dict) return;
+
+    var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
+    var nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(function (node) {
+      var parts = node.nodeValue.match(/^(\s*)([\s\S]*?)(\s*)$/);
+      var text = dict[parts[2].replace(/\s+/g, ' ')];
+      if (text) node.nodeValue = parts[1] + text + parts[3];
+    });
+
+    document.body.querySelectorAll('*').forEach(function (el) {
+      if (el.innerHTML.length > 600) return;
+      var html = dict[el.innerHTML.replace(/\s+/g, ' ').trim()];
+      if (html) el.innerHTML = html;
+    });
   }
 
   function initLocalePicker(locale) {
-    var select = document.getElementById('locale-select');
+    document.querySelectorAll('.locale-select').forEach(function (select) {
+      SUPPORTED_LOCALES.forEach(function (item) {
+        var option = document.createElement('option');
+        option.value = item.code;
+        option.textContent = item.label;
+        select.appendChild(option);
+      });
 
-    if (!select) return;
+      select.value = locale;
+      select.addEventListener('change', function () {
+        var nextPath = buildLocalePath(select.value);
+        var currentPath = normalizePathname(window.location.pathname) + window.location.hash;
 
-    SUPPORTED_LOCALES.forEach(function (item) {
-      var option = document.createElement('option');
-      option.value = item.code;
-      option.textContent = item.label;
-      select.appendChild(option);
+        if (nextPath !== currentPath) {
+          window.location.assign(nextPath);
+        }
+      });
     });
 
-    select.value = locale;
-    select.addEventListener('change', function () {
-      var nextPath = buildLocalePath(select.value);
-      var currentPath = normalizePathname(window.location.pathname) + window.location.hash;
-
-      if (nextPath !== currentPath) {
-        window.location.assign(nextPath);
-      }
+    // Sidebar list of locale links (home pages only)
+    var list = document.querySelector('[data-locale-list]');
+    if (!list) return;
+    SUPPORTED_LOCALES.forEach(function (item) {
+      var link = document.createElement('a');
+      link.href = '/' + item.code + '/';
+      link.className = 'stat-row' + (item.code === locale ? ' is-current' : '');
+      link.innerHTML = '<span></span><b></b>';
+      link.firstChild.textContent = item.label;
+      link.lastChild.textContent = item.code;
+      list.appendChild(link);
     });
   }
 
@@ -859,108 +827,187 @@
     });
   }
 
-  function initReveal() {
-    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  // "On this page": highlight the section in view and slide the bar to it.
+  function initNavHighlight() {
+    var toc = document.querySelector('[data-toc]');
+    if (!toc) return;
+    var bar = toc.querySelector('.toc-bar');
+    var links = Array.prototype.slice.call(toc.querySelectorAll('a[href^="#"]'));
+    var sections = links.map(function (link) {
+      return document.getElementById(link.getAttribute('href').slice(1));
+    });
 
-    var targets = document.querySelectorAll(
-      '.feature-card, .step, .demo-item, .usecase-card, .faq-item, .section-header'
-    );
+    function update() {
+      var offset = window.innerHeight * 0.3;
+      var current = 0;
+      sections.forEach(function (section, i) {
+        if (section && section.getBoundingClientRect().top - offset <= 0) current = i;
+      });
+      if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2) current = links.length - 1;
+      links.forEach(function (link, i) { link.classList.toggle('is-active', i === current); });
+      var active = links[current];
+      if (bar && active) {
+        bar.style.top = active.offsetTop + 'px';
+        bar.style.height = active.offsetHeight + 'px';
+      }
+    }
 
-    targets.forEach(function (el) {
-      el.classList.add('reveal');
-      var siblings = el.parentElement ? el.parentElement.children : [];
-      var index = Array.prototype.indexOf.call(siblings, el);
-      if (index > 0 && index <= 4) {
-        el.classList.add('reveal-delay-' + index);
+    var ticking = false;
+    window.addEventListener('scroll', function () {
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(function () { ticking = false; update(); });
+    }, { passive: true });
+    window.addEventListener('resize', update);
+    update();
+  }
+
+  function initMenus() {
+    var items = document.querySelectorAll('[data-menu]');
+    var hoverable = window.matchMedia('(hover: hover)').matches;
+
+    function close(except) {
+      items.forEach(function (item) {
+        if (item === except) return;
+        item.classList.remove('is-open');
+        item.querySelector('.nav-link').setAttribute('aria-expanded', 'false');
+      });
+    }
+
+    items.forEach(function (item) {
+      var button = item.querySelector('.nav-link');
+      var timer;
+      function open() {
+        clearTimeout(timer);
+        close(item);
+        item.classList.add('is-open');
+        button.setAttribute('aria-expanded', 'true');
+      }
+      button.addEventListener('click', function () {
+        item.classList.contains('is-open') ? close() : open();
+      });
+      if (hoverable) {
+        item.addEventListener('mouseenter', open);
+        item.addEventListener('mouseleave', function () { timer = setTimeout(close, 120); });
       }
     });
 
-    if (!('IntersectionObserver' in window)) {
-      targets.forEach(function (el) { el.classList.add('visible'); });
-      return;
+    document.addEventListener('click', function (event) {
+      if (!event.target.closest('[data-menu]')) close();
+    });
+    document.addEventListener('keydown', function (event) {
+      if (event.key === 'Escape') { close(); setMobile(false); }
+    });
+
+    var toggle = document.querySelector('.menu-toggle');
+    function setMobile(open) {
+      document.body.classList.toggle('menu-open', open);
+      if (toggle) toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
     }
-
-    var observer = new IntersectionObserver(
-      function (entries) {
-        entries.forEach(function (entry) {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('visible');
-            observer.unobserve(entry.target);
-          }
-        });
-      },
-      { threshold: 0.12, rootMargin: '0px 0px -40px 0px' }
-    );
-
-    targets.forEach(function (el) { observer.observe(el); });
-  }
-
-  function initNavHighlight() {
-    var sections = document.querySelectorAll('section[id]');
-    var navLinks = document.querySelectorAll('.nav-links a[href^="#"]');
-
-    if (!sections.length || !navLinks.length) return;
-
-    var observer = new IntersectionObserver(
-      function (entries) {
-        entries.forEach(function (entry) {
-          if (entry.isIntersecting) {
-            navLinks.forEach(function (link) {
-              link.removeAttribute('aria-current');
-              link.style.color = '';
-            });
-            var active = document.querySelector(
-              '.nav-links a[href="#' + entry.target.id + '"]'
-            );
-            if (active) {
-              active.setAttribute('aria-current', 'true');
-              active.style.color = 'var(--color-text-primary)';
-            }
-          }
-        });
-      },
-      { threshold: 0.3 }
-    );
-
-    sections.forEach(function (section) { observer.observe(section); });
-  }
-
-  function initBoard() {
-    var rows = document.getElementById('board-rows');
-    var board = document.getElementById('board');
-
-    if (!rows || !board) return;
-
-    rows.classList.add('is-pending');
-
-    if (!('IntersectionObserver' in window)) {
-      rows.classList.add('is-in');
-      return;
-    }
-
-    var observer = new IntersectionObserver(function (entries) {
-      entries.forEach(function (entry) {
-        if (!entry.isIntersecting) return;
-        rows.classList.add('is-in');
-        observer.disconnect();
+    if (toggle) {
+      toggle.addEventListener('click', function () {
+        setMobile(!document.body.classList.contains('menu-open'));
       });
-    }, { threshold: 0.25 });
+    }
+    document.querySelectorAll('.mm-row[aria-expanded]').forEach(function (row) {
+      row.addEventListener('click', function () {
+        row.setAttribute('aria-expanded', row.getAttribute('aria-expanded') === 'true' ? 'false' : 'true');
+      });
+    });
+    document.querySelectorAll('.mobile-menu a, .nav-menu a').forEach(function (link) {
+      link.addEventListener('click', function () { setMobile(false); close(); });
+    });
+  }
 
-    observer.observe(board);
+  // Demo frame: one tab per screenshot, labelled from its (translated) caption.
+  function initDemoTabs() {
+    var tabs = document.querySelector('[data-demo-tabs]');
+    var caption = document.querySelector('[data-demo-caption]');
+    var figures = document.querySelectorAll('.demo-item');
+    if (!tabs || !figures.length) return;
+
+    function select(index) {
+      figures.forEach(function (figure, i) {
+        figure.classList.toggle('is-active', i === index);
+        tabs.children[i].setAttribute('aria-selected', i === index ? 'true' : 'false');
+      });
+      var text = figures[index].querySelector('figcaption');
+      if (caption && text) caption.innerHTML = text.innerHTML;
+    }
+
+    figures.forEach(function (figure, i) {
+      var cap = figure.querySelector('figcaption');
+      var strong = cap && cap.querySelector('strong');
+      var tab = document.createElement('button');
+      tab.type = 'button';
+      tab.className = 'tab';
+      tab.setAttribute('role', 'tab');
+      tab.textContent = (strong || cap || { textContent: 'View ' + (i + 1) }).textContent;
+      tab.addEventListener('click', function () { select(i); });
+      tabs.appendChild(tab);
+    });
+    select(0);
+  }
+
+  function initCopyButtons() {
+    document.querySelectorAll('[data-copy]').forEach(function (button) {
+      button.addEventListener('click', function () {
+        if (!navigator.clipboard) return;
+        navigator.clipboard.writeText(button.getAttribute('data-copy')).then(function () {
+          button.classList.add('is-done');
+          setTimeout(function () { button.classList.remove('is-done'); }, 1200);
+        });
+      });
+    });
+  }
+
+  // Single-key shortcuts shown on the buttons (I = install, D = docs, L = language).
+  function initShortcuts() {
+    document.addEventListener('keydown', function (event) {
+      if (event.metaKey || event.ctrlKey || event.altKey || event.repeat) return;
+      if (event.target.closest('input, textarea, select, [contenteditable="true"]')) return;
+      var key = event.key.toLowerCase();
+      if (key === 'i') {
+        var install = document.querySelector('[data-install]');
+        if (install) install.click(); else window.location.href = '/#install';
+      } else if (key === 'd') {
+        window.location.href = '/docs/';
+      } else if (key === 'l') {
+        var select = document.getElementById('locale-select');
+        if (select && select.offsetParent) select.focus();
+      }
+    });
+  }
+
+  function initFaqLinks() {
+    document.querySelectorAll('[data-open-faq]').forEach(function (link) {
+      link.addEventListener('click', function () {
+        var button = document.querySelector('[aria-controls="' + link.getAttribute('data-open-faq') + '"]');
+        if (button && button.getAttribute('aria-expanded') !== 'true') button.click();
+      });
+    });
   }
 
   document.addEventListener('DOMContentLoaded', function () {
     var locale = resolveLocale(window.location.pathname);
+    var root = document.documentElement;
 
-    initLocalePicker(locale);
-
-    if (document.body && document.body.dataset.page === 'home') {
+    // Locale pages ship already translated: scripts/sync-locales.py loads them with ?prerender and saves the result.
+    if (document.body && document.body.dataset.page === 'home' && !root.hasAttribute('data-prerendered')) {
       applyHomeTranslations(locale);
     }
+    if (/[?&]prerender\b/.test(window.location.search)) {
+      root.setAttribute('data-prerendered', '');
+      return; // bake text only; widgets below are built at runtime so they aren't duplicated
+    }
 
+    initLocalePicker(locale);
     initFAQ();
-    initReveal();
+    initMenus();
+    initDemoTabs();
+    initCopyButtons();
+    initShortcuts();
+    initFaqLinks();
     initNavHighlight();
-    initBoard();
   });
 })();

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Watch translation progress – offline.translator</title>
+  <meta name="description" content="How the offline.translator side panel reports progress: segments, cache hits, Viewport and All modes, and what to check when translation stops.">
+  <meta name="theme-color" content="#edede8">
+  <link rel="canonical" href="https://theofflinetranslator.com/docs/progress/">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300..700&family=Geist:wght@400..600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/docs/docs.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/assets/icon.png">
+</head>
+<body data-page="docs">
+
+  <!-- ============ TOP BAR: banner + header ============ -->
+  <div class="topbar">
+    <div class="banner"><span>offline.translator now refines with Gemini Nano</span></div>
+    <header class="site-header" aria-label="Main navigation">
+      <div class="hcell hcell-logo">
+        <a href="/" class="logo" aria-label="offline.translator home">
+          <img src="/assets/icon.png" width="26" height="26" alt="">
+          <span class="logo-word">offline<span class="accent">.</span>translator</span>
+        </a>
+      </div>
+      <div class="hcell hcell-mid">
+        <span class="btn-wrap cb cb-hover"><a href="/#install" class="btn"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg><span class="badge-text">Free · Chrome 138+</span></a></span>
+        <nav class="nav-links" aria-label="Primary">
+          <div class="nav-item" data-menu>
+            <button class="nav-link" aria-expanded="false">Product <svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button>
+            <div class="nav-menu">
+              <a href="/#features"><b>Features</b><span>Everything the side panel does</span></a>
+              <a href="/#how-it-works"><b>How It Works</b><span>Up and running in 30 seconds</span></a>
+              <a href="/#demo"><b>Demo</b><span>Real pages, translated on-device</span></a>
+              <a href="/#languages"><b>Languages</b><span>35+ languages built into Chrome</span></a>
+            </div>
+          </div>
+          <div class="nav-item" data-menu>
+            <button class="nav-link" aria-expanded="false">Resources <svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button>
+            <div class="nav-menu">
+              <a href="/docs/"><b>Documentation</b><span>Set up and use the extension</span></a>
+              <a href="/docs/progress/"><b>Progress &amp; tracing</b><span>Watch every segment translate</span></a>
+              <a href="/privacy.html"><b>Privacy Policy</b><span>What stays on your device</span></a>
+            </div>
+          </div>
+          <div class="nav-item" data-menu>
+            <button class="nav-link" aria-expanded="false">Solutions <svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button>
+            <div class="nav-menu">
+              <a href="/#use-cases"><b>Developers</b><span>Docs and threads in any language</span></a>
+              <a href="/#use-cases"><b>Researchers</b><span>Papers and sources, translated in place</span></a>
+              <a href="/#use-cases"><b>Privacy-conscious users</b><span>Nothing sent to a translation API</span></a>
+              <a href="/#use-cases"><b>Global teams</b><span>Read partner sites without a workflow</span></a>
+            </div>
+          </div>
+          <a class="nav-link" href="/#faq">FAQ</a>
+        </nav>
+      </div>
+      <div class="hcell hcell-end">
+        <label class="locale-picker hdr-mobile-only" for="locale-select-m" aria-label="Select language">
+          <span class="icon-btn locale-label"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></span>
+          <select id="locale-select-m" class="locale-select" aria-label="Select language"></select>
+        </label>
+        <span class="btn-wrap cb cb-hover hdr-tablet"><a href="/#install" class="btn btn-primary nav-cta-wrap" aria-keyshortcuts="I"><span class="nav-cta">Install Free</span><kbd class="hdr-desktop">I</kbd></a></span>
+        <label class="locale-picker hdr-tablet" for="locale-select">
+          <span class="btn locale-label"><span class="locale-label-text">Locale</span><kbd class="hdr-desktop">L</kbd></span>
+          <select id="locale-select" class="locale-select" aria-label="Select language"></select>
+        </label>
+        <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <svg class="i-open" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg>
+          <svg class="i-close" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><line x1="5" y1="5" x2="19" y2="19"/><line x1="19" y1="5" x2="5" y2="19"/></svg>
+        </button>
+      </div>
+    </header>
+    <nav class="mobile-menu" aria-label="Mobile navigation">
+      <ul>
+        <li><button class="mm-row" aria-expanded="false">Product <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button>
+          <div class="mm-sub"><a href="/#features">Features</a><a href="/#how-it-works">How It Works</a><a href="/#demo">Demo</a><a href="/#languages">Languages</a></div></li>
+        <li><button class="mm-row" aria-expanded="false">Resources <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button>
+          <div class="mm-sub"><a href="/docs/">Documentation</a><a href="/docs/progress/">Progress &amp; tracing</a><a href="/privacy.html">Privacy Policy</a></div></li>
+        <li><button class="mm-row" aria-expanded="false">Solutions <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button>
+          <div class="mm-sub"><a href="/#use-cases">Developers</a><a href="/#use-cases">Researchers</a><a href="/#use-cases">Privacy-conscious users</a><a href="/#use-cases">Global teams</a></div></li>
+        <li><a class="mm-row" href="/#faq">FAQ <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 6 15 12 9 18"/></svg></a></li>
+        <li><a class="mm-row" href="/privacy.html">Privacy Policy <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 6 15 12 9 18"/></svg></a></li>
+        <li><a class="mm-row" href="https://chromewebstore.google.com/detail/offlinetranslator/kgonnccdhmhnbebmlgdgchnfejcdemoj" rel="noopener" target="_blank">Install Free <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 6 15 12 9 18"/></svg></a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="frame">
+    <!-- ============ LEFT SIDEBAR ============ -->
+    <aside class="side side-left" aria-label="Quick facts">
+      <div class="side-inner">
+        <div class="card">
+          <p class="card-title">Quick facts</p>
+          <div class="stat-row"><span>Languages</span><b>35+</b></div>
+          <div class="stat-row"><span>Price</span><b>Free</b></div>
+          <div class="stat-row"><span>Browser</span><b>Chrome 138+</b></div>
+          <div class="stat-row"><span>Servers involved</span><b>0</b></div>
+        </div>
+        <div class="card">
+          <p class="card-title">Guides <a href="/docs/">View all</a></p>
+          <div class="side-list">
+            <a href="/docs/">Get started in Chrome<small>2 min read</small></a>
+            <a href="/docs/progress/" class="is-current" aria-current="page">Watch translation progress<small>4 min read</small></a>
+            <a href="/privacy.html">What stays on your device<small>policy</small></a>
+          </div>
+        </div>
+        <div class="card card-grow">
+          <p class="card-title">Read this site in</p>
+          <div data-locale-list></div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- ============ MAIN ============ -->
+    <main class="main" id="top">
+      <div class="page">
+
+        <article class="section doc" aria-labelledby="doc-title">
+          <p class="doc-meta">Guide · 4 min read</p>
+          <h1 id="doc-title">Watch translation progress</h1>
+          <p class="lead">The side panel shows how much of the page is translated while it happens, with a live percentage and a count for every segment.</p>
+
+          <h2 id="segments">Segments</h2>
+          <p>offline.translator translates a page in segments: pieces of text such as a heading, a paragraph or a menu item. Progress is counted in segments, so <strong>212 / 496</strong> means 212 of the page's 496 segments are done, shown as 43%.</p>
+
+          <h2 id="panel">Reading the panel</h2>
+          <dl class="doc-terms">
+            <div><dt>Percentage and count</dt><dd>How much of the page is translated, for example 43% and 212 / 496. The bar under it fills as segments finish.</dd></div>
+            <div><dt>Total segs</dt><dd>All segments found on the page.</dd></div>
+            <div><dt>Cache hits</dt><dd>Segments loaded from the translation cache on your device instead of being translated again.</dd></div>
+            <div><dt>New</dt><dd>Segments translated for the first time.</dd></div>
+            <div><dt>Queued</dt><dd>Segments waiting their turn.</dd></div>
+            <div><dt>Done</dt><dd>Everything in scope is translated. When the whole page is finished, the panel says “Page translation is up to date across the full document.”</dd></div>
+          </dl>
+
+          <h2 id="modes">Viewport or All</h2>
+          <p><strong>Viewport</strong> is the fast mode. It translates the segments on screen first and picks up new ones as you scroll.</p>
+          <p><strong>All</strong> translates the full page in one pass, including the parts you have not scrolled to yet. You can switch between the two at any time.</p>
+
+          <h2 id="cache">The cache</h2>
+          <p>Finished translations are stored in IndexedDB in your browser and reused on return visits. Text that repeats across pages, like navigation menus and footers, is translated once and then loaded from the cache, so it counts as a cache hit instead of a new segment.</p>
+          <p>Translations refined with Gemini Nano are saved back to the cache too. <strong>Clear Cache</strong> in the side panel empties it, and <strong>Restore</strong> puts the page back in its original language.</p>
+
+          <h2 id="stalled">If progress stops</h2>
+          <ul>
+            <li>Check that Chrome is version 138 or newer at <code>chrome://version</code>.</li>
+            <li>Open <code>chrome://on-device-translation-internals</code> and check that the language pack for your pair is on this device. The first download for a pair can take a moment.</li>
+            <li>Polishing with Gemini Nano needs the Prompt API. <code>chrome://on-device-internals</code> shows whether it is available on your machine.</li>
+          </ul>
+
+          <nav class="doc-next" aria-label="More guides">
+            <a href="/docs/"><small>Previous guide</small>Get started in Chrome</a>
+            <a href="/privacy.html"><small>Policy</small>What stays on your device</a>
+          </nav>
+        </article>
+
+        <!-- FOOTER -->
+        <footer class="footer cb" role="contentinfo">
+          <div class="social">
+            <a href="https://github.com/Mugenx/the.offline.translator" rel="noopener" target="_blank" aria-label="GitHub"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.4-4-1.4-.6-1.4-1.4-1.8-1.4-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.6 18.3 5 18.3 5c.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .5z"/></svg></a>
+            <a href="https://chromewebstore.google.com/detail/offlinetranslator/kgonnccdhmhnbebmlgdgchnfejcdemoj" rel="noopener" target="_blank" aria-label="Chrome Web Store"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="4"/><path d="M21.2 8H12M3.9 6.1 8.5 14M10.9 21.9l4.6-7.9"/></svg></a>
+          </div>
+          <div class="footer-cols cut">
+            <div class="footer-col footer-brand">
+              <h5>Product</h5>
+              <nav class="footer-nav" aria-label="Footer navigation">
+                <a href="/#features">Features</a>
+                <a href="/#how-it-works">How It Works</a>
+                <a href="/#demo">Demo</a>
+                <a href="/#faq">FAQ</a>
+              </nav>
+            </div>
+            <div class="footer-col">
+              <h5>Resources</h5>
+              <a href="/docs/">Documentation</a>
+              <a href="/docs/progress/">Progress &amp; tracing</a>
+            </div>
+            <div class="footer-col">
+              <h5>Languages</h5>
+              <a href="/en/">English</a>
+              <a href="/zh-Hans/">简体中文</a>
+              <a href="/ja/">日本語</a>
+              <a href="/es/">Español</a>
+            </div>
+            <div class="footer-col">
+              <h5>Company</h5>
+              <a href="https://github.com/Mugenx/the.offline.translator" rel="noopener" target="_blank">GitHub</a>
+              <a href="/privacy.html">Privacy Policy</a>
+              <p class="footer-tagline">Translation happens in Chrome on your device.</p>
+            </div>
+          </div>
+          <div class="footer-legal cut footer-meta">
+            <a href="/privacy.html">Privacy Policy</a>
+            <span>Chrome 138+</span>
+          </div>
+          <div class="footer-copy cut"><span>© 2026 offline.translator</span><span>Made for <b>Chrome</b></span></div>
+          <p class="footer-disclaimer">All product names, logos, and brands are property of their respective owners. All company, product and service names used in this website are for identification purposes only.</p>
+        </footer>
+      </div>
+    </main>
+
+    <!-- ============ RIGHT SIDEBAR ============ -->
+    <aside class="side side-right" aria-label="On this page">
+      <div class="side-inner">
+        <div class="card card-grow">
+          <p class="toc-title">On this page</p>
+          <nav class="toc" data-toc>
+            <span class="toc-bar" aria-hidden="true"></span>
+            <a href="#segments">Segments</a>
+            <a href="#panel">Reading the panel</a>
+            <a href="#modes">Viewport or All</a>
+            <a href="#cache">The cache</a>
+            <a href="#stalled">If progress stops</a>
+          </nav>
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  <script src="/script.js" defer></script>
+</body>
+</html>

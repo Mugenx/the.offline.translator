@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1390 868" width="1390" height="868">
+  <defs>
+    <style>
+      text { font-family: Inter, -apple-system, "SF Pro Display", system-ui, "PingFang SC", "Hiragino Sans", "Apple SD Gothic Neo", "Malgun Gothic", "Microsoft YaHei", "Noto Sans CJK SC", "Geeza Pro", "Segoe UI", sans-serif; font-weight: 500; text-anchor: middle; dominant-baseline: central; }
+    </style>
+    <!-- floor grid in the same isometric plane as the keys -->
+    <pattern id="iso" width="115" height="115" patternUnits="userSpaceOnUse" patternTransform="matrix(.866 .5 -.866 .5 695 455)">
+      <path d="M115 0H0V115" fill="none" stroke="#d2d2cb" stroke-width="1.2"/>
+    </pattern>
+    <pattern id="hatch" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <path d="M0 0V12" stroke="#cfcfc9" stroke-width="1.5"/>
+    </pattern>
+    <radialGradient id="fade" cx="695" cy="455" r="560" gradientUnits="userSpaceOnUse">
+      <stop offset=".3" stop-color="#fff"/><stop offset="1" stop-color="#000"/>
+    </radialGradient>
+    <mask id="gridFade"><rect x="160" width="1070" height="868" fill="url(#fade)"/></mask>
+  </defs>
+
+  <!-- blocks -->
+  <rect width="1390" height="868" fill="#edede8"/>
+  <rect x="160" width="1070" height="868" fill="url(#iso)" mask="url(#gridFade)"/>
+
+  <rect width="160" height="520" fill="#222220"/>
+  <path d="M0 460A60 60 0 0 1 60 520M0 410A110 110 0 0 1 110 520M0 360A160 160 0 0 1 160 520" fill="none" stroke="#f6f6f3" stroke-opacity=".35" stroke-width="1.5"/>
+  <rect y="520" width="160" height="348" fill="#f6f6f3"/>
+  <path d="M0 520L160 868M160 520L0 868" stroke="#222220" stroke-width="1.2"/>
+
+  <rect x="1230" width="160" height="380" fill="#e5e5e1"/>
+  <rect x="1230" width="160" height="380" fill="url(#hatch)"/>
+  <rect x="1230" y="380" width="160" height="488" fill="#222220"/>
+  <path d="M1240 868A70 70 0 0 1 1380 868M1270 868A40 40 0 0 1 1350 868M1230 560H1390" fill="none" stroke="#f6f6f3" stroke-opacity=".35" stroke-width="1.5"/>
+
+  <path d="M160 0V868M1230 0V868M160 88H1230M160 780H1230" stroke="#cfcfc9" stroke-width="1.5"/>
+
+  <!-- back row -->
+  <polygon points="374.6,340 495.8,410 495.8,352 398.8,296" fill="#deded8"/>
+  <polygon points="495.8,410 617,340 592.8,296 495.8,352" fill="#c7c7c0"/>
+  <polygon points="495.8,240 592.8,296 495.8,352 398.8,296" fill="#fcfcfa"/>
+  <polygon points="495.8,250 575.5,296 495.8,342 416.1,296" fill="#f2f2ee"/>
+  <g transform="translate(495.8 296) matrix(.866 .5 -.866 .5 0 0)"><text font-size="52" fill="#222220">A</text></g>
+
+  <polygon points="894.2,270 1015.4,340 894.2,410 773,340" fill="#222220" fill-opacity=".08"/>
+  <polygon points="773,324 894.2,394 894.2,336 797.2,280" fill="#3d3d38"/>
+  <polygon points="894.2,394 1015.4,324 991.2,280 894.2,336" fill="#161615"/>
+  <polygon points="894.2,224 991.2,280 894.2,336 797.2,280" fill="#2d2d2a"/>
+  <polygon points="894.2,234 973.9,280 894.2,326 814.5,280" fill="#222220"/>
+  <g transform="translate(894.2 280) matrix(.866 .5 -.866 .5 0 0)"><text font-size="52" fill="#f6f6f3">文</text></g>
+
+  <!-- middle row -->
+  <polygon points="175.4,455 296.6,525 296.6,467 199.6,411" fill="#deded8"/>
+  <polygon points="296.6,525 417.8,455 393.6,411 296.6,467" fill="#c7c7c0"/>
+  <polygon points="296.6,355 393.6,411 296.6,467 199.6,411" fill="#fcfcfa"/>
+  <polygon points="296.6,365 376.3,411 296.6,457 216.9,411" fill="#f2f2ee"/>
+  <g transform="translate(296.6 411) matrix(.866 .5 -.866 .5 0 0)"><text font-size="52" fill="#222220">あ</text></g>
+
+  <polygon points="695,365 850.9,455 695,545 539.1,455" fill="#222220" fill-opacity=".08"/>
+  <path d="M539.1 425V455M695 515V545M850.9 425V455" stroke="#222220" stroke-opacity=".45" stroke-width="1.2" stroke-dasharray="3 4"/>
+  <polygon points="539.1,425 695,515 695,441 570.3,369" fill="#e47a4c"/>
+  <polygon points="695,515 850.9,425 819.7,369 695,441" fill="#c9643a"/>
+  <polygon points="695,297 819.7,369 695,441 570.3,369" fill="#fb8f60"/>
+  <polygon points="695,307 802.4,369 695,431 587.6,369" fill="#f5875a"/>
+  <g transform="translate(695 369) matrix(.866 .5 -.866 .5 0 0)"><text font-size="58" fill="#222220">文A</text></g>
+
+  <polygon points="972.2,455 1093.4,525 1093.4,467 996.4,411" fill="#c4c4bd"/>
+  <polygon points="1093.4,525 1214.6,455 1190.4,411 1093.4,467" fill="#ababa4"/>
+  <polygon points="1093.4,355 1190.4,411 1093.4,467 996.4,411" fill="#d9d9d3"/>
+  <polygon points="1093.4,365 1173.1,411 1093.4,457 1013.7,411" fill="#cfcfc9"/>
+  <g transform="translate(1093.4 411) matrix(.866 .5 -.866 .5 0 0)"><text font-size="52" fill="#222220">가</text></g>
+
+  <!-- front row -->
+  <polygon points="374.6,570 495.8,640 495.8,582 398.8,526" fill="#3d3d38"/>
+  <polygon points="495.8,640 617,570 592.8,526 495.8,582" fill="#161615"/>
+  <polygon points="495.8,470 592.8,526 495.8,582 398.8,526" fill="#2d2d2a"/>
+  <polygon points="495.8,480 575.5,526 495.8,572 416.1,526" fill="#222220"/>
+  <g transform="translate(495.8 526) matrix(.866 .5 -.866 .5 0 0)"><text font-size="52" fill="#f6f6f3">Ж</text></g>
+
+  <polygon points="773,570 894.2,640 894.2,582 797.2,526" fill="#deded8"/>
+  <polygon points="894.2,640 1015.4,570 991.2,526 894.2,582" fill="#c7c7c0"/>
+  <polygon points="894.2,470 991.2,526 894.2,582 797.2,526" fill="#fcfcfa"/>
+  <polygon points="894.2,480 973.9,526 894.2,572 814.5,526" fill="#f2f2ee"/>
+  <g transform="translate(894.2 526) matrix(.866 .5 -.866 .5 0 0)"><text font-size="52" fill="#222220">ع</text></g>
+</svg>

@@ -1,0 +1,32 @@
+/* Guide pages under /docs/: prose on the tokens from /styles.css */
+.doc { max-width: 720px; padding-top: 64px; }
+.doc > * + * { margin-top: 16px; }
+.doc-meta { font-family: var(--font-mono); font-size: 12px; color: var(--text-tertiary); }
+.doc h1 { font-family: var(--font-display); font-weight: 500; font-size: 40px; line-height: 1.1; letter-spacing: -.8px; color: var(--text-primary); margin-top: 12px; }
+.doc h2 { font-family: var(--font-display); font-weight: 500; font-size: 22px; line-height: 1.25; letter-spacing: -.3px; color: var(--text-primary); margin-top: 48px; }
+.doc h2 + * { margin-top: 12px; }
+.doc p, .doc li, .doc dd { font-size: 15px; line-height: 1.7; color: var(--text-secondary); }
+.doc .lead { font-size: 17px; line-height: 1.6; }
+.doc strong { font-weight: 500; color: var(--text-primary); }
+.doc ul { list-style: disc; padding-left: 20px; }
+.doc li + li { margin-top: 8px; }
+.doc p code, .doc li code { font-family: var(--font-mono); font-size: 13px; color: var(--text-primary); background: var(--surface-2); padding: 2px 6px; border-radius: 4px; }
+
+.doc-terms { border-top: 1px solid var(--line-structure); }
+.doc-terms > div { display: grid; grid-template-columns: 160px 1fr; gap: 16px; padding: 12px 0; border-bottom: 1px solid var(--line-structure); }
+.doc-terms dt { font-size: 14px; font-weight: 500; line-height: 1.7; color: var(--text-primary); }
+.doc-terms dd { margin: 0; }
+.doc-terms dt code { font-family: var(--font-mono); font-size: 13px; font-weight: 400; }
+.doc p a { color: var(--text-primary); text-decoration: underline; text-underline-offset: 3px; }
+
+.doc .doc-next { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 56px; }
+.doc-next a { display: block; padding: 16px; border: 1px solid var(--line-structure); background: var(--surface-bg); font-size: 15px; color: var(--text-primary); transition: background-color .15s; }
+.doc-next a:hover { background: var(--surface-2); }
+.doc-next small { display: block; font-family: var(--font-mono); font-size: 12px; color: var(--text-tertiary); margin-bottom: 4px; }
+
+@media (max-width: 640px) {
+  .doc { padding-top: 40px; }
+  .doc h1 { font-size: 32px; }
+  .doc-terms > div { grid-template-columns: 1fr; gap: 4px; }
+  .doc .doc-next { grid-template-columns: 1fr; }
+}
