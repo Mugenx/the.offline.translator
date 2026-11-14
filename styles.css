@@ -697,7 +697,7 @@ a.stat-row:hover { color: var(--text-primary); }
   .post-title { font-size: 30px; }
 }
 @media (min-width: 1024px) {
-  .hcell-logo { flex: none; width: 240px; padding: 0 16px; }
+  .hcell-logo { flex: none; width: 238px; padding: 0 16px; } /* 238 + 1px gap = sidebar width, so the header divider lands on the sidebar's gutter */
   .hcell-mid { display: flex; }
   .hdr-desktop { display: inline-flex; }
   .menu-toggle, .hdr-mobile-only { display: none; }
@@ -719,7 +719,7 @@ a.stat-row:hover { color: var(--text-primary); }
 }
 @media (min-width: 1440px) {
   .side-right { display: block; }
-  .hcell-end { flex: none; width: 240px; justify-content: flex-end; padding: 0 16px; }
+  .hcell-end { flex: none; width: 238px; justify-content: flex-end; padding: 0 16px; }
 }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
