@@ -154,7 +154,7 @@ ul, ol { padding: 0; list-style: none; }
 .hcell-logo { padding: 0 16px; flex: 1; }
 .hcell-mid { display: none; flex: 1; padding: 0 10px; }
 .hcell-end { padding: 0 12px 0 8px; gap: 4px; justify-content: flex-end; }
-@media (max-width: 639px) { .hcell-logo { padding: 0 12px; flex: none; } .hcell-end kbd { display: none; } } /* keep the full logo on a 375px phone */
+@media (max-width: 639px) { .hcell-logo { padding: 0 12px; flex: none; } .hcell-end { flex: 1; } .hcell-end kbd { display: none; } } /* keep the full logo on a 375px phone */
 .logo { display: inline-flex; align-items: center; gap: 8px; color: var(--text-primary); }
 .logo img { width: 26px; height: 26px; border-radius: 6px; }
 .logo-word { font-family: var(--font-display); font-size: 21px; font-weight: 500; letter-spacing: -.6px; line-height: 1; }
