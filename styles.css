@@ -247,7 +247,15 @@ ul, ol { padding: 0; list-style: none; }
    Page frame: left sidebar · main · right sidebar
    ============================================================ */
 .frame { display: flex; align-items: flex-start; max-width: 1920px; margin: 0 auto; }
-.main { flex: 1; min-width: 0; background: var(--surface-bg); min-height: 100vh; }
+/* grid texture, faded toward the centre (same look as langfuse.com's .pattern-bg) */
+.main {
+  flex: 1; min-width: 0; min-height: 100vh;
+  background:
+    radial-gradient(circle 50vmax at 50% 50%, #f6f6f326, #f6f6f3d9),
+    linear-gradient(var(--surface-1) 2px, transparent 2px) center top / 40px 40px,
+    linear-gradient(90deg, var(--surface-1) 2px, transparent 2px) center top / 40px 40px,
+    var(--surface-bg);
+}
 .side {
   display: none;
   position: sticky;
@@ -302,14 +310,13 @@ a.stat-row:hover { color: var(--text-primary); }
 
 /* hero */
 .hero { position: relative; padding-top: 20px; }
-.hero::before, .hero::after {
-  content: ""; position: absolute; top: 0; height: 640px; width: 300px; pointer-events: none;
-  background: repeating-linear-gradient(315deg, transparent 0 5px, #6c676014 5px 6px);
-  -webkit-mask: linear-gradient(to bottom, #000 30%, transparent);
-  mask: linear-gradient(to bottom, #000 30%, transparent);
+/* hatched map-like shapes around the hero; the mask is the shape set, drawn as SVG */
+.hero::before {
+  content: ""; position: absolute; top: 0; left: 50%; margin-left: -500px; width: 1000px; height: 840px; pointer-events: none;
+  background: repeating-linear-gradient(315deg, transparent 0 4px, #6c676033 4px 5px);
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 840'%3E%3Cpath d='M81 0H328V60H81Z M21 95L81 60V550H21Z M920 60L978 25V300L920 340Z M920 400H978V550H920Z M168 695H493L438 795H223Z M693 695H803V835L693 765Z'/%3E%3C/svg%3E") center / 100% 100% no-repeat;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 840'%3E%3Cpath d='M81 0H328V60H81Z M21 95L81 60V550H21Z M920 60L978 25V300L920 340Z M920 400H978V550H920Z M168 695H493L438 795H223Z M693 695H803V835L693 765Z'/%3E%3C/svg%3E") center / 100% 100% no-repeat;
 }
-.hero::before { left: 0; }
-.hero::after { right: 0; }
 .hero > * { position: relative; z-index: 1; }
 .stats-strip {
   height: 38px; overflow: hidden;
